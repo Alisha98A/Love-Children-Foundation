@@ -4,3 +4,27 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/*General styles*/
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Header*/
+header {
+  background-color: #ff895d;
+  margin: 0;
+  padding: 1.3rem;
+}
+/*Main content*/
+main {
+  background-color: #d5eeff;
+  /*Make main take up most space and push footer down*/
+  flex: 1 0 auto;
+}
+/*Footer*/
+footer {
+  background-color: #d5eeff;
+}
