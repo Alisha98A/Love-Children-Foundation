@@ -1,3 +1,6 @@
+/*Google fonts import*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 /*Asterisk wildcard selector*/
 * {
   padding: 0;
@@ -25,11 +28,29 @@ header {
   width: 100%;
   position: fixed;
   z-index: 100;
-   box-shadow: 0 2px 2px #212121;
+  box-shadow: 0 2px 2px #212121;
+}
+/*Style logo*/
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #212121;
+  letter-spacing: 2px;
+}
+/*Navbar styles with dropdown toggle*/
+nav {
+  position: absolute;
+  background-color: #ff895d;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #212121;
+
 }
 
 /*Main content*/
-ma {
+main {
   background-color: #d5eeff;
   /*Make main take up most space and push footer down*/
   flex: 1 0 auto;
