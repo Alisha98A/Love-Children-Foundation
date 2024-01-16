@@ -76,6 +76,22 @@ nav ul {
   letter-spacing: 1px;
   font-size: 110%;
 }
+/*Submenu*/
+nav ul .submenu ul {
+  display: none;
+  position: absolute;
+  padding: 6px;
+}
+/*When you hover over submenu*/
+nav ul .submenu:hover ul {
+  display: block;
+  background-color: #ffffff;
+}
+
+nav ul .submenu ul li {
+  display: block;
+  margin-top: 4px;
+}
 /*Menu options*/
 nav ul li {
   margin-right: 20px;
