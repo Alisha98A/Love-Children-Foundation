@@ -46,7 +46,22 @@ nav {
   left: 0;
   padding: 0 1rem;
   box-shadow: 0 2px 2px #212121;
+  /*Navbar hidden until hover over*/
+  display: none;
+  top: 100%;
+}
 
+#nav-toggle:checked ~ nav {
+  display: block;
+}
+/*Hide checkbox*/
+#nav-toggle {
+  display: none;
+}
+
+/*Menu display label*/
+.nav-toggle-label {
+  font-size: 2rem;
 }
 
 /*Main content*/
