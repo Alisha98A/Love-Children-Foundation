@@ -17,9 +17,18 @@ header {
   background-color: #ff895d;
   margin: 0;
   padding: 1.3rem;
+  /*Create flex container*/
+  display: flex;
+  /*Position logo to the left and menu bar to the right*/
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
+
 /*Main content*/
-main {
+ma {
   background-color: #d5eeff;
   /*Make main take up most space and push footer down*/
   flex: 1 0 auto;
