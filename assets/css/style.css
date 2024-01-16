@@ -64,6 +64,28 @@ nav {
   font-size: 2rem;
 }
 
+/*Menu bar*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 110%;
+}
+/*Menu options*/
+nav ul li {
+  margin-right: 20px;
+  margin-bottom: 1em;
+}
+/*Menu options link*/
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
 /*Main content*/
 main {
   background-color: #d5eeff;
