@@ -250,9 +250,14 @@ footer {
 
   /*Learn more button displayed below text*/
   .learn-more-button {
-    font-size: 1em;
+    font-size: 0.6em;
     position: absolute;
     right: 20%;
+  }
+  /*Change font-size when hovering*/
+  a:hover,
+  .learn-more-button:hover {
+    font-size: 0.8em;
   }
 }
 /* Large devices (laptops and desktops, 992px and up) */
