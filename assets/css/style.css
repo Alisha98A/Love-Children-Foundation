@@ -186,10 +186,35 @@ footer {
   .homepage-image img {
     top: 0;
   }
+  /*Information about us, displayed below homepage image*/
+  .info-about-us {
+    top: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  /*Text about us*/
+  .info-about-us p {
+    font-size: 2rem;
+    margin-top: 1em;
+  }
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+  }
+
+  /*Information about us, displayed below homepage image*/
+  .info-about-us {
+    top: 10px;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  /*Text about us*/
+  .info-about-us p {
+    font-size: 2rem;
+    margin-top: 1em;
   }
 }
