@@ -142,6 +142,21 @@ main {
   margin: 0 auto;
   font-size: 1rem;
 }
+
+/*Learn more button displayed below text*/
+.learn-more-button {
+  background: #ff895d;
+  font-size: 15px;
+  display: block;
+  margin: auto;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 8px 8px 8px #393e46;
+  transition: all 200ms ease-in-out;
+  position: center;
+  right: 20%;
+}
 /*Footer*/
 footer {
   background-color: #d5eeff;
@@ -197,6 +212,13 @@ footer {
   .info-about-us p {
     font-size: 2rem;
     margin-top: 1em;
+  }
+
+  /*Learn more button displayed below text*/
+  .learn-more-button {
+    font-size: 1em;
+    position: absolute;
+    right: 20%;
   }
 }
 /* Large devices (laptops and desktops, 992px and up) */
