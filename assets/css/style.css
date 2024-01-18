@@ -212,6 +212,22 @@ footer {
   .homepage-image img {
     top: 0;
   }
+
+  /*Textbox on homepage image*/
+  .textbox {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    font-size: 150%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    text-align: center;
+    margin: auto;
+    z-index: 102;
+  }
   /*Information about us, displayed below homepage image*/
   .info-about-us {
     top: 10px;
