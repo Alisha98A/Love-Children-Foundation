@@ -120,6 +120,14 @@ footer {
   background-color: #d5eeff;
 }
 
+/*Photo of happy african kids*/
+.homepage-image img {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  top: 80px;
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
@@ -153,6 +161,11 @@ footer {
   main {
     /* Push main content down to accommodate larger header */
     margin-top: 90px;
+  }
+
+  /*Photo of happy african kids*/
+  .homepage-image img {
+    top: 0;
   }
 }
 /* Large devices (laptops and desktops, 992px and up) */

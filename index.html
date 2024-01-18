@@ -47,7 +47,6 @@
       </div>
       <input type="checkbox" id="nav-toggle" name="nav-toggle" />
       <label for="nav-toggle" class="nav-toggle-label">X</label>
-
       <nav>
         <ul>
           <li class="submenu">
@@ -76,32 +75,34 @@
           </li>
         </ul>
       </nav>
-
-      <!--Landing page picture-->
-      <picture>
-        <!-- If the screen width is between 601px and 800px,the image source will be used -->
-        <source
-          media="(max-width: 600px)"
-          srcset="assets/images/image-small.jpg"
-        />
-        <!-- If the screen width is between 801px and 1200px, the image source will be used-->
-        <source
-          media="(max-width: 800px)"
-          srcset="assets/images/image-medium.jpg"
-        />
-        <!--if screen width is greater than 1200px, the image source will be used-->
-        <source
-          media="(max-width: 1200px)"
-          srcset="assets/images/image-large.jpg"
-        />
-        <img
-          src="assets/images/image-large.jpg"
-          alt="Image of happy african kids"
-        />
-      </picture>
     </header>
 
-    <main>Main</main>
+    <main>
+      <!--Picture of african kids, displayed as "homepage" with the header. Source: https://unsplash.com/s/photos/africa-kids-->
+      <div class="container">
+        <picture class="homepage-image">
+          <!-- If the screen width is between 601px and 800px,the image source will be used -->
+          <source
+            media="(max-width: 600px)"
+            srcset="assets/images/image-small.jpg"
+          />
+          <!-- If the screen width is between 801px and 1200px, the image source will be used-->
+          <source
+            media="(max-width: 800px)"
+            srcset="assets/images/image-medium.jpg"
+          />
+          <!--if screen width is greater than 1200px, the image source will be used-->
+          <source
+            media="(max-width: 1200px)"
+            srcset="assets/images/image-large.jpg"
+          />
+          <img
+            src="assets/images/image-large.jpg"
+            alt="Image of happy african kids"
+          />
+        </picture>
+      </div>
+    </main>
     <footer>Footer</footer>
   </body>
 </html>
