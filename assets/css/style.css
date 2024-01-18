@@ -157,6 +157,17 @@ main {
   position: center;
   right: 20%;
 }
+
+/*Remove underline from link*/
+a {
+  text-decoration: none;
+}
+/*Add cursor and change font-size when hovering*/
+a:hover,
+.learn-more-button:hover {
+  cursor: pointer;
+  font-size: 19px;
+}
 /*Footer*/
 footer {
   background-color: #d5eeff;
