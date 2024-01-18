@@ -1,5 +1,7 @@
 /*Google fonts import*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*Google fonts import -> "Inika" Serif*/
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
 
 /*Asterisk wildcard selector*/
 * {
@@ -109,17 +111,6 @@ nav ul .submenu ul li:hover > a {
   text-decoration: underline;
 }
 
-/*Main content*/
-main {
-  background-color: #d5eeff;
-  /*Make main take up most space and push footer down*/
-  flex: 1 0 auto;
-}
-/*Footer*/
-footer {
-  background-color: #d5eeff;
-}
-
 /*Photo of happy african kids*/
 .homepage-image img {
   position: relative;
@@ -128,6 +119,34 @@ footer {
   height: auto;
   top: 80px;
 }
+/*Main content*/
+main {
+  background-color: #d5eeff;
+  /*Make main take up most space and push footer down*/
+  flex: 1 0 auto;
+}
+
+/*Information about us, displayed below homepage image*/
+.info-about-us {
+  position: relative;
+  top: 5rem;
+  text-align: center;
+  font-family: "Inika", serif;
+  font-style: normal;
+  font-size: 0.75rem;
+}
+
+/*Text about us*/
+.info-about-us p {
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+/*Footer*/
+footer {
+  background-color: #d5eeff;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
