@@ -186,15 +186,15 @@ a:hover,
   width: calc(33.33% - 10px);
   margin: 5px;
 }
-
+/*Image of boy in school*/
 .boy-in-school {
   order: 1;
 }
-
+/*Image of kids in classroom*/
 .kids-in-classroom {
   order: 3;
 }
-
+/*Image of happy girls*/
 .happy-girls {
   order: 2;
 }
@@ -289,6 +289,19 @@ footer {
   a:hover,
   .learn-more-button:hover {
     font-size: 0.8em;
+  }
+
+  /*Images of african kids in section 2*/
+  .project-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Change size of images in section 2*/
+  .project-images img {
+    width: 400px;
+    height: auto;
+    margin: 0 10px;
   }
 }
 /* Large devices (laptops and desktops, 992px and up) */
