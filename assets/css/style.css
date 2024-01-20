@@ -168,6 +168,26 @@ a:hover,
   cursor: pointer;
   font-size: 19px;
 }
+
+/*Section 2*/
+.projects {
+  background-color: #ff895d;
+  width: 100%;
+  height: auto;
+}
+/*Images of african kids*/
+.project-images {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+/*Change size of images*/
+.project-images img {
+  width: calc(33.33% - 10px);
+  margin: 5px;
+}
+
 /*Footer*/
 footer {
   background-color: #d5eeff;
