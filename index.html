@@ -84,20 +84,20 @@
           <!-- If the screen width is between 601px and 800px,the image source will be used -->
           <source
             media="(max-width: 600px)"
-            srcset="assets/images/image-small.jpg"
+            srcset="assets/images/homepage-image/image-small.jpg"
           />
           <!-- If the screen width is between 801px and 1200px, the image source will be used-->
           <source
             media="(max-width: 800px)"
-            srcset="assets/images/image-medium.jpg"
+            srcset="assets/images/homepage-image/image-medium.jpg"
           />
           <!--if screen width is greater than 1200px, the image source will be used-->
           <source
             media="(max-width: 1200px)"
-            srcset="assets/images/image-large.jpg"
+            srcset="assets/images/homepage-image/image-large.jpg"
           />
           <img
-            src="assets/images/image-large.jpg"
+            src="assets/images/homepage-image/image-large.jpg"
             alt="Image of happy african kids"
           />
         </picture>
@@ -140,23 +140,28 @@
 <br />
 <div class="project-images">
 <!--Photo of boy in school. Source image "https://unsplash.com/photos/boy-writing-on-printer-paper-near-girl-O5EMzfdxedg"-->
-<img
-src="#"
-alt="Boy sits on a schoolbench and does some writing"
-/>
-<!--Photo of kids in classroom. Source image "https://unsplash.com/photos/children-sitting-on-chairs-inside-classroom-jEEYZsaxbH4"-->
-<img
-src="#"
-alt="Kids in classroom"
-/>
-<!--Photo of happy girls. Source image "https://unsplash.com/photos/toddlers-standing-inside-building-KBpIcWV6o2c"-->
-<img
-src="#"
-alt="Happy girls"
-/>
-<br />
-<br />
-<br />
+        <picture class="small-images">
+          <!-- If the screen width is between 601px and 800px,the image source will be used -->
+          <source
+            media="(max-width: 600px)"
+            srcset="assets/images/boy-in-school/image-small.jpg"
+          />
+          <!-- If the screen width is between 801px and 1200px, the image source will be used-->
+          <source
+            media="(max-width: 800px)"
+            srcset="assets/images/boy-in-school/image-medium.jpg"
+          />
+          <!--if screen width is greater than 1200px, the image source will be used-->
+          <source
+            media="(max-width: 1200px)"
+            srcset="assets/images/boy-in-school/image-large.jpg"
+          />
+          <img
+            src="assets/images/boy-in-school/image-large.jpg"
+            alt="Image of happy african kids"
+          />
+        </picture>
+
 </div>
     </main>
     <footer>Footer</footer>
