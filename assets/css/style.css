@@ -198,10 +198,29 @@ a:hover,
 .happy-girls {
   order: 2;
 }
+/*Text about our projects*/
+#project-text {
+  text-align: center;
+  max-width: 100%;
+  font-weight: normal;
+  font-size: 1.25em;
+}
 
 /*Footer*/
 footer {
   background-color: #d5eeff;
+}
+/* Increase font size for screens larger than 320px */
+@media screen and (min-width: 320px) {
+  #project-text {
+    font-size: 22px;
+  }
+}
+/* Increase font size for screens larger than 480px */
+@media screen and (min-width: 480px) {
+  #project-text {
+    font-size: 24px;
+  }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -303,6 +322,15 @@ footer {
     height: auto;
     margin: 0 10px;
   }
+  /*Text about our projects*/
+  #project-text {
+    text-align: left;
+    width: 550px;
+    position: absolute;
+    right: 10%;
+    font-weight: normal;
+    font-size: 35px;
+  }
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -321,5 +349,9 @@ footer {
   .info-about-us p {
     font-size: 2rem;
     margin-top: 1em;
+  }
+  /*Text about our projects*/
+  #project-text {
+    font-size: 40px;
   }
 }
