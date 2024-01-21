@@ -181,6 +181,7 @@ a:hover,
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 /*Change size of images*/
 .project-images img {
@@ -199,12 +200,42 @@ a:hover,
 .happy-girls {
   order: 2;
 }
+/*Div id for project section*/
+.project-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 /*Text about our projects*/
 #project-text {
-  text-align: center;
-  max-width: 100%;
+  text-align: left;
+  width: 250px;
+  position: relative;
   font-weight: normal;
-  font-size: 1.25em;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+/*Button displayed in project section*/
+#project-button {
+  background: #d5eeff;
+  font-size: 15px;
+  margin-top: 10px; /* Add a margin-top to create space between text and button */
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 8px 8px 8px #393e46;
+  transition: all 200ms ease-in-out;
+}
+/*Remove underline from link*/
+a {
+  text-decoration: none;
+}
+/*Add cursor and change font-size when hovering*/
+a:hover,
+#project-button:hover {
+  cursor: pointer;
+  font-size: 19px;
 }
 
 /*Footer*/
@@ -340,6 +371,22 @@ footer {
     right: 10%;
     font-weight: normal;
     font-size: 35px;
+  }
+
+  /*Button displayed in project section*/
+  #project-button {
+    background: #d5eeff;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 8px 8px 8px #393e46;
+    transition: all 200ms ease-in-out;
+    position: absolute;
+    left: 15%;
+    margin-top: 5%;
   }
 }
 /* Large devices (laptops and desktops, 992px and up) */
