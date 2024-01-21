@@ -278,12 +278,16 @@ footer {
     margin: auto;
     z-index: 102;
   }
+
+  /*Information about us, displayed below homepage image*/
+  .info-about-us {
+    top: 1em;
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
   /*Information about us, displayed below homepage image*/
   .info-about-us h1 {
-    top: 10px;
-    margin-bottom: 10px;
     display: block;
-    font-size: 1em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
@@ -340,8 +344,8 @@ footer {
 
   /*Information about us, displayed below homepage image*/
   .info-about-us {
-    top: 10px;
-    font-size: 2rem;
+    top: 8px;
+    font-size: 1.5em;
     margin-bottom: 15px;
   }
 
