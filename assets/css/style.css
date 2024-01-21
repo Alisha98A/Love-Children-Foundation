@@ -178,13 +178,14 @@ a:hover,
 /*Images of african kids*/
 .project-images {
   display: flex;
-  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 /*Change size of images*/
 .project-images img {
-  width: calc(33.33% - 10px);
-  margin: 5px;
+  width: 120px;
+  margin: 5px auto;
 }
 /*Image of boy in school*/
 .boy-in-school {
