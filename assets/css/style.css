@@ -304,14 +304,13 @@ footer {
 
   /*Learn more button displayed below text*/
   .learn-more-button {
-    font-size: 0.6em;
+    font-size: 16px;
     position: absolute;
-    right: 20%;
   }
   /*Change font-size when hovering*/
   a:hover,
   .learn-more-button:hover {
-    font-size: 0.8em;
+    font-size: 18px;
   }
 
   /*Images of african kids in section 2*/
