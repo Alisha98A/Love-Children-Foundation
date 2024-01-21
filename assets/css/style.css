@@ -185,7 +185,7 @@ a:hover,
 /*Change size of images*/
 .project-images img {
   width: 120px;
-  margin: 5px auto;
+  margin: 5px 10px 15px; /* Add space of 5 pixels at the top, 10 pixels at the left and right, and 15 pixels at the bottom */
 }
 /*Image of boy in school*/
 .boy-in-school {
@@ -216,11 +216,22 @@ footer {
   #project-text {
     font-size: 22px;
   }
+
+  /*Change size of images*/
+  .project-images img {
+    width: 125px;
+    margin: 5px 10px 15px; /* Add space of 5 pixels at the top, 10 pixels at the left and right, and 15 pixels at the bottom */
+  }
 }
 /* Increase font size for screens larger than 480px */
 @media screen and (min-width: 480px) {
   #project-text {
     font-size: 24px;
+  }
+  /*Change size of images in section 2*/
+  .project-images img {
+    width: 140px;
+    height: auto;
   }
 }
 
@@ -314,18 +325,13 @@ footer {
     font-size: 18px;
   }
 
-  /*Images of african kids in section 2*/
-  .project-images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   /*Change size of images in section 2*/
   .project-images img {
-    width: 400px;
+    width: 200px;
     height: auto;
     margin: 0 10px;
   }
+
   /*Text about our projects*/
   #project-text {
     text-align: left;
@@ -357,5 +363,12 @@ footer {
   /*Text about our projects*/
   #project-text {
     font-size: 40px;
+  }
+
+  /*Change size of images*/
+  .project-images img {
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
   }
 }
