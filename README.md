@@ -22,7 +22,11 @@ https://fonts.google.com/specimen/Manrope?preview.text=Love%20Children%20Foundat
 
 Copied screen size max width responsive from Love Running project. Is it okay or should I remove?
 
+challenges: to make section 2 look good at different screen sizes. 
 
+didn't manage to make images in project section display better when bigger screen size than 992px (wanted bigger and more space between)
+didn't get "change the world with us" text at the homepage image fit when smaller screen size. 
+change logo so it fits in 280px device
 
 <!--Add a photo of how the website looks like on different screen devices-->
 
