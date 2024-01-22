@@ -435,16 +435,11 @@ footer {
     font-size: 2rem;
     margin-top: 1em;
   }
-  /*Text about our projects*/
-  #project-text {
-    font-size: 40px;
-  }
 
   /*Change size of images*/
   .project-images img {
     width: 300px;
-    height: auto;
-    margin: 15px;
+    margin: 0.937rem;
   }
 
   /*Text about our projects*/
@@ -461,6 +456,34 @@ footer {
     padding: 18px 23px;
     left: 10%;
     margin-top: -8%;
+  }
+  /*When you hover over project button*/
+  a:hover,
+  #project-button:hover {
+    font-size: 22px;
+  }
+}
+/* Large devices (laptops and desktops, 1228px and up) */
+@media screen and (min-width: 1228px) {
+  /*Change size of images*/
+  .project-images img {
+    margin-right: 4rem;
+  }
+
+  /*Text about our projects*/
+  #project-text {
+    font-size: 40px;
+    width: 750px;
+    left: 15%;
+    font-weight: normal;
+    margin-top: 2%;
+  }
+  /*Button displayed in project section*/
+  #project-button {
+    font-size: 20px;
+    padding: 18px 23px;
+    left: 8%;
+    margin-top: -6%;
   }
   /*When you hover over project button*/
   a:hover,
