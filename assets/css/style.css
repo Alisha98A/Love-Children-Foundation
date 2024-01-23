@@ -293,6 +293,7 @@ a:hover,
   cursor: pointer;
   font-size: 19px;
 }
+/*NEW SECTION*/
 /*Volunteer section including image, text & button link*/
 .volunteer-section {
   background-color: #ff895d;
@@ -306,6 +307,7 @@ a:hover,
 .volunteer-section p {
   color: #212121;
   max-width: 200px;
+  font-weight: bolder;
 }
 
 /*Button displayed in volunteer section (fourth section)*/
@@ -329,6 +331,12 @@ a:hover,
 #volunteer-button:hover {
   cursor: pointer;
   font-size: 19px;
+}
+/*Image of volunteers helping and smiling at children*/
+.volunteer img {
+  margin-top: 20px;
+  width: 150px;
+  height: auto;
 }
 
 /*Footer*/
