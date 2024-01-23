@@ -259,7 +259,10 @@ a:hover,
 #text-video {
   font-size: 18px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px; /*Create more space between youtube video and text*/
+  color: #212121;
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 /*Footer*/
@@ -298,234 +301,273 @@ footer {
   }
   /*Style video container*/
   .iframe-container {
-    width: 400px; /*16:9 Aspect Ratio*/
-    height: 225px; /*16:9 Aspect Ratio*/
-    margin-top: 20px;
+    width: 300px; /*16:9 Aspect Ratio*/
+    height: 169px; /*16:9 Aspect Ratio*/
+    margin-top: 25px;
   }
-}
-/* Media query: tablets and larger (630px and up) */
-@media screen and (min-width: 630px) {
-  /*Make project images respnsive to screen size*/
-  .project-images img {
-    width: 150px;
-    height: auto;
-    margin: 25px;
-  }
- 
-}
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-  /* Header */
-  nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
+  /* Media query: tablets and larger (630px and up) */
+  @media screen and (min-width: 630px) {
+    /*Make project images respnsive to screen size*/
+    .project-images img {
+      width: 150px;
+      height: auto;
+      margin: 25px;
+    }
   }
 
-  #menu {
-    display: flex;
-  }
+  /* Media query: tablets and larger (768px and up) */
+  @media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+      display: block;
+      position: relative;
+      box-shadow: none;
+      width: fit-content;
+      padding-right: 1rem;
+    }
 
-  #menu > li {
-    padding-left: 1rem;
-  }
+    #menu {
+      display: flex;
+    }
 
-  .nav-toggle-label {
-    display: none;
-  }
+    #menu > li {
+      padding-left: 1rem;
+    }
 
-  #logo {
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-  }
+    .nav-toggle-label {
+      display: none;
+    }
 
-  /* Main content */
-  main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 90px;
-  }
+    #logo {
+      font-size: 280%;
+      line-height: 75px;
+      margin: 0 0.5rem;
+    }
 
-  /*Photo of happy african kids*/
-  .homepage-image img {
-    top: 0;
-  }
+    /* Main content */
+    main {
+      /* Push main content down to accommodate larger header */
+      margin-top: 90px;
+    }
 
-  /*Textbox on homepage image*/
-  .textbox {
-    position: absolute;
-    top: 30%;
-    left: 70%;
-    box-sizing: border-box;
-    width: 250px;
-    height: 80px;
-    font-size: 120%;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000000;
-    text-align: center;
-    margin: auto;
-    z-index: 102;
-  }
+    /*Photo of happy african kids*/
+    .homepage-image img {
+      top: 0;
+    }
 
-  /*Information about us, displayed below homepage image*/
-  .info-about-us {
-    top: 1em;
-    margin-bottom: 10px;
-    font-size: 1em;
-  }
-  /*Information about us, displayed below homepage image*/
-  .info-about-us h1 {
-    display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-  }
+    /*Textbox on homepage image*/
+    .textbox {
+      position: absolute;
+      top: 30%;
+      left: 70%;
+      box-sizing: border-box;
+      width: 250px;
+      height: 80px;
+      font-size: 120%;
+      background-color: rgba(255, 255, 255, 0.5);
+      color: #000000;
+      text-align: center;
+      margin: auto;
+      z-index: 102;
+    }
 
-  /*Text about us*/
-  .info-about-us p {
-    max-width: 1000px;
-    margin: 0 auto;
-    font-size: 20px;
-  }
+    /*Information about us, displayed below homepage image*/
+    .info-about-us {
+      top: 1em;
+      margin-bottom: 10px;
+      font-size: 1em;
+    }
+    /*Information about us, displayed below homepage image*/
+    .info-about-us h1 {
+      display: block;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
 
-  /*Learn more button displayed below text*/
-  .learn-more-button {
-    font-size: 16px;
-    position: absolute;
-  }
-  /*Change font-size when hovering*/
-  a:hover,
-  .learn-more-button:hover {
-    font-size: 18px;
-  }
+    /*Text about us*/
+    .info-about-us p {
+      max-width: 1000px;
+      margin: 0 auto;
+      font-size: 20px;
+    }
 
-  /*Make project images respnsive to screen size*/
-  .project-images img {
-    width: 200px;
-    height: auto;
-    margin: 25px;
-  }
+    /*Learn more button displayed below text*/
+    .learn-more-button {
+      font-size: 16px;
+      position: absolute;
+    }
+    /*Change font-size when hovering*/
+    a:hover,
+    .learn-more-button:hover {
+      font-size: 18px;
+    }
 
-  /*Text about our projects*/
-  #project-text {
-    font-size: 26px;
-    width: 400px;
-    left: 20%;
-    font-weight: normal;
-  }
+    /*Make project images respnsive to screen size*/
+    .project-images img {
+      width: 200px;
+      height: auto;
+      margin: 25px;
+    }
 
-  /*Button displayed in project section*/
-  #project-button {
-    font-size: 18px;
-    display: block;
-    position: absolute;
-    left: 5%;
-    margin-top: -10%;
-  }
-  /*When you hover over project button*/
-  a:hover,
-  #project-button:hover {
-    cursor: pointer;
-    font-size: 20px;
-  }
-}
-/* Large devices (laptops and desktops, 830px and up) */
-@media screen and (min-width: 830px) {
-  /*Change size of images*/
-  .project-images img {
-    width: 200px;
-    height: auto;
-    margin: 30px;
-  }
-  /*Text about our projects*/
-  #project-text {
-    font-size: 26px;
-    width: 400px;
-    left: 18%;
-    font-weight: normal;
-  }
-  /*Button displayed in project section*/
-  #project-button {
-    left: 13%;
-    margin-top: -10%;
-  }
-}
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-  #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-  }
+    /*Text about our projects*/
+    #project-text {
+      font-size: 26px;
+      width: 400px;
+      left: 20%;
+      font-weight: normal;
+    }
 
-  /*Information about us, displayed below homepage image*/
-  .info-about-us {
-    top: 8px;
-    font-size: 1.5em;
-    margin-bottom: 15px;
+    /*Button displayed in project section*/
+    #project-button {
+      font-size: 18px;
+      display: block;
+      position: absolute;
+      left: 5%;
+      margin-top: -10%;
+    }
+    /*When you hover over project button*/
+    a:hover,
+    #project-button:hover {
+      cursor: pointer;
+      font-size: 20px;
+    }
+    /*Style video container*/
+    .iframe-container {
+      width: 400px; /*16:9 Aspect Ratio*/
+      height: 225px; /*16:9 Aspect Ratio*/
+      margin-top: 25px;
+      float: right;
+    }
+    #text-video {
+      display: inline-block;
+      margin-top: 80px; /* Adjust this value to control the vertical gap between the video and text */
+      margin-left: 50px; /* Adjust this value to move the text more to the right */
+      width: 300px;
+      font-size: 22px;
+    }
   }
+  /* Large devices (laptops and desktops, 830px and up) */
+  @media screen and (min-width: 830px) {
+    /*Change size of images*/
+    .project-images img {
+      width: 200px;
+      height: auto;
+      margin: 30px;
+    }
+    /*Text about our projects*/
+    #project-text {
+      font-size: 26px;
+      width: 400px;
+      left: 18%;
+      font-weight: normal;
+    }
+    /*Button displayed in project section*/
+    #project-button {
+      left: 13%;
+      margin-top: -10%;
+    }
+    /*Style video container*/
+    .iframe-container {
+      width: 500px; /*16:9 Aspect Ratio*/
+      height: 281px; /*16:9 Aspect Ratio*/
+      margin-top: 25px;
+      float: right;
+    }
+    #text-video {
+      display: inline-block;
+      margin-top: 100px; /* Adjust this value to control the vertical gap between the video and text */
+      margin-left: 20px; /* Adjust this value to move the text more to the right */
+      width: 300px;
+      font-size: 26px;
+    }
+  }
+  /* Large devices (laptops and desktops, 992px and up) */
+  @media screen and (min-width: 992px) {
+    #menu a:hover {
+      border-bottom: 1px solid #3a3a3a;
+    }
 
-  /*Text about us*/
-  .info-about-us p {
-    font-size: 2rem;
-    margin-top: 1em;
-  }
+    /*Information about us, displayed below homepage image*/
+    .info-about-us {
+      top: 8px;
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
 
-  /*Change size of images*/
-  .project-images img {
-    width: 300px;
-    margin: 0.937rem;
-  }
+    /*Text about us*/
+    .info-about-us p {
+      font-size: 2rem;
+      margin-top: 1em;
+    }
 
-  /*Text about our projects*/
-  #project-text {
-    font-size: 35px;
-    width: 500px;
-    left: 20%;
-    font-weight: normal;
-    margin-top: 2%;
-  }
-  /*Button displayed in project section*/
-  #project-button {
-    font-size: 20px;
-    padding: 18px 23px;
-    left: 10%;
-    margin-top: -8%;
-  }
-  /*When you hover over project button*/
-  a:hover,
-  #project-button:hover {
-    font-size: 22px;
-  }
-}
-/* Large devices (laptops and desktops, 1228px and up) */
-@media screen and (min-width: 1228px) {
-  /*Change size of images*/
-  .project-images img {
-    margin-right: 4rem;
-  }
+    /*Change size of images*/
+    .project-images img {
+      width: 300px;
+      margin: 0.937rem;
+    }
 
-  /*Text about our projects*/
-  #project-text {
-    font-size: 40px;
-    width: 750px;
-    left: 15%;
-    font-weight: normal;
-    margin-top: 2%;
+    /*Text about our projects*/
+    #project-text {
+      font-size: 35px;
+      width: 500px;
+      left: 20%;
+      font-weight: normal;
+      margin-top: 2%;
+    }
+    /*Button displayed in project section*/
+    #project-button {
+      font-size: 20px;
+      padding: 18px 23px;
+      left: 10%;
+      margin-top: -8%;
+    }
+    /*When you hover over project button*/
+    a:hover,
+    #project-button:hover {
+      font-size: 22px;
+    }
+    /*Style video container*/
+    .iframe-container {
+      width: 500px; /*16:9 Aspect Ratio*/
+      height: 281px; /*16:9 Aspect Ratio*/
+      margin-top: 25px;
+    }
+    #text-video {
+      margin-top: 80px; /* Adjust this value to control the vertical gap between the video and text */
+      margin-left: 90px; /* Adjust this value to move the text more to the right */
+      width: 400px;
+      font-size: 26px;
+    }
   }
-  /*Button displayed in project section*/
-  #project-button {
-    font-size: 20px;
-    padding: 18px 23px;
-    left: 8%;
-    margin-top: -6%;
-  }
-  /*When you hover over project button*/
-  a:hover,
-  #project-button:hover {
-    font-size: 22px;
+  /* Large devices (laptops and desktops, 1228px and up) */
+  @media screen and (min-width: 1228px) {
+    /*Change size of images*/
+    .project-images img {
+      margin-right: 4rem;
+    }
+
+    /*Text about our projects*/
+    #project-text {
+      font-size: 40px;
+      width: 750px;
+      left: 15%;
+      font-weight: normal;
+      margin-top: 2%;
+    }
+    /*Button displayed in project section*/
+    #project-button {
+      font-size: 20px;
+      padding: 18px 23px;
+      left: 8%;
+      margin-top: -6%;
+    }
+    /*When you hover over project button*/
+    a:hover,
+    #project-button:hover {
+      font-size: 22px;
+    }
   }
 }
