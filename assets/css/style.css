@@ -293,6 +293,43 @@ a:hover,
   cursor: pointer;
   font-size: 19px;
 }
+/*Volunteer section including image, text & button link*/
+.volunteer-section {
+  background-color: #ff895d;
+  margin-top: 30px; /*Create more space from previous section and new section*/
+  text-align: center; /* Center align text content */
+}
+
+.volunteer-section > * {
+  margin: auto; /* Center align non-text elements */
+}
+.volunteer-section p {
+  color: #212121;
+  max-width: 200px;
+}
+
+/*Button displayed in volunteer section (fourth section)*/
+#volunteer-button {
+  background: #d5eeff;
+  font-size: 15px;
+  margin-top: 10px; /* Add a margin-top to create space between text and button */
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 8px 8px 8px #393e46;
+  transition: all 200ms ease-in-out;
+  margin-top: 20px;
+}
+/*Remove underline from link*/
+a {
+  text-decoration: none;
+}
+/*Add cursor and change font-size when hovering*/
+a:hover,
+#volunteer-button:hover {
+  cursor: pointer;
+  font-size: 19px;
+}
 
 /*Footer*/
 footer {
