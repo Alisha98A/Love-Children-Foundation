@@ -343,6 +343,15 @@ a:hover,
 footer {
   background-color: #d5eeff;
 }
+.line {
+  margin-top: 40px;
+  border-top: 4px solid #d9d9d9; /* set the color and thickness of the top line */
+  border-bottom: 4px solid #d9d9d9; /* set the color and thickness of the bottom line */
+  padding: 10px; /* add some padding to make space for the text */
+  text-align: center; /* center the text horizontally */
+  font-size: 16px; /* customize the font size of the text */
+  color: #3a3a3a; /* set the color of the text */
+}
 /* Increase font size for screens larger than 320px */
 @media screen and (min-width: 320px) {
   #project-text {
