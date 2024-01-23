@@ -27,6 +27,9 @@ challenges: to make section 2 look good at different screen sizes.
 didn't manage to make images in project section display better when bigger screen size than 992px (wanted bigger and more space between)
 didn't get "change the world with us" text at the homepage image fit when smaller screen size. 
 change logo so it fits in 280px device
+change video size from 768px and up, didn't manage to make the change. It must be larger
+text-video next to video is a link?
+
 
 <!--Add a photo of how the website looks like on different screen devices-->
 
