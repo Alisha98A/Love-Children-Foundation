@@ -255,14 +255,43 @@ a:hover,
   max-width: 100%;
   max-height: 100%;
 }
+/*Div id for text and video button in third section*/
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 /*Text to video*/
 #text-video {
   font-size: 18px;
-  text-align: center;
   margin-top: 40px; /*Create more space between youtube video and text*/
   color: #212121;
   font-weight: normal;
   font-size: 1rem;
+}
+
+/*Button displayed in video section (third section)*/
+#video-button {
+  background: #ff895d;
+  font-size: 15px;
+  margin-top: 10px; /* Add a margin-top to create space between text and button */
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 8px 8px 8px #393e46;
+  transition: all 200ms ease-in-out;
+  margin-top: 20px;
+}
+/*Remove underline from link*/
+a {
+  text-decoration: none;
+}
+/*Add cursor and change font-size when hovering*/
+a:hover,
+#video-button:hover {
+  cursor: pointer;
+  font-size: 19px;
 }
 
 /*Footer*/
