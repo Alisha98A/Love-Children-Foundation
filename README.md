@@ -29,6 +29,8 @@ didn't get "change the world with us" text at the homepage image fit when smalle
 change logo so it fits in 280px device
 change video size from 768px and up, didn't manage to make the change. It must be larger
 text-video next to video is a link?
+make video section look better at bigger screen sizes
+change button link so its the same size for every button at every media query
 
 
 <!--Add a photo of how the website looks like on different screen devices-->
