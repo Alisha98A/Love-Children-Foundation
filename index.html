@@ -237,6 +237,35 @@ fullest
 <a href="#">
 <button id="video-button">Learn More</button>
 </div>
+<!--New section. Volunteer information with text, image and button link-->
+<div class="volunteer-section">
+  <p>We have many volunteers every year that comes to stay with us, to help us take care of our children. Without them, we would'nt be able to care for as many as we do today</p>
+<!--Project Button-->
+<a href="#">
+<button id="volunteer-button">Volunteer with Us</button>
+<!--Image of volunteers. Source image "https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/images2/program_content/va-whypayvolunteerabroad-photo2-1458725297.png"-->
+<picture class="volunteer">
+  <!-- If the screen width is between 601px and 800px,the image source will be used -->
+          <source
+            media="(max-width: 600px)"
+            srcset="assets/images/volunteer/image-small.jpg"
+          />
+          <!-- If the screen width is between 801px and 1200px, the image source will be used-->
+          <source
+            media="(max-width: 800px)"
+            srcset="assets/images/volunteer/image-medium.jpg"
+          />
+          <!--if screen width is greater than 1200px, the image source will be used-->
+          <source
+            media="(max-width: 1200px)"
+            srcset="assets/images/volunteer/image-large.jpg"
+          />
+          <img
+            src="assets/images/volunteer/image-large.jpg"
+            alt="Image of volunteers doing fun projects with kids"
+          />
+        </picture>
+</div>
     </main>
     <footer>Footer</footer>
   </body>
