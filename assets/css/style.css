@@ -252,8 +252,8 @@ a:hover,
 }
 
 .iframe-container iframe {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 /*Div id for text and video button in third section*/
 .video-container {
@@ -384,8 +384,8 @@ footer {
   }
   /*Style video container*/
   .iframe-container {
-    width: 300px; /*16:9 Aspect Ratio*/
-    height: 169px; /*16:9 Aspect Ratio*/
+    width: 350px; /*16:9 Aspect Ratio*/
+    height: 197px; /*16:9 Aspect Ratio*/
     margin-top: 25px;
   }
   /* Media query: tablets and larger (630px and up) */
@@ -519,17 +519,13 @@ footer {
     }
     /*Style video container*/
     .iframe-container {
-      width: 400px; /*16:9 Aspect Ratio*/
-      height: 225px; /*16:9 Aspect Ratio*/
-      margin-top: 25px;
-      float: right;
+      position: absolute;
+      right: 20px;
     }
     #text-video {
-      display: inline-block;
-      margin-top: 80px; /* Adjust this value to control the vertical gap between the video and text */
-      margin-left: 50px; /* Adjust this value to move the text more to the right */
       width: 300px;
       font-size: 22px;
+      left: -20px;
     }
   }
   /* Large devices (laptops and desktops, 830px and up) */
