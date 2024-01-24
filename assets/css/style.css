@@ -522,10 +522,28 @@ footer {
       position: absolute;
       right: 20px;
     }
+
     #text-video {
       width: 300px;
       font-size: 22px;
-      left: -20px;
+      margin-left: -50px;
+    }
+    /*Button displayed in video section (third section)*/
+    #video-button {
+      font-size: 18px;
+      margin-top: 10px; /* Add a margin-top to create space between text and button */
+      padding: 15px 20px;
+      margin-top: 20px;
+    }
+    /*Remove underline from link*/
+    a {
+      text-decoration: none;
+    }
+    /*Add cursor and change font-size when hovering*/
+    a:hover,
+    #video-button:hover {
+      cursor: pointer;
+      font-size: 19px;
     }
   }
   /* Large devices (laptops and desktops, 830px and up) */
