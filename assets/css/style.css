@@ -121,6 +121,9 @@ nav ul .submenu ul li:hover > a {
   height: auto;
   top: 80px;
 }
+.textbox {
+  display: none;
+}
 /*Main content*/
 main {
   background-color: #d5eeff;
