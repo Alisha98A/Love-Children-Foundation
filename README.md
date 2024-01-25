@@ -28,6 +28,7 @@ change video size from 768px and up, didn't manage to make the change. It must b
 text-video next to video is a link? - solved this 24/1 by closing a tag, now it no link anymore
 make video section look better at bigger screen sizes
 change button link so its the same size for every button at every media query
+failed with making list in volunteer section centered from 768px and up.
 
 <!--Add a photo of how the website looks like on different screen devices-->
 
