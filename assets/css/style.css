@@ -125,6 +125,7 @@ nav ul .submenu ul li:hover > a {
   height: auto;
   top: 80px;
 }
+/*Textbox on homepage image, since it's not important. It's only displaying on larger devices*/
 .textbox {
   display: none;
 }
@@ -137,6 +138,8 @@ main {
 
 /*Information about us, displayed below homepage image*/
 .info-about-us {
+  margin-top: 4px;
+  margin-bottom: 110px; /*Create more space between this section and the next*/
   position: relative;
   top: 5rem;
   text-align: center;
@@ -194,6 +197,11 @@ a:hover,
   width: 120px;
   margin: 5px 10px 15px; /* Add space of 5 pixels at the top, 10 pixels at the left and right, and 15 pixels at the bottom */
 }
+/*Create space from the top so the two images pushes down a little*/
+.boy-in-school,
+.happy-girls {
+  margin-top: 15px;
+}
 /*Image of boy in school*/
 .boy-in-school {
   order: 1;
@@ -220,7 +228,7 @@ a:hover,
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 10px;
-  text-align: center;
+  padding: 8px;
 }
 /*Button displayed in project section*/
 #project-button {
@@ -232,6 +240,7 @@ a:hover,
   border-radius: 6px;
   box-shadow: 8px 8px 8px #393e46;
   transition: all 200ms ease-in-out;
+  margin-bottom: 20px;
 }
 
 /*Add cursor and change font-size when hovering*/
@@ -267,11 +276,11 @@ a:hover,
 }
 /*Text to video*/
 #text-video {
-  font-size: 18px;
-  margin-top: 40px; /*Create more space between youtube video and text*/
   color: #212121;
-  font-weight: normal;
   font-size: 1rem;
+  max-width: 100%;
+  padding: 8px;
+  margin: 0 auto;
 }
 
 /*Button displayed in video section (third section)*/
@@ -316,7 +325,7 @@ a:hover,
 .volunteer-section p {
   order: 2; /* Move the text to the middle */
   color: #212121;
-  max-width: 200px;
+  max-width: 250px;
   font-size: 1rem;
   margin-top: 10px;
 }
@@ -380,7 +389,8 @@ footer {
 /* Increase font size for screens larger than 320px */
 @media screen and (min-width: 320px) {
   #project-text {
-    font-size: 20px;
+    font-size: 18px;
+    width: 300px;
   }
 
   /*Change size of images*/
@@ -395,9 +405,27 @@ footer {
     height: 141px; /*16:9 Aspect Ratio*/
     margin-top: 25px;
   }
+  .volunteer-section img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .volunteer-section p {
+    font-size: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+  }
 }
 /* Increase font size for screens larger than 480px */
 @media screen and (min-width: 480px) {
+  /*Text about us*/
+  .info-about-us p {
+    margin: 20px;
+  }
+  /*Learn more button displayed below text*/
+  .learn-more-button {
+    margin-bottom: 10px;
+  }
   /*Change size of images in section 2*/
   .project-images img {
     width: 140px;
@@ -405,7 +433,7 @@ footer {
   }
   #project-text {
     font-size: 24px;
-    width: 300px;
+    width: 490px;
   }
   /*Style video container*/
   .iframe-container {
@@ -440,9 +468,13 @@ footer {
 @media screen and (min-width: 630px) {
   /*Make project images respnsive to screen size*/
   .project-images img {
-    width: 150px;
+    width: 180px;
     height: auto;
-    margin: 25px;
+    margin: 15px;
+  }
+  #project-text {
+    font-size: 32px;
+    width: 500px;
   }
 }
 
@@ -505,7 +537,7 @@ footer {
   /*Information about us, displayed below homepage image*/
   .info-about-us {
     top: 1em;
-    margin-bottom: 10px;
+    margin-bottom: 120px;
     font-size: 1em;
   }
   /*Information about us, displayed below homepage image*/
@@ -529,6 +561,7 @@ footer {
   .learn-more-button {
     font-size: 16px;
     position: absolute;
+    margin: 20px; /*Add space so button is better centered in div*/
   }
   /*Change font-size when hovering*/
   a:hover,
@@ -538,17 +571,16 @@ footer {
 
   /*Make project images respnsive to screen size*/
   .project-images img {
-    width: 200px;
-    height: auto;
-    margin: 25px;
+    width: 210px;
   }
-
+  .project-section {
+    padding-bottom: 30px;
+  }
   /*Text about our projects*/
   #project-text {
-    font-size: 26px;
+    font-size: 32px;
     width: 400px;
     left: 20%;
-    font-weight: normal;
   }
 
   /*Button displayed in project section*/
@@ -607,16 +639,15 @@ footer {
 
   /*Change size of images*/
   .project-images img {
-    width: 200px;
-    height: auto;
-    margin: 30px;
+    width: 240px;
+    margin: 10px;
   }
+
   /*Text about our projects*/
   #project-text {
-    font-size: 26px;
+    font-size: 33px;
     width: 400px;
     left: 18%;
-    font-weight: normal;
   }
   /*Button displayed in project section*/
   #project-button {
@@ -650,9 +681,7 @@ footer {
 
   /*Information about us, displayed below homepage image*/
   .info-about-us {
-    top: 8px;
     font-size: 1.5em;
-    margin-bottom: 15px;
   }
 
   /*Text about us*/
@@ -716,6 +745,10 @@ footer {
   nav ul .submenu:hover ul {
     font-size: 20px;
   }
+  /*Make more space at the bottom of the first section*/
+  .info-about-us {
+    margin-bottom: 170px;
+  }
 
   /*Change size of images*/
   .project-images img {
@@ -741,5 +774,8 @@ footer {
   a:hover,
   #project-button:hover {
     font-size: 22px;
+  }
+  .video-container {
+    margin: 150px;
   }
 }
