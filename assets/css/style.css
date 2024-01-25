@@ -164,10 +164,6 @@ main {
   right: 20%;
 }
 
-/*Remove underline from link*/
-a {
-  text-decoration: none;
-}
 /*Add cursor and change font-size when hovering*/
 a:hover,
 .learn-more-button:hover {
@@ -233,10 +229,7 @@ a:hover,
   box-shadow: 8px 8px 8px #393e46;
   transition: all 200ms ease-in-out;
 }
-/*Remove underline from link*/
-a {
-  text-decoration: none;
-}
+
 /*Add cursor and change font-size when hovering*/
 a:hover,
 #project-button:hover {
@@ -288,10 +281,6 @@ a:hover,
   box-shadow: 8px 8px 8px #393e46;
   transition: all 200ms ease-in-out;
   margin-top: 20px;
-}
-/*Remove underline from link*/
-a {
-  text-decoration: none;
 }
 /*Add cursor and change font-size when hovering*/
 a:hover,
@@ -345,10 +334,7 @@ a:hover,
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/*Remove underline from link*/
-a {
-  text-decoration: none;
-}
+
 /*Add cursor and change font-size when hovering*/
 a:hover,
 #volunteer-button:hover {
