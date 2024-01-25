@@ -354,7 +354,14 @@ a:hover,
   cursor: pointer;
   font-size: 19px;
 }
-
+/*This container wraps around the content that is centered*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontally center the content */
+  justify-content: center; /* vertically center the content */
+}
+/*The two lines that surround "Support Love Children Foundation"*/
 .line {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -362,7 +369,7 @@ a:hover,
   border-bottom: 4px solid #d9d9d9; /* set the color and thickness of the bottom line */
   padding: 10px; /* add some padding to make space for the text */
   text-align: center; /* center the text horizontally */
-  font-size: 18px; /* customize the font size of the text */
+  font-size: 25px; /* customize the font size of the text */
   color: #3a3a3a; /* set the color of the text */
 }
 /*Add same font family to title as list below it*/
@@ -374,13 +381,16 @@ ul {
   font-style: normal;
   text-transform: uppercase;
 }
-
+/*Style list*/
 ul {
   display: inline-block;
   margin-right: 10px; /* adds spacing between the lists */
   margin-bottom: 30px;
   text-align: center;
   list-style-type: none;
+}
+.bigger-text {
+  font-size: 20px;
 }
 /*Footer*/
 footer {
@@ -602,6 +612,21 @@ footer {
   #video-button:hover {
     cursor: pointer;
     font-size: 19px;
+  }
+  /*Make list inline and centered*/
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact ul {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact ul li {
+    text-align: center;
   }
 }
 /* Large devices (laptops and desktops, 830px and up) */
