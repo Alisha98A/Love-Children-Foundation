@@ -441,28 +441,6 @@ footer {
     height: 197px; /*16:9 Aspect Ratio*/
     margin-top: 25px;
   }
-  .volunteer-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  /*Image of volunteers helping and smiling at children*/
-  .volunteer-section img {
-    order: 1; /* Move the image to the top */
-    width: 300px; /* Set the desired width */
-    height: 169px; /* Set the desired height */
-    margin-top: 20px;
-  }
-
-  .volunteer-section p {
-    order: 2; /* Move the text to the middle */
-    color: #212121;
-    max-width: 350px;
-    font-size: 24px;
-    margin-top: 10px;
-    text-align: right;
-  }
 }
 /* Media query: tablets and larger (630px and up) */
 @media screen and (min-width: 630px) {
