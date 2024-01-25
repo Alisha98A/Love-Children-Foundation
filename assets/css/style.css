@@ -394,7 +394,28 @@ ul {
 }
 /*Footer*/
 footer {
-  background-color: #d5eeff;
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+/*Style social media icons in footer, make it centered*/
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+/*Social media link attribute*/
+.social-media-icons a {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+  font-size: 26px;
+}
+/*Change color to red when you hover*/
+.social-media-icons a:hover {
+  color: #f00; /* Change the color on hover */
 }
 /* Increase font size for screens larger than 320px */
 @media screen and (min-width: 320px) {
