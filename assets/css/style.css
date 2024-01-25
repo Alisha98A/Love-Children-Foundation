@@ -17,6 +17,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: "Inika", serif;
+  font-style: normal;
+  font-size: 0.75rem;
 }
 
 /*Header*/
@@ -143,9 +146,6 @@ main {
   position: relative;
   top: 5rem;
   text-align: center;
-  font-family: "Inika", serif;
-  font-style: normal;
-  font-size: 0.75rem;
 }
 
 /*Text about us*/
