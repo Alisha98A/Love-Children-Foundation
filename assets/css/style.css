@@ -154,30 +154,31 @@ main {
   margin: 0 auto;
   font-size: 1rem;
   padding: 8px;
+  margin-bottom: 20px;
 }
-
-/*Learn more button displayed below text*/
-.learn-more-button {
-  background: #ff895d;
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
-  display: block;
-  margin: auto;
-  padding: 15px 20px;
+/*Style all buttons on page*/
+.button {
+  padding: 10px 20px;
   border: none;
-  border-radius: 6px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 15px;
   box-shadow: 8px 8px 8px #393e46;
   transition: all 200ms ease-in-out;
-  position: center;
-  right: 20%;
+  color: black;
+  font-family: "Roboto", sans-serif; /*Font from https://fonts.google.com/selection/embed*/
+  font-weight: 500;
+  font-style: normal;
 }
 
-/*Add cursor and change font-size when hovering*/
 a:hover,
-.learn-more-button:hover {
+.button {
   cursor: pointer;
-  font-size: 19px;
+  font-size: 16px;
+}
+/*Specific styles for "learn-more-button" displayed below text*/
+#learn-more-button {
+  background: #ff895d;
 }
 
 /*Section 2*/
@@ -235,21 +236,8 @@ a:hover,
 /*Button displayed in project section*/
 #project-button {
   background: #d5eeff;
-  font-size: 15px;
   margin-top: 10px; /* Add a margin-top to create space between text and button */
-  padding: 15px 20px;
-  border: none;
-  border-radius: 6px;
-  box-shadow: 8px 8px 8px #393e46;
-  transition: all 200ms ease-in-out;
   margin-bottom: 20px;
-}
-
-/*Add cursor and change font-size when hovering*/
-a:hover,
-#project-button:hover {
-  cursor: pointer;
-  font-size: 19px;
 }
 
 /*NEW SECTION*/
@@ -288,21 +276,10 @@ a:hover,
 /*Button displayed in video section (third section)*/
 #video-button {
   background: #ff895d;
-  font-size: 15px;
   margin-top: 10px; /* Add a margin-top to create space between text and button */
-  padding: 15px 20px;
-  border: none;
-  border-radius: 6px;
-  box-shadow: 8px 8px 8px #393e46;
-  transition: all 200ms ease-in-out;
   margin-top: 20px;
 }
-/*Add cursor and change font-size when hovering*/
-a:hover,
-#video-button:hover {
-  cursor: pointer;
-  font-size: 19px;
-}
+
 /*NEW SECTION*/
 /*Volunteer section including image, text & button link*/
 .volunteer-section {
@@ -339,22 +316,8 @@ a:hover,
 /*Button displayed in volunteer section (fourth section)*/
 #volunteer-button {
   background: #d5eeff;
-  font-size: 15px;
-  margin-top: 10px; /* Add a margin-top to create space between text and button */
-  padding: 15px 20px;
-  border: none;
-  border-radius: 6px;
-  box-shadow: 8px 8px 8px #393e46;
-  transition: all 200ms ease-in-out;
-  margin-top: 20px;
+  margin-top: 20px; /* Add a margin-top to create space between text and button */
   margin-bottom: 20px;
-}
-
-/*Add cursor and change font-size when hovering*/
-a:hover,
-#volunteer-button:hover {
-  cursor: pointer;
-  font-size: 19px;
 }
 /*This container wraps around the content that is centered*/
 .contact {
@@ -550,6 +513,7 @@ footer {
     top: 1em;
     margin-bottom: 120px;
     font-size: 1em;
+    position: relative;
   }
   /*Information about us, displayed below homepage image*/
   .info-about-us h1 {
@@ -558,26 +522,31 @@ footer {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
   }
 
   /*Text about us*/
   .info-about-us p {
     max-width: 1000px;
-    margin: 0 auto;
     font-size: 20px;
   }
 
-  /*Learn more button displayed below text*/
-  .learn-more-button {
-    font-size: 16px;
-    position: absolute;
-    margin: 20px; /*Add space so button is better centered in div*/
+  /*Style all buttons on page*/
+  .button {
+    padding: 15px 25px;
+    border-radius: 4px;
+    font-size: 17px;
   }
-  /*Change font-size when hovering*/
+  /*Make text bigger when hovering*/
   a:hover,
-  .learn-more-button:hover {
+  .button {
     font-size: 18px;
+  }
+  /*Learn more button displayed below text*/
+  #learn-more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
   }
 
   /*Make project images respnsive to screen size*/
@@ -596,18 +565,12 @@ footer {
 
   /*Button displayed in project section*/
   #project-button {
-    font-size: 18px;
     display: block;
     position: absolute;
     left: 5%;
-    margin-top: -10%;
+    margin-top: 10%;
   }
-  /*When you hover over project button*/
-  a:hover,
-  #project-button:hover {
-    cursor: pointer;
-    font-size: 20px;
-  }
+
   /*Style video container*/
   .iframe-container {
     position: absolute;
@@ -619,22 +582,21 @@ footer {
     font-size: 22px;
     margin-left: -50px;
   }
+  /*Same style rule for both video and volunteer button*/
+  #video-button,
+  #volunteer-buttom {
+    display: block;
+    position: absolute;
+  }
   /*Button displayed in video section (third section)*/
   #video-button {
-    font-size: 18px;
-    margin-top: 10px; /* Add a margin-top to create space between text and button */
-    padding: 15px 20px;
-    margin-top: 20px;
+    left: 5%;
+    margin-top: 25%;
   }
-  /*Remove underline from link*/
-  a {
-    text-decoration: none;
-  }
-  /*Add cursor and change font-size when hovering*/
-  a:hover,
-  #video-button:hover {
-    cursor: pointer;
-    font-size: 19px;
+  /*Button displayed in the volunteer section*/
+  #volunteer-button {
+    right: 40%;
+    margin-top: 10%;
   }
   /*Make list inline and centered*/
   .contact {
@@ -730,12 +692,10 @@ footer {
     font-weight: normal;
     margin-top: 2%;
   }
-  /*Button displayed in project section*/
-  #project-button {
+  /*Button*/
+  .button {
     font-size: 20px;
     padding: 18px 23px;
-    left: 10%;
-    margin-top: -8%;
   }
   /*When you hover over project button*/
   a:hover,
@@ -789,13 +749,16 @@ footer {
     font-weight: normal;
     margin-top: 2%;
   }
-  /*Button displayed in project section*/
-  #project-button {
+  /*Button*/
+  .button {
     font-size: 20px;
     padding: 18px 23px;
+  }
+  .project-button {
     left: 8%;
     margin-top: -6%;
   }
+
   /*When you hover over project button*/
   a:hover,
   #project-button:hover {
