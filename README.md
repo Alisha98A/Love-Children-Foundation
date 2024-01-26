@@ -28,6 +28,8 @@ text-video next to video is a link? - solved this 24/1 by closing a tag, now it'
 make video section look better at bigger screen sizes
 change button link so its the same size for every button at every media query
 failed with making list in volunteer section centered from 768px and up.
+cannot add margin top to media query of 768px and higher when i want to target learn-more-buttom
+volunteer button, cannot move more right in media query of 768px and up
 
 <!--Add a photo of how the website looks like on different screen devices-->
 
