@@ -543,7 +543,6 @@ footer {
   }
   /*Learn more button displayed below text*/
   #learn-more-button {
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
@@ -561,6 +560,7 @@ footer {
     font-size: 32px;
     width: 400px;
     left: 20%;
+    position: relative;
   }
 
   /*Button displayed in project section*/
@@ -573,30 +573,32 @@ footer {
 
   /*Style video container*/
   .iframe-container {
-    position: absolute;
-    right: 20px;
+    position: relative;
+    left: 22%;
+    top: 10vh;
   }
 
   #text-video {
     width: 300px;
     font-size: 22px;
-    margin-left: -50px;
+    margin-left: 20px;
   }
   /*Same style rule for both video and volunteer button*/
   #video-button,
   #volunteer-buttom {
     display: block;
-    position: absolute;
   }
   /*Button displayed in video section (third section)*/
   #video-button {
     left: 5%;
-    margin-top: 25%;
+    margin-top: 10%;
   }
   /*Button displayed in the volunteer section*/
   #volunteer-button {
-    right: 40%;
+    left: 25%;
     margin-top: 10%;
+    position: relative;
+    top: -10vh;
   }
   /*Make list inline and centered*/
   .contact {
@@ -636,11 +638,13 @@ footer {
     font-size: 33px;
     width: 400px;
     left: 18%;
+    top: -5vh;
   }
+
   /*Button displayed in project section*/
   #project-button {
-    left: 13%;
-    margin-top: -10%;
+    position: relative;
+    top: -5vh;
   }
   /*Style video container*/
   .iframe-container {
