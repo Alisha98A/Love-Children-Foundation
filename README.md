@@ -22,10 +22,9 @@ challenges: to make section 2 look good at different screen sizes.
 
 didn't manage to make images in project section display better when bigger screen size than 992px (wanted bigger and more space between)
 didn't get "change the world with us" text at the homepage image fit when smaller screen size.
-change logo so it fits in 280px device
 
 change video size from 768px and up, didn't manage to make the change. It must be larger - solved this 24/1 by removing max-width on line 255. Got help from Tutoring session.
-text-video next to video is a link? - solved this 24/1 by closing a tag, now it no link anymore
+text-video next to video is a link? - solved this 24/1 by closing a tag, now it's no link anymore
 make video section look better at bigger screen sizes
 change button link so its the same size for every button at every media query
 failed with making list in volunteer section centered from 768px and up.
