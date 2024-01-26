@@ -159,6 +159,8 @@ main {
 /*Learn more button displayed below text*/
 .learn-more-button {
   background: #ff895d;
+  text-decoration: none;
+  color: black;
   font-size: 15px;
   display: block;
   margin: auto;
