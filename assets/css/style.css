@@ -24,7 +24,7 @@ body {
 
 /*Header*/
 header {
-  background-color: #ff895d;
+  background-color: #ffb677;
   margin: 0;
   padding: 1.3rem;
   /*Create flex container*/
@@ -35,7 +35,6 @@ header {
   width: 100%;
   position: fixed;
   z-index: 100;
-  box-shadow: 0 2px 2px #212121;
 }
 /*Style logo*/
 .logo {
@@ -49,7 +48,7 @@ header {
 /*Navbar styles with dropdown toggle*/
 nav {
   position: absolute;
-  background-color: #ff895d;
+  background-color: #ffb677;
   width: 100%;
   left: 0;
   padding: 0 1rem;
@@ -178,12 +177,12 @@ a:hover,
 }
 /*Specific styles for "learn-more-button" displayed below text*/
 #learn-more-button {
-  background: #ff895d;
+  background: #ffb677;
 }
 
 /*Section 2*/
 .projects {
-  background-color: #ff895d;
+  background-color: #ffb677;
   width: 100%;
   height: auto;
 }
@@ -274,14 +273,14 @@ a:hover,
 
 /*Button displayed in video section (third section)*/
 #video-button {
-  background: #ff895d;
+  background: #ffb677;
   margin-bottom: 30px;
 }
 
 /*NEW SECTION*/
 /*Volunteer section including image, text & button link*/
 .volunteer-section {
-  background-color: #ff895d;
+  background-color: #ffb677;
   margin-top: 30px; /* Create more space from the previous section and new section */
   text-align: center; /* Center align text content */
   display: flex; /* Enable flexbox */
@@ -357,7 +356,7 @@ ul {
 }
 /*Footer*/
 footer {
-  background-color: lightgrey;
+  background-color: #ffb677;
   padding: 20px;
   text-align: center;
   padding-top: 10px;
