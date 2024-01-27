@@ -570,28 +570,34 @@ footer {
     left: 5%;
     margin-top: 10%;
   }
-
-  /*Style video container*/
-  .iframe-container {
-    position: relative;
-    left: 22%;
-    top: 10vh;
+  /* Updated CSS styles */
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
   }
 
-  #text-video {
-    width: 300px;
-    font-size: 22px;
-    margin-left: 20px;
+  .video-container .iframe-container {
+    flex: 1;
+    margin-left: 30px; /* Increase this value to move the video more to the right */
   }
-  /*Same style rule for both video and volunteer button*/
-  #video-button,
-  #volunteer-buttom {
-    display: block;
+
+  .video-container h2 {
+    flex: 1;
+    margin-right: 50px;
   }
+
   /*Button displayed in video section (third section)*/
   #video-button {
-    left: 5%;
-    margin-top: 10%;
+    margin-top: 20px;
+    justify-content: center;
+    display: block;
+  }
+  #text-video {
+    margin-top: -200px; /* Adjust this value to control the vertical gap between the video and text */
+    margin-left: 25px; /* Adjust this value to move the text more to the right */
+    max-width: 300px;
+    font-size: 26px;
   }
   /*Button displayed in the volunteer section*/
   #volunteer-button {
@@ -599,7 +605,9 @@ footer {
     margin-top: 10%;
     position: relative;
     top: -10vh;
+    display: block;
   }
+
   /*Make list inline and centered*/
   .contact {
     display: flex;
@@ -626,7 +634,6 @@ footer {
   nav ul .submenu:hover ul {
     font-size: 17px; /*Change to bigger font size*/
   }
-
   /*Change size of images*/
   .project-images img {
     width: 240px;
@@ -637,28 +644,6 @@ footer {
   #project-text {
     font-size: 33px;
     width: 400px;
-    left: 18%;
-    top: -5vh;
-  }
-
-  /*Button displayed in project section*/
-  #project-button {
-    position: relative;
-    top: -5vh;
-  }
-  /*Style video container*/
-  .iframe-container {
-    width: 500px; /*16:9 Aspect Ratio*/
-    height: 281px; /*16:9 Aspect Ratio*/
-    margin-top: 25px;
-    float: right;
-  }
-  #text-video {
-    display: inline-block;
-    margin-top: 100px; /* Adjust this value to control the vertical gap between the video and text */
-    margin-left: 20px; /* Adjust this value to move the text more to the right */
-    width: 300px;
-    font-size: 26px;
   }
 }
 /* Large devices (laptops and desktops, 992px and up) */
