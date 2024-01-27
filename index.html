@@ -1,296 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Keywords for search engines for -->
-    <meta
-      name="keywords"
-      content="homeless, orphanage, children, society, help, donate"
-    />
-    <!--Description of page-->
-    <meta
-      name="description"
-      content="Children orphan website to raise funding and awareness to homeless kids"
-    />
-    <!--Title-->
-    <title>Love Children Foundation</title>
-    <!--Favicon-> Source "https://favicon.io/emoji-favicons/footprints"--->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon_ico/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon_ico/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon_ico/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/favicon_ico/site.webmanifest" />
-    <!--Fontawesome icon-->
-    <script src="https://kit.fontawesome.com/a2d982528d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Keywords for search engines for -->
+  <meta name="keywords" content="homeless, orphanage, children, society, help, donate" />
+  <!--Description of page-->
+  <meta name="description" content="Children orphan website to raise funding and awareness to homeless kids" />
+  <!--Title-->
+  <title>Love Children Foundation</title>
+  <!--Favicon-> Source "https://favicon.io/emoji-favicons/footprints"--->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_ico/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_ico/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_ico/favicon-16x16.png" />
+  <link rel="manifest" href="assets/favicon_ico/site.webmanifest" />
+  <!--Fontawesome icon-->
+  <script src="https://kit.fontawesome.com/a2d982528d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <!--Stylesheet CSS-->
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <!--Header-->
-    <header>
-      <!--Love Children Foundation logo-->
-      <div class="logo">
-        <h2>Love Children Foundation</h2>
+  <!--Stylesheet CSS-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <!--Love Children Foundation logo-->
+    <div class="logo">
+      <h2>Love Children Foundation</h2>
+    </div>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+    <!--Added icon of menu from fontawesome.com-->
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <ul>
+        <li class="submenu">
+          <a href="#">About Us</a>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Vision</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <a href="#">Our Projects</a>
+          <ul>
+            <li><a href="#">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <li><a href="#">Project 3</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <a href="#">Support Us</a>
+          <ul>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">Partner with us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!--Picture of african kids, displayed as "homepage" with the header. Source: https://unsplash.com/s/photos/africa-kids-->
+    <div class="container">
+      <picture class="homepage-image">
+        <!-- If the screen width is between 601px and 800px,the image source will be used -->
+        <source media="(max-width: 600px)" srcset="assets/images/homepage-image/image-small.jpg" />
+        <!-- If the screen width is between 801px and 1200px, the image source will be used-->
+        <source media="(max-width: 800px)" srcset="assets/images/homepage-image/image-medium.jpg" />
+        <!--if screen width is greater than 1200px, the image source will be used-->
+        <source media="(max-width: 1200px)" srcset="assets/images/homepage-image/image-large.jpg" />
+        <img src="assets/images/homepage-image/image-large.jpg" alt="Image of happy african kids" />
+      </picture>
+      <!--Textbox on homepage image-->
+      <div class="textbox">
+        <h2>Change the World with Us</h2>
       </div>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-       <!--Added icon of menu from fontawesome.com-->
-      <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-      <nav>
-        <ul>
-          <li class="submenu">
-            <a href="#">About Us</a>
-            <ul>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Vision</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </li>
-          <li class="submenu">
-            <a href="#">Our Projects</a>
-            <ul>
-              <li><a href="#">Project 1</a></li>
-              <li><a href="#">Project 2</a></li>
-              <li><a href="#">Project 3</a></li>
-            </ul>
-          </li>
-          <li class="submenu">
-            <a href="#">Support Us</a>
-            <ul>
-              <li><a href="#">Donate</a></li>
-              <li><a href="#">Volunteer</a></li>
-              <li><a href="#">Partner with us</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    </div>
 
-    <main>
-      <!--Picture of african kids, displayed as "homepage" with the header. Source: https://unsplash.com/s/photos/africa-kids-->
-      <div class="container">
-        <picture class="homepage-image">
-          <!-- If the screen width is between 601px and 800px,the image source will be used -->
-          <source
-            media="(max-width: 600px)"
-            srcset="assets/images/homepage-image/image-small.jpg"
-          />
-          <!-- If the screen width is between 801px and 1200px, the image source will be used-->
-          <source
-            media="(max-width: 800px)"
-            srcset="assets/images/homepage-image/image-medium.jpg"
-          />
-          <!--if screen width is greater than 1200px, the image source will be used-->
-          <source
-            media="(max-width: 1200px)"
-            srcset="assets/images/homepage-image/image-large.jpg"
-          />
-          <img
-            src="assets/images/homepage-image/image-large.jpg"
-            alt="Image of happy african kids"
-          />
-        </picture>
-        <!--Textbox on homepage image-->
-        <div class="textbox">
-          <h2>Change the World with Us</h2>
-        </div>
-      </div>
+    <div class="info-about-us">
+      <h1>An estimated 153 million children worldwide are orphans</h1>
+      <p>
+        Love Children Foundation is a non-profit funding organization. We have
+        been up and running since 2011 where we helped hundreds of homeless
+        kids, to find their meaning and purpose in life. With the help of our
+        wonderful staff and volunteers, we offer them education, food and
+        shelter.
+      </p>
+      <a href="#" class="button" id="learn-more-button">Learn More</a>
 
-      <div class="info-about-us">
-        <h1>An estimated 153 million children worldwide are orphans</h1>
-        <p>
-          Love Children Foundation is a non-profit funding organization. We have
-          been up and running since 2011 where we helped hundreds of homeless
-          kids, to find their meaning and purpose in life. With the help of our
-          wonderful staff and volunteers, we offer them education, food and
-          shelter.
-        </p>
-        <a href="#" class="button" id="learn-more-button"
-        >Learn More</a>
-      
-      </div>
-      <!--Another section of the page. With pictures and info about our projects-->
-<div class="projects">
+    </div>
+    <!--Another section of the page. With pictures and info about our projects-->
+    <div class="projects">
 
-<div class="project-images">
-<!--Photo of boy in school. Source image "https://unsplash.com/photos/boy-writing-on-printer-paper-near-girl-O5EMzfdxedg"-->
+      <div class="project-images">
+        <!--Photo of boy in school. Source image "https://unsplash.com/photos/boy-writing-on-printer-paper-near-girl-O5EMzfdxedg"-->
         <picture class="boy-in-school">
           <!-- If the screen width is between 601px and 800px,the image source will be used -->
-          <source
-            media="(max-width: 600px)"
-            srcset="assets/images/boy-in-school/image-small.jpg"
-          />
+          <source media="(max-width: 600px)" srcset="assets/images/boy-in-school/image-small.jpg" />
           <!-- If the screen width is between 801px and 1200px, the image source will be used-->
-          <source
-            media="(max-width: 800px)"
-            srcset="assets/images/boy-in-school/image-medium.jpg"
-          />
+          <source media="(max-width: 800px)" srcset="assets/images/boy-in-school/image-medium.jpg" />
           <!--if screen width is greater than 1200px, the image source will be used-->
-          <source
-            media="(max-width: 1200px)"
-            srcset="assets/images/boy-in-school/image-large.jpg"
-          />
-          <img
-            src="assets/images/boy-in-school/image-large.jpg"
-            alt="Image of boy a boy on a schoolbench"
-          />
-          </picture>
-<!--Photo of kids in classroom. Source image "https://unsplash.com/photos/a-group-of-young-children-standing-in-a-window-7MD4DR9jbP0"-->
-<picture class="kids-in-classroom">
-  <!-- If the screen width is between 601px and 800px,the image source will be used -->
-          <source
-            media="(max-width: 600px)"
-            srcset="assets/images/kids-in-classroom/image-small.jpg"
-          />
+          <source media="(max-width: 1200px)" srcset="assets/images/boy-in-school/image-large.jpg" />
+          <img src="assets/images/boy-in-school/image-large.jpg" alt="Image of boy a boy on a schoolbench" />
+        </picture>
+        <!--Photo of kids in classroom. Source image "https://unsplash.com/photos/a-group-of-young-children-standing-in-a-window-7MD4DR9jbP0"-->
+        <picture class="kids-in-classroom">
+          <!-- If the screen width is between 601px and 800px,the image source will be used -->
+          <source media="(max-width: 600px)" srcset="assets/images/kids-in-classroom/image-small.jpg" />
           <!-- If the screen width is between 801px and 1200px, the image source will be used-->
-          <source
-            media="(max-width: 800px)"
-            srcset="assets/images/kids-in-classroom/image-medium.jpg"
-          />
+          <source media="(max-width: 800px)" srcset="assets/images/kids-in-classroom/image-medium.jpg" />
           <!--if screen width is greater than 1200px, the image source will be used-->
-          <source
-            media="(max-width: 1200px)"
-            srcset="assets/images/kids-in-classroom/image-large.jpg"
-          />
-          <img
-            src="assets/images/kids-in-classroom/image-large.jpg"
-            alt="Image of kids in classroom"
-          />
-</picture>
-
-<!--Photo of happy girls. Source image "https://unsplash.com/photos/toddlers-standing-inside-building-KBpIcWV6o2c"-->
-<picture class="happy-girls">
-  <!-- If the screen width is between 601px and 800px,the image source will be used -->
-          <source
-            media="(max-width: 600px)"
-            srcset="assets/images/happy-girls/image-small.jpg"
-          />
-          <!-- If the screen width is between 801px and 1200px, the image source will be used-->
-          <source
-            media="(max-width: 800px)"
-            srcset="assets/images/happy-girls/image-medium.jpg"
-          />
-          <!--if screen width is greater than 1200px, the image source will be used-->
-          <source
-            media="(max-width: 1200px)"
-            srcset="assets/images/happy-girls/image-large.jpg"
-          />
-          <img
-            src="assets/images/happy-girls/image-large.jpg"
-            alt="Image of happy girls"
-          />
+          <source media="(max-width: 1200px)" srcset="assets/images/kids-in-classroom/image-large.jpg" />
+          <img src="assets/images/kids-in-classroom/image-large.jpg" alt="Image of kids in classroom" />
         </picture>
 
-</div>
-<!--Text and button section-->
-<div class="project-section">
-<!--Text about our projects-->
-<h1 id="project-text">
-We have many projects ongoing to teach and develop our kids to the
-fullest
-</h1>
-<!--Project Button-->
-<a href="#" class="button" id="project-button">See More Of Our Projects </a>
-</div>
-</div>
-<!--Third section, insert a video with text-->
-</div>
-
-<!--Video of an abandoned baby-->
-<div class="iframe-container">
-<iframe src="https://www.youtube.com/embed/XaK64xgExGA?&autoplay=0&mute=1" title="Caring for an Abandoned Baby in Ghana Part 2 | Pockets of Promise" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-<!--Text information about video-->
-<div class="video-container">
-<h2 id="text-video">Watch our video to see more in depth how many kids struggle like Kofi, and what Love Children Foundation is doing to help.
-</h2>
-<!--Video Button-->
-<a href="#" class="button" id="video-button">
-Learn More
-</a>
-</div>
-<!--New section. Volunteer information with text, image and button link-->
-<div class="volunteer-section">
-  <p>We have many volunteers every year that comes to stay with us, to help us take care of our children. Without them, we would'nt be able to care for as many as we do today</p>
-<!--Volunteer Button-->
-<a href="#" class="button" id="volunteer-button">Volunteer with Us
-</a>
-<!--Image of volunteers. Source image "https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/images2/program_content/va-whypayvolunteerabroad-photo2-1458725297.png"-->
-<picture class="volunteer">
-  <!-- If the screen width is between 601px and 800px,the image source will be used -->
-          <source
-            media="(max-width: 600px)"
-            srcset="assets/images/volunteer/image-small.jpg"
-          />
+        <!--Photo of happy girls. Source image "https://unsplash.com/photos/toddlers-standing-inside-building-KBpIcWV6o2c"-->
+        <picture class="happy-girls">
+          <!-- If the screen width is between 601px and 800px,the image source will be used -->
+          <source media="(max-width: 600px)" srcset="assets/images/happy-girls/image-small.jpg" />
           <!-- If the screen width is between 801px and 1200px, the image source will be used-->
-          <source
-            media="(max-width: 800px)"
-            srcset="assets/images/volunteer/image-medium.jpg"
-          />
+          <source media="(max-width: 800px)" srcset="assets/images/happy-girls/image-medium.jpg" />
           <!--if screen width is greater than 1200px, the image source will be used-->
-          <source
-            media="(max-width: 1200px)"
-            srcset="assets/images/volunteer/image-large.jpg"
-          />
-          <img
-            src="assets/images/volunteer/image-large.jpg"
-            alt="Image of volunteers doing fun projects with kids"
-          />
+          <source media="(max-width: 1200px)" srcset="assets/images/happy-girls/image-large.jpg" />
+          <img src="assets/images/happy-girls/image-large.jpg" alt="Image of happy girls" />
         </picture>
-</div>
-<div class="line">
-  Support Love Children Foundation
-</div>
-<span class="contact">
-<ul>
-  <!--Added icon of heart from fontawesome.com-->
-  <li><i class="fa-regular fa-heart"></i></li>
-  <li class="bigger-text">Become a monthly subscriber</li>
-  <li>Support our work by becoming a monthly subscriber</li>
-</ul>
-<ul>
-  <!--Added icon of portfolio from fontawesome.com-->
-  <li><i class="fa-solid fa-briefcase"></i></li>
-  <li class="bigger-text">Volunteer</li>
-  <li>Help more kids by volunteering with us</li>
- </ul>
-  <ul>
-    <!--Added icom of handshake fron fontawesome.com-->
-    <li><i class="fa-solid fa-handshake-angle"></i></li>
-   <li class="bigger-text">Partner with us</li>
-  <li>Become our company partner or donate money from your company</li>
-</ul>
-</span>
-    </main>
-    <!--Footer-->
- <footer>
+
+      </div>
+      <!--Text and button section-->
+      <div class="project-section">
+        <!--Text about our projects-->
+        <h1 id="project-text">
+          We have many projects ongoing to teach and develop our kids to the
+          fullest
+        </h1>
+        <!--Project Button-->
+        <a href="#" class="button" id="project-button">See More Of Our Projects </a>
+      </div>
+    </div>
+
+
+    <!--Text information about video-->
+    <div class="video-container">
+      <!--Video of an abandoned baby-->
+      <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/XaK64xgExGA?&autoplay=0&mute=1"
+          title="Caring for an Abandoned Baby in Ghana Part 2 | Pockets of Promise" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <div>
+        <h2 id="text-video">Watch our video to see more in depth how many kids struggle like Kofi, and what Love
+          Children Foundation is doing to help.
+        </h2>
+        <!--Video Button-->
+        <a href="#" class="button" id="video-button">
+          Learn More
+        </a>
+      </div>
+    </div>
+    <!--New section. Volunteer information with text, image and button link-->
+    <div class="volunteer-section">
+      <p>We have many volunteers every year that comes to stay with us, to help us take care of our children. Without
+        them, we would'nt be able to care for as many as we do today</p>
+      <!--Volunteer Button-->
+      <a href="#" class="button" id="volunteer-button">Volunteer with Us
+      </a>
+      <!--Image of volunteers. Source image "https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/images2/program_content/va-whypayvolunteerabroad-photo2-1458725297.png"-->
+      <picture class="volunteer">
+        <!-- If the screen width is between 601px and 800px,the image source will be used -->
+        <source media="(max-width: 600px)" srcset="assets/images/volunteer/image-small.jpg" />
+        <!-- If the screen width is between 801px and 1200px, the image source will be used-->
+        <source media="(max-width: 800px)" srcset="assets/images/volunteer/image-medium.jpg" />
+        <!--if screen width is greater than 1200px, the image source will be used-->
+        <source media="(max-width: 1200px)" srcset="assets/images/volunteer/image-large.jpg" />
+        <img src="assets/images/volunteer/image-large.jpg" alt="Image of volunteers doing fun projects with kids" />
+      </picture>
+    </div>
+    <div class="line">
+      Support Love Children Foundation
+    </div>
+    <span class="contact">
+      <ul>
+        <!--Added icon of heart from fontawesome.com-->
+        <li><i class="fa-regular fa-heart"></i></li>
+        <li class="bigger-text">Become a monthly subscriber</li>
+        <li>Support our work by becoming a monthly subscriber</li>
+      </ul>
+      <ul>
+        <!--Added icon of portfolio from fontawesome.com-->
+        <li><i class="fa-solid fa-briefcase"></i></li>
+        <li class="bigger-text">Volunteer</li>
+        <li>Help more kids by volunteering with us</li>
+      </ul>
+      <ul>
+        <!--Added icom of handshake fron fontawesome.com-->
+        <li><i class="fa-solid fa-handshake-angle"></i></li>
+        <li class="bigger-text">Partner with us</li>
+        <li>Become our company partner or donate money from your company</li>
+      </ul>
+    </span>
+  </main>
+  <!--Footer-->
+  <footer>
     <div class="social-media-icons">
-        <p>Where you can find us:</p>
-    <a href="https://www.facebook.com/example" target="_blank">
-     <i class="fa fa-facebook-official" aria-hidden="true"></i>
-    </a>
+      <p>Where you can find us:</p>
+      <a href="https://www.facebook.com/example" target="_blank">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      </a>
 
-   <a href="https://www.instagram.com/example" target="_blank">
-        <i class="fa fa-instagram" aria-hidden="true"></i>  
-         </a>
-  </div>
-</footer>
-  </body>
+      <a href="https://www.instagram.com/example" target="_blank">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+    </div>
+  </footer>
+</body>
+
 </html>
