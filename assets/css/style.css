@@ -764,6 +764,11 @@ footer {
     font-weight: normal;
     margin-top: 2%;
   }
+  /*Style positioning of project button*/
+  #project-button {
+    margin-top: 50px;
+    margin-left: 70px;
+  }
   /*Button*/
   .button {
     font-size: 20px;
@@ -834,12 +839,18 @@ footer {
   }
   /*Make buttons bigger and increase padding*/
   .button {
-    font-size: 20px;
+    font-size: 25px;
     padding: 18px 23px;
   }
+  /*When you hover over project button*/
+  a:hover,
+  .button:hover {
+    font-size: 26px;
+  }
   .project-button {
-    left: 8%;
-    margin-top: -6%;
+    display: flex;
+    margin-top: 10px !important;
+    margin-right: 60px !important;
   }
   /*Style elements in video section*/
   .video-container {
@@ -851,11 +862,6 @@ footer {
     font-size: 30px;
   }
 
-  /*When you hover over project button*/
-  a:hover,
-  #project-button:hover {
-    font-size: 22px;
-  }
   .volunteer img {
     width: 400px;
     height: auto;
