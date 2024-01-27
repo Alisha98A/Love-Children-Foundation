@@ -573,8 +573,14 @@ footer {
   /* Updated CSS styles */
   .video-container {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    flex-direction:row;
+  }
+
+  .iframe-container {
+    flex: 1;
+  }
+  .text-video {
+    flex: 1;
   }
 
   .video-container .iframe-container {
