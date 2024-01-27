@@ -31,9 +31,10 @@ failed with making list in volunteer section centered from 768px and up.
 cannot add margin top to media query of 768px and higher when i want to target learn-more-buttom
 volunteer button, cannot move more right in media query of 768px and up
 
-
-PROJECT BUTTON on 1228px and higher needs to be positioned more up, right now its outisde of section
+VIDEO BUTTON from 630px and higher doesn't move. Something is blocking. I want it inline with video. 
+PROJECT BUTTON on 1228px and higher needs to be positioned more up, right now its outisde of section. FIX THIS
 SAME BUTTON needs to be centered on 280px and up
+VIDEO SECTION needs to be fixed from 630px and up. FIX THIS 
 
 credits:
 I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div. 
