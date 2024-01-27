@@ -33,6 +33,7 @@ volunteer button, cannot move more right in media query of 768px and up
 
 
 PROJECT BUTTON on 1228px and higher needs to be positioned more up, right now its outisde of section
+SAME BUTTON needs to be centered on 280px and up
 
 credits:
 I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div. 
