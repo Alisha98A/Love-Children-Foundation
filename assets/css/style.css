@@ -244,7 +244,23 @@ a:hover,
 .video-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+/*Style heading 1 in video section*/
+.video-intro h1 {
+  margin-top: 30px; /*Create space from the top*/
+}
+/*Style paragraph connected to the video*/
+#text-video {
+  font-size: 1rem;
+  max-width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 /*Style video container*/
 .iframe-container {
   width: 200px; /*16:9 Aspect Ratio*/
@@ -255,22 +271,12 @@ a:hover,
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 .iframe-container iframe {
   width: 100%;
   height: 100%;
 }
-
-/*Text to video*/
-#text-video {
-  color: #212121;
-  font-size: 1rem;
-  max-width: 100%;
-  padding: 8px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
 /*Button displayed in video section (third section)*/
 #video-button {
   background: #ffb677;
@@ -417,8 +423,8 @@ footer {
     margin: 20px;
   }
   /*Learn more button displayed below text*/
-  .learn-more-button {
-    margin-bottom: 10px;
+  #learn-more-button {
+    margin-bottom: 30px;
   }
   /*Change size of images in section 2*/
   .project-images img {
@@ -429,20 +435,43 @@ footer {
     font-size: 24px;
     width: 490px;
   }
-  /*Style video container*/
-  .iframe-container {
-    width: 350px; /*16:9 Aspect Ratio*/
-    height: 197px; /*16:9 Aspect Ratio*/
-    margin-top: 25px;
+
+  /*Style heading 1 in video section*/
+  .video-intro h1 {
+    margin-top: 35px; /*Create space from the top*/
+    font-size: 20px;
+  }
+  /*Style paragraph connected to the video*/
+  #text-video {
+    font-size: 1rem;
+    max-width: 450px;
+    padding: 8px;
+    margin: 20px;
   }
 
-  /*Make text in volunteer section bigger*/
-  .volunteer-section p {
-    font-size: 18px;
+  /*Style video container*/
+  .iframe-container {
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }
 /* Media query: tablets and larger (630px and up) */
 @media screen and (min-width: 630px) {
+  /*Style homepage text*/
+  .info-about-us {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  /*Change size and add space for paragraph in first section*/
+  .info-about-us p {
+    font-size: 25;
+    margin-bottom: 35px;
+  }
+  /*Change margin for learn more button*/
+  #learn-more-button {
+    margin-bottom: 60px;
+  }
   /*Make project images respnsive to screen size*/
   .project-images img {
     width: 180px;
@@ -450,13 +479,36 @@ footer {
     margin: 15px;
   }
   #project-text {
-    font-size: 32px;
+    font-size: 28px;
     width: 500px;
   }
+  /*Selects all elements in video section*/
+  .video-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /*Target header and paragraph*/
+  .video-intro {
+    flex: 1;
+    margin-right: 20px;
+  }
+  /*Container for youtube video*/
+  .iframe-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  /*Position video button*/
+  #video-button {
+    flex: 1;
+    margin-right: 300px; /*Move button to the left*/
+  }
+  /*Paragraph in volunteer section*/
   .volunteer-section p {
     max-width: 500px;
     font-size: 20px;
   }
+  /*Image in volunteer section*/
   .volunteer img {
     width: 300px;
     height: auto;
@@ -581,37 +633,23 @@ footer {
     left: 5%;
     margin-top: 10%;
   }
-  /*Use flexbox to move around elements in video section*/
+  /*Style parent div of video section*/
   .video-container {
-    display: flex;
-    flex-direction: row;
-  }
-  /*Target text and button in video section, make button display below text*/
-  .text-and-button {
-    display: flex;
-    flex-direction: column;
-  }
-  /*Position video to the right  side of the section*/
-  .iframe-container {
-    margin-top: 80px; /*Create more space from top so video is in the middle*/
-    order: 2;
-    margin-left: auto;
+    flex-wrap: wrap;
+    align-content: space-evenly;
   }
 
-  /*Add styles to text in video section*/
-  #text-video {
-    flex: 1;
-    margin-top: 30px;
-    margin-left: 25px;
-    max-width: 300px;
-    font-size: 25px;
+  /*Style heading 1 in video section*/
+  .video-intro h1 {
+    margin-top: 40px; /*Create space from the top*/
+    font-size: 35px;
   }
-  /*Add space between text and button*/
-  #video-button {
-    margin-top: 15px;
-    margin-left: 30px;
-    max-width: 150px;
-    text-align: center;
+  /*Style paragraph connected to the video*/
+  #text-video {
+    font-size: 1.3rem;
+    max-width: 450px;
+    padding: 8px;
+    margin: 20px;
   }
 
   /*Use flexbox display content next to each other*/
@@ -677,14 +715,17 @@ footer {
   /*Position text more to the right in video section*/
   #text-video {
     margin-top: 30px;
-    margin-left: 50px;
-    max-width: 300px;
+    max-width: 600px;
     font-size: 26px;
-    text-align: center;
+  }
+  /*Style iframe container*/
+  .iframe-container {
+    width: 350px; /*16:9 Aspect Ratio*/
+    height: 197px; /*16:9 Aspect Ratio*/
   }
   /*Position button more to the right and change max-width*/
   #video-button {
-    margin-left: 60px;
+    margin-left: 10px;
     max-width: 180px;
   }
 }
@@ -736,30 +777,23 @@ footer {
 
   /*Make video larger and add more space from top*/
   .iframe-container {
-    width: 500px; /*16:9 Aspect Ratio*/
-    height: 281px; /*16:9 Aspect Ratio*/
-    margin-top: 90px;
+    width: 400px; /*16:9 Aspect Ratio*/
+    height: 225px; /*16:9 Aspect Ratio*/
   }
 
   /*Add styles to text in video section*/
   #text-video {
     margin-top: 25px;
     margin-left: 25px;
-    font-size: 25px;
+    font-size: 30px;
+    width: 800px;
   }
   /*Add space between text and button*/
   #video-button {
     margin-top: 15px;
-    margin-left: 120px;
+    margin-left: 20px;
   }
 
-  #text-video {
-    margin-top: 80px; /* Adjust this value to control the vertical gap between the video and text */
-    margin-left: 90px; /* Adjust this value to move the text more to the right */
-    width: 400px;
-    font-size: 26px;
-    font-weight: normal;
-  }
   .volunteer-section p {
     max-width: 500px;
   }
@@ -807,13 +841,14 @@ footer {
     left: 8%;
     margin-top: -6%;
   }
+  /*Style elements in video section*/
+  .video-container {
+    margin-bottom: 60px;
+  }
   /*Increase font size and max width*/
   #text-video {
-    max-width: 500px;
+    max-width: 900px;
     font-size: 30px;
-  }
-  #video-button {
-    margin-left: 180px;
   }
 
   /*When you hover over project button*/
