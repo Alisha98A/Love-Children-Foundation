@@ -41,9 +41,13 @@ VIDEO NEEDS TO BE CENTERED FROM 480PX, when i add width. It's not centered anymo
 Too much space at the top from 630px and up in video section
 FROM 992PX AND UP, VIDEO IS NOT SHOWING FULL HEIGHT
 added flexbox to list for bigger screens, but it didn't work 
+Project button from 768px and above has an absolute positioning, line 661. Therefore, it moves when screen gets bigger
 
 credits:
 I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div.
+
+https://www.w3schools.com/html/html_links.asp
+This website helped me understand how hyperlinks works which I applied to the logo, to link to homepage.
 
 <!--Add a photo of how the website looks like on different screen devices-->
 
