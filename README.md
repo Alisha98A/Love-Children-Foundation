@@ -39,6 +39,8 @@ VIDEO SECTION needs to be fixed from 630px and up. FIX THIS
 VIDEO BUTTON NEEDS MORE SPACE from 280px FIX THIS
 VIDEO NEEDS TO BE CENTERED FROM 480PX, when i add width. It's not centered anymore
 Too much space at the top from 630px and up in video section
+FROM 992PX AND UP, VIDEO IS NOT SHOWING FULL HEIGHT
+added flexbox to list for bigger screens, but it didn't work 
 
 credits:
 I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div.
