@@ -598,6 +598,9 @@ footer {
   .info-about-us p {
     max-width: 1000px;
     font-size: 20px;
+    margin: auto;
+    margin-bottom: 70px;
+    text-align: center;
   }
 
   /*Style all buttons on page*/
@@ -615,7 +618,7 @@ footer {
   #learn-more-button {
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-top: 10px;
   }
 
   /*Make project images respnsive to screen size*/
@@ -779,9 +782,6 @@ footer {
   #text-video {
     font-size: 30px;
     width: 500px;
-  }
-  /*Add space between text and button*/
-  #video-button {
   }
   .volunteer-section p {
     max-width: 500px;
