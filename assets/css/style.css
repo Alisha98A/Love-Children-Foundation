@@ -168,8 +168,10 @@ main {
   font-family: "Roboto", sans-serif; /*Font from https://fonts.google.com/selection/embed*/
   font-weight: 500;
   font-style: normal;
+  margin-top: 10px; /* Add a margin-top to create space between text and button */
+  margin-bottom: 20px;
 }
-
+/*When you hover over button, the button gets bigger*/
 a:hover,
 .button {
   cursor: pointer;
@@ -235,8 +237,6 @@ a:hover,
 /*Button displayed in project section*/
 #project-button {
   background: #d5eeff;
-  margin-top: 10px; /* Add a margin-top to create space between text and button */
-  margin-bottom: 20px;
 }
 
 /*NEW SECTION*/
@@ -335,7 +335,6 @@ a:hover,
   text-align: center; /* center the text horizontally */
   font-size: 25px; /* customize the font size of the text */
   color: #3a3a3a; /* set the color of the text */
-  
 }
 /*Add same font family to title as list below it*/
 .line,
@@ -392,6 +391,15 @@ footer {
 }
 /* Increase font size for screens larger than 320px */
 @media screen and (min-width: 320px) {
+  /*Style all buttons on page*/
+  .button {
+    font-size: 15px;
+  }
+  /*When you hover over button, the button gets bigger*/
+  a:hover,
+  .button {
+    font-size: 17px;
+  }
   #project-text {
     font-size: 18px;
     width: 300px;
@@ -432,7 +440,7 @@ footer {
   }
   /*The header for the list section*/
   .line {
-  font-size: 30px; /* customize the font size of the text */
+    font-size: 30px; /* customize the font size of the text */
   }
 }
 /* Increase font size for screens larger than 480px */
@@ -518,6 +526,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+
   iframe {
     margin-bottom: 10px;
     margin-top: 40px;
@@ -618,7 +627,7 @@ footer {
 
   /*Style all buttons on page*/
   .button {
-    padding: 15px 25px;
+    padding: 18px 28px;
     border-radius: 4px;
     font-size: 17px;
   }
@@ -627,10 +636,9 @@ footer {
   .button {
     font-size: 18px;
   }
+
   /*Learn more button displayed below text*/
   #learn-more-button {
-    justify-content: center;
-    align-items: center;
     margin-top: 10px;
   }
 
@@ -718,165 +726,166 @@ footer {
     font-size: 20px;
   }
   .line {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  border-top: 6px solid #d9d9d9; /* set the color and thickness of the top line */
-  border-bottom: 6px solid #d9d9d9; /* set the color and thickness of the bottom line */
-  padding: 25px; /* add some padding to make space for the text */
-  font-size: 35px; /* customize the font size of the text */
-}
-/* Large devices (laptops and desktops, 830px and up) */
-@media screen and (min-width: 830px) {
-  /*Navbar styles with dropdown toggle*/
-  nav {
-    font-size: 16px; /*Change to bigger font size*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 6px solid #d9d9d9; /* set the color and thickness of the top line */
+    border-bottom: 6px solid #d9d9d9; /* set the color and thickness of the bottom line */
+    padding: 25px; /* add some padding to make space for the text */
+    font-size: 35px; /* customize the font size of the text */
   }
-  /*When you hover over submenu*/
-  nav ul .submenu:hover ul {
-    font-size: 17px; /*Change to bigger font size*/
-  }
-  /*Change size of images*/
-  .project-images img {
-    width: 240px;
-    margin: 10px;
-  }
+  /* Large devices (laptops and desktops, 830px and up) */
+  @media screen and (min-width: 830px) {
+    /*Navbar styles with dropdown toggle*/
+    nav {
+      font-size: 16px; /*Change to bigger font size*/
+    }
+    /*When you hover over submenu*/
+    nav ul .submenu:hover ul {
+      font-size: 17px; /*Change to bigger font size*/
+    }
+    /*Change size of images*/
+    .project-images img {
+      width: 240px;
+      margin: 10px;
+    }
 
-  /*Text about our projects*/
-  #project-text {
-    font-size: 33px;
-    width: 400px;
+    /*Text about our projects*/
+    #project-text {
+      font-size: 33px;
+      width: 400px;
+    }
   }
-}
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-  /*Style logo*/
-  .logo {
-    font-size: 20px;
-  }
-  #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-  }
+  /* Large devices (laptops and desktops, 992px and up) */
+  @media screen and (min-width: 992px) {
+    /*Style logo*/
+    .logo {
+      font-size: 20px;
+    }
+    #menu a:hover {
+      border-bottom: 1px solid #3a3a3a;
+    }
 
-  /*Information about us, displayed below homepage image*/
-  .info-about-us {
-    font-size: 1.5em;
-  }
+    /*Information about us, displayed below homepage image*/
+    .info-about-us {
+      font-size: 1.5em;
+    }
 
-  /*Text about us*/
-  .info-about-us p {
-    font-size: 2rem;
-    margin-top: 1em;
-  }
+    /*Text about us*/
+    .info-about-us p {
+      font-size: 2rem;
+      margin-top: 1em;
+    }
 
-  /*Change size of images*/
-  .project-images img {
-    width: 300px;
-    margin: 0.937rem;
-  }
+    /*Change size of images*/
+    .project-images img {
+      width: 300px;
+      margin: 0.937rem;
+    }
 
-  /*Text about our projects*/
-  #project-text {
-    font-size: 35px;
-    width: 500px;
-    left: 20%;
-    font-weight: normal;
-    margin-top: 2%;
-  }
-  /*Style positioning of project button*/
-  #project-button {
-    margin-top: 50px;
-    margin-left: 70px;
-  }
-  /*Button*/
-  .button {
-    font-size: 20px;
-    padding: 18px 23px;
-  }
-  /*When you hover over project button*/
-  a:hover,
-  #project-button:hover {
-    font-size: 22px;
-  }
-  /*Make video larger and add more space from top*/
-  .iframe-container iframe {
-    width: 350px; /*16:9 Aspect Ratio*/
-    height: 197px; /*16:9 Aspect Ratio*/
-  }
+    /*Text about our projects*/
+    #project-text {
+      font-size: 35px;
+      width: 500px;
+      left: 20%;
+      font-weight: normal;
+      margin-top: 2%;
+    }
+    /*Style positioning of project button*/
+    #project-button {
+      margin-top: 50px;
+      margin-left: 70px;
+    }
+    /*Button*/
+    .button {
+      font-size: 22px;
+      padding: 18px 23px;
+    }
+    /*When you hover over project button*/
+    a:hover,
+    #project-button:hover {
+      font-size: 23px;
+    }
+    /*Make video larger and add more space from top*/
+    .iframe-container iframe {
+      width: 350px; /*16:9 Aspect Ratio*/
+      height: 197px; /*16:9 Aspect Ratio*/
+    }
 
-  /*Add styles to text in video section*/
-  #text-video {
-    font-size: 30px;
-    width: 500px;
+    /*Add styles to text in video section*/
+    #text-video {
+      font-size: 30px;
+      width: 500px;
+    }
+    .volunteer-section p {
+      max-width: 500px;
+    }
   }
-  .volunteer-section p {
-    max-width: 500px;
-  }
-}
-/* Larger devices (laptops and desktops, 1228px and up) */
-@media screen and (min-width: 1228px) {
-  /*When you hover over options, the text gets bigger*/
-  /*Make logo bigger as well*/
-  nav ul li:hover > a,
-  nav ul .submenu ul li:hover > a,
-  .logo {
-    font-size: 25px;
-  }
+  /* Larger devices (laptops and desktops, 1228px and up) */
+  @media screen and (min-width: 1228px) {
+    /*When you hover over options, the text gets bigger*/
+    /*Make logo bigger as well*/
+    nav ul li:hover > a,
+    nav ul .submenu ul li:hover > a,
+    .logo {
+      font-size: 25px;
+    }
 
-  /*Navbar styles with dropdown toggle*/
-  /*When you hover over submenu*/
-  nav,
-  nav ul .submenu:hover ul {
-    font-size: 20px;
-  }
-  /*Make more space at the bottom of the first section*/
-  .info-about-us {
-    margin-bottom: 170px;
-  }
+    /*Navbar styles with dropdown toggle*/
+    /*When you hover over submenu*/
+    nav,
+    nav ul .submenu:hover ul {
+      font-size: 20px;
+    }
+    /*Make more space at the bottom of the first section*/
+    .info-about-us {
+      margin-bottom: 170px;
+    }
 
-  /*Change size of images*/
-  .project-images img {
-    margin-right: 4rem;
-  }
+    /*Change size of images*/
+    .project-images img {
+      margin-right: 4rem;
+    }
 
-  /*Text about our projects*/
-  #project-text {
-    font-size: 40px;
-    width: 750px;
-    left: 15%;
-    font-weight: normal;
-    margin-top: 2%;
-  }
-  /*Make buttons bigger and increase padding*/
-  .button {
-    font-size: 25px;
-    padding: 18px 23px;
-  }
-  /*When you hover over project button*/
-  a:hover,
-  .button:hover {
-    font-size: 26px;
-  }
-  .project-button {
-    display: flex;
-    margin-top: 10px !important;
-    margin-right: 60px !important;
-  }
-  /*Style elements in video section*/
-  .video-container {
-    margin-bottom: 60px;
-  }
-  /*Increase font size and max width*/
-  #text-video {
-    max-width: 900px;
-    font-size: 30px;
-  }
+    /*Text about our projects*/
+    #project-text {
+      font-size: 40px;
+      width: 750px;
+      left: 15%;
+      font-weight: normal;
+      margin-top: 2%;
+    }
+    /*Make buttons bigger and increase padding*/
+    .button {
+      font-size: 25px;
+      padding: 18px 23px;
+    }
+    /*When you hover over project button*/
+    a:hover,
+    .button:hover {
+      font-size: 26px;
+    }
+    .project-button {
+      display: flex;
+      margin-top: 10px !important;
+      margin-right: 60px !important;
+    }
+    /*Style elements in video section*/
+    .video-container {
+      margin-bottom: 60px;
+    }
+    /*Increase font size and max width*/
+    #text-video {
+      max-width: 900px;
+      font-size: 30px;
+    }
 
-  .volunteer img {
-    width: 400px;
-    height: auto;
-  }
-  .volunteer-section p {
-    font-size: 30px;
-    max-width: 500px;
+    .volunteer img {
+      width: 400px;
+      height: auto;
+    }
+    .volunteer-section p {
+      font-size: 30px;
+      max-width: 500px;
+    }
   }
 }
