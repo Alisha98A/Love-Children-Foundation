@@ -44,6 +44,15 @@ header {
   color: #212121;
   letter-spacing: 2px;
 }
+/*Remove underline from link on logo*/
+.logo a {
+  text-decoration: none;
+  color: #212121;
+}
+/*Increase font size when hovering*/
+.logo a:hover {
+  font-size: larger;
+}
 
 /*Navbar styles with dropdown toggle*/
 nav {
