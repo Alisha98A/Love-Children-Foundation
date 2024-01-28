@@ -135,6 +135,7 @@ nav ul .submenu ul li:hover > a {
   width: 100%;
   height: auto;
   top: 80px;
+  z-index: 99;
 }
 /*Textbox on homepage image, since it's not important. It's only displaying on larger devices*/
 .textbox {
@@ -146,7 +147,36 @@ main {
   /*Make main take up most space and push footer down*/
   flex: 1 0 auto;
 }
+/*Sidebar menu on other pages*/
+.sidebar-menu {
+  margin-top: 300px;
+  padding-left: 100px;
+  font-size: 24px;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  z-index: 98;
+}
+/*Sidebar list styling*/
+.sidebar-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/*Add padding*/
+.sidebar-menu li {
+  padding: 10px;
+}
 
+.sidebar-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+/*Add background cover when hovering over sidebar*/
+.sidebar-menu li:hover {
+  background-color: #ccc;
+}
 /*Information about us, displayed below homepage image*/
 .info-about-us {
   margin-top: 4px;
