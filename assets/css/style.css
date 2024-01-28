@@ -603,7 +603,7 @@ footer {
   /*Information about us, displayed below homepage image*/
   .info-about-us {
     top: 1em;
-    margin-bottom: 120px;
+    margin-bottom: 70px;
     font-size: 1em;
     position: relative;
   }
