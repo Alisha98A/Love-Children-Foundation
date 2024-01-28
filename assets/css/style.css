@@ -636,33 +636,12 @@ footer {
   .button {
     font-size: 18px;
   }
-
+  #project-text {
+    width: 700px;
+  }
   /*Learn more button displayed below text*/
   #learn-more-button {
     margin-top: 10px;
-  }
-
-  /*Make project images respnsive to screen size*/
-  .project-images img {
-    width: 210px;
-  }
-  .project-section {
-    padding-bottom: 30px;
-  }
-  /*Text about our projects*/
-  #project-text {
-    font-size: 32px;
-    width: 400px;
-    left: 20%;
-    position: relative;
-  }
-
-  /*Button displayed in project section*/
-  #project-button {
-    display: block;
-    position: absolute;
-    left: 5%;
-    margin-top: 10%;
   }
 
   .video-intro {
@@ -752,7 +731,7 @@ footer {
     /*Text about our projects*/
     #project-text {
       font-size: 33px;
-      width: 400px;
+      width: 700px;
     }
   }
   /* Large devices (laptops and desktops, 992px and up) */
@@ -781,24 +760,13 @@ footer {
       width: 300px;
       margin: 0.937rem;
     }
-
-    /*Text about our projects*/
-    #project-text {
-      font-size: 35px;
-      width: 500px;
-      left: 20%;
-      font-weight: normal;
-      margin-top: 2%;
-    }
-    /*Style positioning of project button*/
-    #project-button {
-      margin-top: 50px;
-      margin-left: 70px;
-    }
     /*Button*/
     .button {
       font-size: 22px;
       padding: 18px 23px;
+    }
+    #project-button {
+      margin-bottom: 50px;
     }
     /*When you hover over project button*/
     a:hover,
@@ -849,10 +817,7 @@ footer {
     /*Text about our projects*/
     #project-text {
       font-size: 40px;
-      width: 750px;
-      left: 15%;
-      font-weight: normal;
-      margin-top: 2%;
+      width: 800px;
     }
     /*Make buttons bigger and increase padding*/
     .button {
