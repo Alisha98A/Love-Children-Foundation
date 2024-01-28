@@ -640,23 +640,23 @@ footer {
     left: 5%;
     margin-top: 10%;
   }
-  /*Style parent div of video section*/
-  .video-container {
-    flex-wrap: wrap;
-    align-content: space-evenly;
-  }
 
+  .video-intro {
+    max-width: 800px;
+  }
   /*Style heading 1 in video section*/
   .video-intro h1 {
-    margin-top: 40px; /*Create space from the top*/
     font-size: 35px;
   }
-  /*Style paragraph connected to the video*/
+  /*Style paragraph connected to the video, make text bigger and increase padding*/
   #text-video {
     font-size: 1.3rem;
-    max-width: 450px;
     padding: 8px;
-    margin: 20px;
+  }
+  /*Add more space to video and button*/
+  .iframe-container {
+    margin-left: 70px;
+    margin-top: -50px;
   }
 
   /*Use flexbox display content next to each other*/
@@ -718,23 +718,6 @@ footer {
     font-size: 33px;
     width: 400px;
   }
-
-  /*Position text more to the right in video section*/
-  #text-video {
-    margin-top: 30px;
-    max-width: 600px;
-    font-size: 26px;
-  }
-  /*Style iframe container*/
-  .iframe-container {
-    width: 350px; /*16:9 Aspect Ratio*/
-    height: 197px; /*16:9 Aspect Ratio*/
-  }
-  /*Position button more to the right and change max-width*/
-  #video-button {
-    margin-left: 10px;
-    max-width: 180px;
-  }
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -786,26 +769,20 @@ footer {
   #project-button:hover {
     font-size: 22px;
   }
-
   /*Make video larger and add more space from top*/
-  .iframe-container {
-    width: 400px; /*16:9 Aspect Ratio*/
-    height: 225px; /*16:9 Aspect Ratio*/
+  .iframe-container iframe {
+    width: 350px; /*16:9 Aspect Ratio*/
+    height: 197px; /*16:9 Aspect Ratio*/
   }
 
   /*Add styles to text in video section*/
   #text-video {
-    margin-top: 25px;
-    margin-left: 25px;
     font-size: 30px;
-    width: 800px;
+    width: 500px;
   }
   /*Add space between text and button*/
   #video-button {
-    margin-top: 15px;
-    margin-left: 20px;
   }
-
   .volunteer-section p {
     max-width: 500px;
   }
