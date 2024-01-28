@@ -268,8 +268,8 @@ a:hover,
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto 30px;
   flex-direction: row;
+  margin: auto;
 }
 .iframe-container iframe {
   width: 100%;
