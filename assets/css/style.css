@@ -279,45 +279,45 @@ a:hover,
 }
 
 /*NEW SECTION*/
-/*This targets all three elements in video section, video, text & button*/
+/*Parent div that targets all element in video section. */
 .video-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: center; /*Make elements centered*/
   text-align: center;
-  flex-direction: column;
-  margin-bottom: 80px;
 }
-
-/*Style heading 1 in video section*/
-.video-intro h1 {
-  margin-top: 30px; /*Create space from the top*/
-}
-/*Style paragraph connected to the video*/
-#text-video {
-  font-size: 1rem;
-  max-width: 100%;
-  padding: 8px;
-  margin-bottom: 20px;
+/*Parent element for header and paragrap*/
+.video-intro {
+  font-size: 1em;
   margin-top: 10px;
 }
+/*Make paragraph in video section bigger and add space at top*/
+#text-video {
+  font-size: 15px;
+  margin-top: 20px;
+}
 
-/*Style video container and make it centered*/
+/*  Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed */
 .iframe-container {
-  width: 200px; /*16:9 Aspect Ratio*/
-  height: 113px; /*16:9 Aspect Ratio*/
+  position: flex;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
-.iframe-container iframe {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 20px;
+/*Set width to youtube video*/
+.video-container .youtube-video {
+  width: 80%;
+  margin-bottom: 30px;
 }
-
-/*Button displayed in video section (third section)*/
-#video-button {
+/*Button displayed in video section (third section) + video to target its positioning*/
+.video-container #video-button {
+  position: absolute;
+  bottom: 40px; /* Increase the value to create more space */
+  margin-left: auto; /* Add this line to center the button horizontally */
+  margin-right: auto; /* Add this line to center the button horizontally */
+  display: block;
+  width: 200px;
   background: #ffb677;
 }
-
 /*NEW SECTION*/
 /*Volunteer section including image, text & button link*/
 .volunteer-section {
@@ -501,16 +501,6 @@ footer {
     font-size: 24px;
     width: 490px;
   }
-  /*Add space for the video section*/
-  .video-container {
-    margin-bottom: 90px;
-  }
-  /*Make video larger and add more space below*/
-  .iframe-container iframe {
-    width: 300px;
-    height: 169px;
-    margin-bottom: 30px;
-  }
 }
 /* Media query: tablets and larger (630px and up) */
 @media screen and (min-width: 630px) {
@@ -539,6 +529,7 @@ footer {
     font-size: 28px;
     width: 500px;
   }
+
   /*Selects all elements in video section using css Grid*/
   .video-container {
     display: grid;

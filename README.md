@@ -49,6 +49,8 @@ I was stuck on video section. Elements didn't move. With help from John on tutor
 https://www.w3schools.com/html/html_links.asp
 This website helped me understand how hyperlinks works which I applied to the logo, to link to homepage.
 
+ Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed
+
 <!--Add a photo of how the website looks like on different screen devices-->
 
 ![Responsice Mockup](copy link from github and the image)
