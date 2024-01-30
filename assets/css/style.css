@@ -757,6 +757,51 @@ footer {
     padding: 25px; /* add some padding to make space for the text */
     font-size: 35px; /* customize the font size of the text */
   }
+  /*STYLE NEW PAGE - ABOUT US SECTION*/
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  /*Parent div for header, paragraph and sidemenu.*/
+  .sidebar-header {
+    margin-bottom: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  /*Make position fixed, add z-index and choose font-size*/
+  .sidebar-menu {
+    position: fixed;
+    z-index: 98;
+    left: 8px;
+    font-size: 20px;
+    width: 300px;
+  }
+  /*Use flexbox to make sidebar menu appear as a flex container*/
+  .sidebar-menu ul {
+    display: flex;
+    flex-direction: column; /*Stack the list items vertically, creating a column-like display*/
+    margin: 0; /*Remove margin between the list items when they are displayed as a column.*/
+    padding: 0;
+  }
+  /*Add padding for list in sidebar menu*/
+  .sidebar-menu li {
+    padding: 10px;
+  }
+  /*Use same styles to style both header and paragraph*/
+  .header,
+  #paragraph-id {
+    margin-left: auto;
+    width: 500px;
+    padding-right: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  .header {
+    margin-top: -10px;
+  }
 }
 
 /* Large devices (laptops and desktops, 830px and up) */
