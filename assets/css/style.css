@@ -147,36 +147,7 @@ main {
   /*Make main take up most space and push footer down*/
   flex: 1 0 auto;
 }
-/*Sidebar menu on other pages*/
-.sidebar-menu {
-  margin-top: 300px;
-  padding-left: 100px;
-  font-size: 24px;
-  width: 300px;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  z-index: 98;
-}
-/*Sidebar list styling*/
-.sidebar-menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-/*Add padding*/
-.sidebar-menu li {
-  padding: 10px;
-}
 
-.sidebar-menu li a {
-  text-decoration: none;
-  color: #333;
-}
-/*Add background cover when hovering over sidebar*/
-.sidebar-menu li:hover {
-  background-color: #ccc;
-}
 /*Information about us, displayed below homepage image*/
 .info-about-us {
   margin-top: 4px;
@@ -428,6 +399,50 @@ footer {
 .social-media-icons a:hover {
   color: #f00; /* Change the color on hover */
 }
+/*NEW PAGE. STYLES FOR THE ABOUT US SECTION*/
+/*Style sidebar-menu, header and paragraph, use flexbox & position elements in a column*/
+.sidebar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 102;
+  margin-top: 80px;
+  justify-content: center;
+}
+/*Make text to header centered*/
+.header {
+  text-align: center;
+}
+/*Center paragraph*/
+#paragraph-id {
+  text-align: center;
+}
+/*Add font-size to sidebar menu*/
+.sidebar-menu {
+  font-size: 15px;
+}
+/*Sidebar list styling*/
+.sidebar-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+/*Add padding*/
+.sidebar-menu li {
+  padding: 10px;
+  display: inline;
+}
+
+.sidebar-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+/*Add background cover when hovering over sidebar*/
+.sidebar-menu li:hover {
+  background-color: #ccc;
+}
+
 /* Increase font size for screens larger than 320px */
 @media screen and (min-width: 320px) {
   /*Style all buttons on page*/
@@ -742,145 +757,146 @@ footer {
     padding: 25px; /* add some padding to make space for the text */
     font-size: 35px; /* customize the font size of the text */
   }
-  /* Large devices (laptops and desktops, 830px and up) */
-  @media screen and (min-width: 830px) {
-    /*Navbar styles with dropdown toggle*/
-    nav {
-      font-size: 16px; /*Change to bigger font size*/
-    }
-    /*When you hover over submenu*/
-    nav ul .submenu:hover ul {
-      font-size: 17px; /*Change to bigger font size*/
-    }
-    /*Change size of images*/
-    .project-images img {
-      width: 240px;
-      margin: 10px;
-    }
+}
 
-    /*Text about our projects*/
-    #project-text {
-      font-size: 33px;
-      width: 700px;
-    }
+/* Large devices (laptops and desktops, 830px and up) */
+@media screen and (min-width: 830px) {
+  /*Navbar styles with dropdown toggle*/
+  nav {
+    font-size: 16px; /*Change to bigger font size*/
   }
-  /* Large devices (laptops and desktops, 992px and up) */
-  @media screen and (min-width: 992px) {
-    /*Style logo*/
-    .logo {
-      font-size: 20px;
-    }
-    #menu a:hover {
-      border-bottom: 1px solid #3a3a3a;
-    }
-
-    /*Information about us, displayed below homepage image*/
-    .info-about-us {
-      font-size: 1.5em;
-    }
-
-    /*Text about us*/
-    .info-about-us p {
-      font-size: 2rem;
-      margin-top: 1em;
-    }
-
-    /*Change size of images*/
-    .project-images img {
-      width: 300px;
-      margin: 0.937rem;
-    }
-    /*Button*/
-    .button {
-      font-size: 22px;
-      padding: 18px 23px;
-    }
-    #project-button {
-      margin-bottom: 50px;
-    }
-    /*When you hover over project button*/
-    a:hover,
-    #project-button:hover {
-      font-size: 23px;
-    }
-    /*Make video larger and add more space from top*/
-    .iframe-container iframe {
-      width: 350px; /*16:9 Aspect Ratio*/
-      height: 197px; /*16:9 Aspect Ratio*/
-    }
-
-    /*Add styles to text in video section*/
-    #text-video {
-      font-size: 30px;
-      width: 500px;
-    }
-    .volunteer-section p {
-      max-width: 500px;
-    }
+  /*When you hover over submenu*/
+  nav ul .submenu:hover ul {
+    font-size: 17px; /*Change to bigger font size*/
   }
-  /* Larger devices (laptops and desktops, 1228px and up) */
-  @media screen and (min-width: 1228px) {
-    /*When you hover over options, the text gets bigger*/
-    /*Make logo bigger as well*/
-    nav ul li:hover > a,
-    nav ul .submenu ul li:hover > a,
-    .logo {
-      font-size: 25px;
-    }
+  /*Change size of images*/
+  .project-images img {
+    width: 240px;
+    margin: 10px;
+  }
 
-    /*Navbar styles with dropdown toggle*/
-    /*When you hover over submenu*/
-    nav,
-    nav ul .submenu:hover ul {
-      font-size: 20px;
-    }
-    /*Make more space at the bottom of the first section*/
-    .info-about-us {
-      margin-bottom: 170px;
-    }
+  /*Text about our projects*/
+  #project-text {
+    font-size: 33px;
+    width: 700px;
+  }
+}
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  /*Style logo*/
+  .logo {
+    font-size: 20px;
+  }
+  #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  }
 
-    /*Change size of images*/
-    .project-images img {
-      margin-right: 4rem;
-    }
+  /*Information about us, displayed below homepage image*/
+  .info-about-us {
+    font-size: 1.5em;
+  }
 
-    /*Text about our projects*/
-    #project-text {
-      font-size: 40px;
-      width: 800px;
-    }
-    /*Make buttons bigger and increase padding*/
-    .button {
-      font-size: 25px;
-      padding: 18px 23px;
-    }
-    /*When you hover over project button*/
-    a:hover,
-    .button:hover {
-      font-size: 26px;
-    }
-    .project-button {
-      display: flex;
-      margin-top: 10px !important;
-      margin-right: 60px !important;
-    }
-    /*Style elements in video section*/
-    .video-container {
-      margin-bottom: 60px;
-    }
-    /*Increase font size and max width*/
-    #text-video {
-      max-width: 900px;
-      font-size: 30px;
-    }
+  /*Text about us*/
+  .info-about-us p {
+    font-size: 2rem;
+    margin-top: 1em;
+  }
 
-    .volunteer img {
-      width: 400px;
-      height: auto;
-    }
-    .volunteer-section p {
-      font-size: 30px;
-      max-width: 500px;
-    }
+  /*Change size of images*/
+  .project-images img {
+    width: 300px;
+    margin: 0.937rem;
+  }
+  /*Button*/
+  .button {
+    font-size: 22px;
+    padding: 18px 23px;
+  }
+  #project-button {
+    margin-bottom: 50px;
+  }
+  /*When you hover over project button*/
+  a:hover,
+  #project-button:hover {
+    font-size: 23px;
+  }
+  /*Make video larger and add more space from top*/
+  .iframe-container iframe {
+    width: 350px; /*16:9 Aspect Ratio*/
+    height: 197px; /*16:9 Aspect Ratio*/
+  }
+
+  /*Add styles to text in video section*/
+  #text-video {
+    font-size: 30px;
+    width: 500px;
+  }
+  .volunteer-section p {
+    max-width: 500px;
+  }
+}
+/* Larger devices (laptops and desktops, 1228px and up) */
+@media screen and (min-width: 1228px) {
+  /*When you hover over options, the text gets bigger*/
+  /*Make logo bigger as well*/
+  nav ul li:hover > a,
+  nav ul .submenu ul li:hover > a,
+  .logo {
+    font-size: 25px;
+  }
+
+  /*Navbar styles with dropdown toggle*/
+  /*When you hover over submenu*/
+  nav,
+  nav ul .submenu:hover ul {
+    font-size: 20px;
+  }
+  /*Make more space at the bottom of the first section*/
+  .info-about-us {
+    margin-bottom: 170px;
+  }
+
+  /*Change size of images*/
+  .project-images img {
+    margin-right: 4rem;
+  }
+
+  /*Text about our projects*/
+  #project-text {
+    font-size: 40px;
+    width: 800px;
+  }
+  /*Make buttons bigger and increase padding*/
+  .button {
+    font-size: 25px;
+    padding: 18px 23px;
+  }
+  /*When you hover over project button*/
+  a:hover,
+  .button:hover {
+    font-size: 26px;
+  }
+  .project-button {
+    display: flex;
+    margin-top: 10px !important;
+    margin-right: 60px !important;
+  }
+  /*Style elements in video section*/
+  .video-container {
+    margin-bottom: 60px;
+  }
+  /*Increase font size and max width*/
+  #text-video {
+    max-width: 900px;
+    font-size: 30px;
+  }
+
+  .volunteer img {
+    width: 400px;
+    height: auto;
+  }
+  .volunteer-section p {
+    font-size: 30px;
+    max-width: 500px;
   }
 }
