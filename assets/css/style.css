@@ -256,14 +256,16 @@ a:hover,
 
 /* Style for header and paragraph */
 .video-intro {
-  font-size: 1.5em; /* Adjust font size as needed */
+  font-size: 1em; /* Adjust font size as needed */
   margin-bottom: 20px; /* Add margin at the bottom */
+  margin-top: 20px; /*Add margin at the top*/
 }
 
 /* Style for paragraph in video section */
 #text-video {
   font-size: 15px;
   margin-bottom: 20px; /* Add margin at the bottom */
+  margin-top: 20px; /*Add space between text and header*/
 }
 
 /* Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed */
