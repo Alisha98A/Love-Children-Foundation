@@ -248,47 +248,52 @@ a:hover,
 #project-button {
   background: #d5eeff;
 }
-
-/*NEW SECTION*/
-/*Parent div that targets all element in video section. */
+/* New Section */
 .video-container {
   align-items: center; /*Make elements centered*/
   text-align: center;
 }
-/*Parent element for header and paragrap*/
+
+/* Style for header and paragraph */
 .video-intro {
-  font-size: 1em;
-  margin-top: 10px;
-}
-/*Make paragraph in video section bigger and add space at top*/
-#text-video {
-  font-size: 15px;
-  margin-top: 20px;
+  font-size: 1.5em; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Add margin at the bottom */
 }
 
-/*  Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed */
+/* Style for paragraph in video section */
+#text-video {
+  font-size: 15px;
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed */
 .iframe-container {
-  position: flex;
+  position: relative;
+  width: 80%;
+  margin: auto;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
 }
-/*Set width to youtube video*/
+
+/* Set width to youtube video */
 .video-container .youtube-video {
-  width: 80%;
-  margin-bottom: 30px;
+  width: 100%;
 }
-/*Button displayed in video section (third section) + video to target its positioning*/
+
+/* Button displayed in video section (third section) + video to target its positioning */
 .video-container #video-button {
-  position: absolute;
-  bottom: 40px; /* Increase the value to create more space */
-  margin-left: auto; /* Add this line to center the button horizontally */
-  margin-right: auto; /* Add this line to center the button horizontally */
   display: block;
   width: 200px;
   background: #ffb677;
+  margin-top: 20px; /* Add space at the top */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* Center the text inside the button */
+  padding: 10px; /* Add padding for better visibility */
 }
+
 /*NEW SECTION*/
 /*Volunteer section including image, text & button link*/
 .volunteer-section {
