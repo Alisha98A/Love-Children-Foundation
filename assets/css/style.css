@@ -252,6 +252,7 @@ a:hover,
 .video-container {
   align-items: center; /*Make elements centered*/
   text-align: center;
+  position: relative;
 }
 
 /* Style for header and paragraph */
@@ -266,16 +267,15 @@ a:hover,
   font-size: 15px;
   margin-bottom: 20px; /* Add margin at the bottom */
   margin-top: 20px; /*Add space between text and header*/
+  padding: 8px;
 }
 
 /* Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed */
 .iframe-container {
   position: relative;
-  width: 80%;
-  margin: auto;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
+  width: 80%; /*Video takes up 80% of its parent container*/
+  margin: 0 auto; /*Center video horizontally*/
+  padding-top: 41.25%; /*16/9 Aspect Ratio*/
   overflow: hidden;
 }
 
@@ -283,7 +283,18 @@ a:hover,
 .video-container .youtube-video {
   width: 100%;
 }
+/*Set video to position absolute*/
+.youtube-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
+.video-container {
+  position: relative;
+}
 /* Button displayed in video section (third section) + video to target its positioning */
 .video-container #video-button {
   display: block;
@@ -295,7 +306,17 @@ a:hover,
   text-align: center; /* Center the text inside the button */
   padding: 10px; /* Add padding for better visibility */
 }
-
+#button {
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
 /*NEW SECTION*/
 /*Volunteer section including image, text & button link*/
 .volunteer-section {
