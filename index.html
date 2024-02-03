@@ -221,15 +221,15 @@
       </div>
 
 <!-- New section including title, text, video, and button -->
-<div class="video-container">
-  <div class="video-intro">
+<div class="video-container"> <!--Parent container-->
+  <div class="iframe-container"> <!--Child div-->
     <h1>Our Little Kofi</h1>
     <p id="text-video">
       Watch our video to see more in-depth how many kids struggle like Kofi,
       and what Love Children Foundation is doing to help.
     </p>
   </div>
-  <div class="iframe-container">
+  <div class="iframe-container"> <!--Child div-->
     <!-- Video of an abandoned baby -->
     <iframe
       class="youtube-video"
@@ -239,10 +239,11 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
     ></iframe>
-  </div>
-  <!-- Video Button -->
+      <!-- Video Button -->
   <a href="#" class="button" id="video-button">Learn More</a>
+  </div>
 </div>
+
 
 
 
