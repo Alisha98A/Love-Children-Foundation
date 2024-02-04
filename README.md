@@ -44,7 +44,7 @@ added flexbox to list for bigger screens, but it didn't work
 Project button from 768px and above has an absolute positioning, line 661. Therefore, it moves when screen gets bigger
 
 SOLVING:
-Video section, had trouble with positioning of elements. Tried different methods but finally solved it by having 2 divs, 1 for header and text and one for video and button. 
+Video section, had trouble with positioning of elements. Tried different methods but finally solved it by having 2 divs, 1 for header and text and one for video and button. Also removed my position absolute from iframe because it blocked so my button could'nt move. By removing it, I could position my button where I wanted again. I got help from tutoring team on this one.  
 
 credits:
 I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div.
