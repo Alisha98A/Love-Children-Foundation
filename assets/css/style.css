@@ -429,7 +429,7 @@ footer {
   margin-bottom: 10px;
 }
 /*Center paragraph*/
-#paragraph-id {
+.paragraph-id {
   text-align: center;
   font-size: 1.2em;
   padding: 8px;
@@ -499,7 +499,7 @@ footer {
   .line {
     font-size: 30px; /* customize the font size of the text */
   }
-  #paragraph-id {
+  .paragraph-id {
     font-size: 1.3em;
   }
 }
@@ -523,8 +523,9 @@ footer {
     width: 490px;
   }
   /*Make font size bigger for text*/
-  #paragraph-id {
+  .paragraph-id {
     font-size: 1.4em;
+    margin-bottom: 20px;
   }
 }
 /* Media query: tablets and larger (630px and up) */
@@ -601,7 +602,7 @@ footer {
     height: auto;
   }
   /*Make font size bigger for text*/
-  #paragraph-id {
+  .paragraph-id {
     font-size: 1.5em;
   }
 }
@@ -754,7 +755,7 @@ footer {
   /*STYLE NEW PAGE - ABOUT US SECTION*/
   /*Parent div for header, paragraph and sidemenu.*/
   .sidebar-header {
-    margin-bottom: 300px;
+    margin-bottom: 70px;
     margin-top: 30px;
     position: relative;
     display: flex;
@@ -791,7 +792,7 @@ footer {
 
   /*Use same styles to style both header and paragraph*/
   .header,
-  #paragraph-id {
+  .paragraph-id {
     margin-left: -50px;
     width: 550px;
     padding-right: 50px;
@@ -827,7 +828,7 @@ footer {
   }
   /*Use same styles to style both header and paragraph*/
   .header,
-  #paragraph-id {
+  .paragraph-id {
     margin-left: -80px;
     width: 580px;
     font-size: 22px;
@@ -891,7 +892,7 @@ footer {
   }
   /*Use same styles to style both header and paragraph*/
   .header,
-  #paragraph-id {
+  .paragraph-id {
     margin-left: -150px;
     width: 750px;
     font-size: 24px;
@@ -969,7 +970,7 @@ footer {
   }
   /*Use same styles to style both header and paragraph in About Us*/
   .header,
-  #paragraph-id {
+  .paragraph-id {
     margin-left: -290px;
     width: 900px;
     font-size: 2.2em;
