@@ -139,10 +139,7 @@ nav ul .submenu ul li:hover > a {
   top: 80px;
   z-index: 99;
 }
-/*Textbox on homepage image, since it's not important. It's only displaying on larger devices*/
-.textbox {
-  display: none;
-}
+
 /*Main content*/
 main {
   background-color: #d5eeff;
@@ -647,22 +644,6 @@ footer {
   /*Photo of happy african kids*/
   .homepage-image img {
     top: 0;
-  }
-
-  /*Textbox on homepage image*/
-  .textbox {
-    position: absolute;
-    top: 30%;
-    left: 70%;
-    box-sizing: border-box;
-    width: 250px;
-    height: 80px;
-    font-size: 120%;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000000;
-    text-align: center;
-    margin: auto;
-    z-index: 102;
   }
 
   /*Information about us, displayed below homepage image*/
