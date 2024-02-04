@@ -43,6 +43,9 @@ FROM 992PX AND UP, VIDEO IS NOT SHOWING FULL HEIGHT
 added flexbox to list for bigger screens, but it didn't work 
 Project button from 768px and above has an absolute positioning, line 661. Therefore, it moves when screen gets bigger
 
+SOLVING:
+Video section, had trouble with positioning of elements. Tried different methods but finally solved it by having 2 divs, 1 for header and text and one for video and button. 
+
 credits:
 I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div.
 
