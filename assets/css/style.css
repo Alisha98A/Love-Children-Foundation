@@ -248,15 +248,32 @@ a:hover,
 #project-button {
   background: #d5eeff;
 }
-/* New Section */
+/* Video Section */
+/*Parent container*/
 .video-container {
-  /*Parent container*/
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-
+/*Style header and paragraph & add space*/
+.text-container {
+  margin-bottom: 20px;
+  padding: 8px;
+  margin: 0 auto;
+}
+/*Set font size for header and add margin*/
+.text-container h1 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 2em;
+}
+/*Set font size for paragraph and add margin at the bottom*/
+.text-container p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+/*Add position relative to the iframe container*/
 .iframe-container {
   position: relative;
   width: 80%;
@@ -264,15 +281,15 @@ a:hover,
   overflow: hidden;
   margin-bottom: 20px;
 }
-
+/*Make video respnsive using the 16/9 aspect ratio*/
 .iframe-container iframe {
   /* Make the iframe itself responsive */
   left: 0;
   width: 100%;
   height: 100%;
-  aspect-ratio:16/9;
+  aspect-ratio: 16/9;
 }
-
+/*Style video button & add position relative*/
 #video-button {
   display: block;
   width: 200px;
@@ -290,7 +307,7 @@ a:hover,
 /*Volunteer section including image, text & button link*/
 .volunteer-section {
   background-color: #ffb677;
-  margin-top: 30px; /* Create more space from the previous section and new section */
+  margin-top: -10px; /* Create more space from the previous section and new section */
   text-align: center; /* Center align text content */
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Arrange items vertically */
@@ -462,18 +479,6 @@ footer {
     margin: 5px 10px 15px; /* Add space of 5 pixels at the top, 10 pixels at the left and right, and 15 pixels at the bottom */
   }
 
-  /*Style video container*/
-  .iframe-container {
-    margin-bottom: 30px;
-  }
-  /*Make more space below button in video section*/
-  #video-button {
-    margin-bottom: 30px;
-  }
-  /*Make more space in general for video section*/
-  .video-container {
-    margin-bottom: 50px;
-  }
   /*Make more space for image in volunteer section*/
   .volunteer-section img {
     margin-top: 30px;
@@ -548,15 +553,19 @@ footer {
     margin-bottom: 50px;
   }
   /*Target header and paragraph*/
-  .video-intro {
+  .text-container {
     grid-column: 1 / 2;
-    max-width: 250px;
+    max-width: 90%;
     padding-left: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
+  }
+  .text-container h1 {
+    font-size: 2.3em;
   }
   /*Style paragraph in video section*/
-  #text-video {
-    font-size: 1.2rem;
+  .text-container p {
+    font-size: 1.3rem;
+    margin-top: 20px;
   }
 
   /*Container for youtube video*/
@@ -565,13 +574,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 90px;
   }
-
   iframe {
-    margin-bottom: 10px;
-    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-top: 100px;
   }
-
   /*Paragraph in volunteer section*/
   .volunteer-section p {
     max-width: 500px;
@@ -683,23 +691,15 @@ footer {
   #learn-more-button {
     margin-top: 10px;
   }
-
-  .video-intro {
-    max-width: 800px;
-  }
-  /*Style heading 1 in video section*/
-  .video-intro h1 {
-    font-size: 35px;
-  }
-  /*Style paragraph connected to the video, make text bigger and increase padding*/
-  #text-video {
-    font-size: 1.3rem;
-    padding: 8px;
-  }
-  /*Add more space to video and button*/
+  /*Set width to the iframe container*/
   .iframe-container {
-    margin-left: 70px;
-    margin-top: -50px;
+    width: 80%;
+  }
+
+  /*Style paragraph connected to the video, make text bigger and increase padding*/
+  .text-container {
+    font-size: 1.1rem;
+    max-width: 90%;
   }
 
   /*Use flexbox display content next to each other*/
@@ -860,16 +860,14 @@ footer {
   #project-button:hover {
     font-size: 23px;
   }
-  /*Make video larger and add more space from top*/
-  .iframe-container iframe {
-    width: 350px; /*16:9 Aspect Ratio*/
-    height: 197px; /*16:9 Aspect Ratio*/
+  .iframe-container {
+    margin-right: 15%;
   }
 
   /*Add styles to text in video section*/
   #text-video {
     font-size: 30px;
-    width: 500px;
+    width: 400px;
   }
   .volunteer-section p {
     max-width: 500px;
@@ -921,14 +919,15 @@ footer {
     margin-top: 10px !important;
     margin-right: 60px !important;
   }
-  /*Style elements in video section*/
-  .video-container {
-    margin-bottom: 60px;
+  /*Set width to the iframe container*/
+  .iframe-container {
+    width: 70%;
   }
+
   /*Increase font size and max width*/
   #text-video {
-    max-width: 900px;
-    font-size: 30px;
+    width: 18em;
+    font-size: 2em;
   }
 
   .volunteer img {
