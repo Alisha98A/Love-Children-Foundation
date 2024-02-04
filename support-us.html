@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Keywords for search engines for -->
+    <meta
+      name="keywords"
+      content="homeless, orphanage, children, society, help, donate"
+    />
+    <!--Description of page-->
+    <meta
+      name="description"
+      content="Children orphan website to raise funding and awareness to homeless kids"
+    />
+    <!--Title-->
+    <title>Love Children Foundation</title>
+    <!--Favicon-> Source "https://favicon.io/emoji-favicons/footprints"--->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon_ico/site.webmanifest" />
+    <!--Fontawesome icon-->
+    <script
+      src="https://kit.fontawesome.com/a2d982528d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Side Navigation Bar</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!--Stylesheet CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <!--Love Children Foundation logo-->
+      <div class="logo">
+        <h2>
+          <a href="https://alisha98a.github.io/Love-Children-Foundation/"
+            >Love Children Foundation</a
+          >
+        </h2>
+      </div>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <!--Added icon of menu from fontawesome.com-->
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul>
+          <li class="submenu">
+            <a href="index2.html">About Us</a>
+            <ul>
+              <li><a href="index3.html">Our Story</a></li>
+              <li><a href="index4.html">Vision</a></li>
+              <li><a href="index5.html">Contact</a></li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <a href="index6.html">Our Projects</a>
+            <ul>
+              <li><a href="index7.html">Project 1</a></li>
+              <li><a href="index8.html">Project 2</a></li>
+              <li><a href="index9.html">Project 3</a></li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <a href="index10.html">Support Us</a>
+            <ul>
+              <li><a href="index11.html">Donate</a></li>
+              <li><a href="index12.html">Volunteer</a></li>
+              <li><a href="index13.html">Partner with us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--Picture of african kids, displayed as "homepage" with the header. Source: https://akilinetwork.com/fostering-an-africa-that-is-fit-for-children/-->
+      <div class="container" id="homepage-about-us">
+        <picture class="homepage-image">
+          <!-- If the screen width is between 601px and 800px,the image source will be used -->
+          <source
+            media="(max-width: 600px)"
+            srcset="assets/images/about-us/image-small.jpg"
+          />
+          <!-- If the screen width is between 801px and 1200px, the image source will be used-->
+          <source
+            media="(max-width: 800px)"
+            srcset="assets/images/about-us/image-medium.jpg"
+          />
+          <!--if screen width is greater than 1200px, the image source will be used-->
+          <source
+            media="(max-width: 1200px)"
+            srcset="assets/images/about-us/image-large.jpg"
+          />
+          <img
+            src="assets/images/about-us/image-large.jpg"
+            alt="Image of of kids smiling at camera"
+          />
+        </picture>
+      </div>
+
+      <div class="sidebar-header">
+        <div class="sidebar-menu">
+          <ul>
+            <li><a href="our-story.html">Donate</a></li>
+            <li><a href="vision.html">Volunteer</a></li>
+            <li><a href="contact.html">Partnership </a></li>
+          </ul>
+        </div>
+        <div class="content">
+          <h1 class="header">There are many ways to support us</h1>
+          <p class="paragraph-id">
+            Our organisation would not survive if it weren't for the help from
+            people in form of fund raising, volunteering and partnership. All
+            the money goes directly to the children, which means we do not take
+            anything in our own pockets. This way to ensure that you can be safe
+            by choosing US.
+          </p>
+        </div>
+      </div>
+      <div class="line">Support Love Children Foundation</div>
+      <span id="contact">
+        <ul>
+          <!--Added icon of heart from fontawesome.com-->
+          <li><i class="fa-regular fa-heart"></i></li>
+          <li class="bigger-text">Become a monthly subscriber</li>
+          <li class="smaller-text">
+            Support our work by becoming a monthly subscriber
+          </li>
+        </ul>
+        <ul>
+          <!--Added icon of portfolio from fontawesome.com-->
+          <li><i class="fa-solid fa-briefcase"></i></li>
+          <li class="bigger-text">Volunteer</li>
+          <li class="smaller-text">Help more kids by volunteering with us</li>
+        </ul>
+        <ul>
+          <!--Added icom of handshake fron fontawesome.com-->
+          <li><i class="fa-solid fa-handshake-angle"></i></li>
+          <li class="bigger-text">Partner with us</li>
+          <li class="smaller-text">
+            Become our company partner or donate money from your company
+          </li>
+        </ul>
+      </span>
+    </main>
+    <!--Footer-->
+    <footer>
+      <div class="social-media-icons">
+        <p>Where you can find us:</p>
+        <a href="https://www.facebook.com/example" target="_blank">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </a>
+
+        <a href="https://www.instagram.com/example" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
