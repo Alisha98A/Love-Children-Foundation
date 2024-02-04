@@ -20,6 +20,8 @@ body {
   font-family: "Inika", serif;
   font-style: normal;
   font-size: 0.75rem;
+  margin: 0;
+  padding: 0;
 }
 
 /*Header*/
@@ -426,10 +428,14 @@ footer {
 /*Make text to header centered*/
 .header {
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /*Center paragraph*/
 #paragraph-id {
   text-align: center;
+  font-size: 1.2em;
+  padding: 8px;
 }
 /*Add font-size to sidebar menu*/
 .sidebar-menu {
@@ -496,6 +502,9 @@ footer {
   .line {
     font-size: 30px; /* customize the font size of the text */
   }
+  #paragraph-id {
+    font-size: 1.3em;
+  }
 }
 /* Increase font size for screens larger than 480px */
 @media screen and (min-width: 480px) {
@@ -515,6 +524,10 @@ footer {
   #project-text {
     font-size: 24px;
     width: 490px;
+  }
+  /*Make font size bigger for text*/
+  #paragraph-id {
+    font-size: 1.4em;
   }
 }
 /* Media query: tablets and larger (630px and up) */
@@ -589,6 +602,10 @@ footer {
   .volunteer img {
     width: 300px;
     height: auto;
+  }
+  /*Make font size bigger for text*/
+  #paragraph-id {
+    font-size: 1.5em;
   }
 }
 
@@ -754,10 +771,6 @@ footer {
   }
 
   /*STYLE NEW PAGE - ABOUT US SECTION*/
-  body {
-    margin: 0;
-    padding: 0;
-  }
   /*Parent div for header, paragraph and sidemenu.*/
   .sidebar-header {
     margin-bottom: 300px;
@@ -787,25 +800,26 @@ footer {
     padding: 10px;
     margin-bottom: 10px;
     width: 200px;
-    padding: 20px;
     border-right: 1px solid #ccc;
   }
   .content {
-    margin-right: 110px;
-    flex-grow: 1;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /*Use same styles to style both header and paragraph*/
   .header,
   #paragraph-id {
-    margin-left: auto;
-    width: 500px;
-    padding-right: 100px;
+    margin-left: -50px;
+    width: 550px;
+    padding-right: 50px;
     margin-top: 40px;
     font-size: 20px;
   }
   .header {
-    margin-top: -10px;
+    margin-top: 10px;
+    font-size: 2.5em;
   }
 }
 
@@ -829,6 +843,18 @@ footer {
   #project-text {
     font-size: 33px;
     width: 700px;
+  }
+  /*Use same styles to style both header and paragraph*/
+  .header,
+  #paragraph-id {
+    margin-left: -80px;
+    width: 580px;
+    font-size: 22px;
+  }
+  /*Make header in index2.html bigger*/
+  .header {
+    margin-top: 10px;
+    font-size: 2.6em;
   }
 }
 /* Large devices (laptops and desktops, 992px and up) */
@@ -881,6 +907,18 @@ footer {
   }
   .volunteer-section p {
     max-width: 500px;
+  }
+  /*Use same styles to style both header and paragraph*/
+  .header,
+  #paragraph-id {
+    margin-left: -150px;
+    width: 750px;
+    font-size: 24px;
+  }
+  /*Make header in index2.html bigger*/
+  .header {
+    margin-top: 10px;
+    font-size: 2.6em;
   }
 }
 /* Larger devices (laptops and desktops, 1228px and up) */
@@ -947,5 +985,17 @@ footer {
   .volunteer-section p {
     font-size: 30px;
     max-width: 500px;
+  }
+  /*Use same styles to style both header and paragraph in About Us*/
+  .header,
+  #paragraph-id {
+    margin-left: -290px;
+    width: 900px;
+    font-size: 2.2em;
+  }
+  /*Make header in About Us bigger*/
+  .header {
+    margin-top: 10px;
+    font-size: 2.6em;
   }
 }
