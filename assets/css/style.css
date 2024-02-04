@@ -261,18 +261,16 @@ a:hover,
   position: relative;
   width: 80%;
   margin: 0 auto;
-  padding-top: 41.25%;
   overflow: hidden;
   margin-bottom: 20px;
 }
 
 .iframe-container iframe {
   /* Make the iframe itself responsive */
-  position: absolute;
-  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  aspect-ratio:16/9;
 }
 
 #video-button {
