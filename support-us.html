@@ -141,6 +141,7 @@
           </p>
         </div>
       </div>
+      <!--Add a formdump with method GET-->
       <div id="formContainer">
         <h2 id="formHeader">Contact Us</h2>
 
@@ -150,7 +151,7 @@
 
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required />
-
+          <!--Add checkboxes to choose between options-->
           <label>
             <input type="checkbox" id="donate" name="donate" /> I want to donate
           </label>
@@ -165,10 +166,41 @@
           <!-- Apply the styling to the submit button -->
           <input type="submit" value="Submit" />
         </form>
-
+        <!--Text that shows up after submitting or if required field is missing-->
         <p id="thankYouMessage">You will hear from us soon 😊</p>
         <p id="errorMessage">Please enter a valid email address.</p>
       </div>
+<!--Add Javascript to achieve better user experience-->
+      <script>
+        function validateForm() {
+          const emailInput = document.getElementById("email");
+          const errorMessage = document.getElementById("errorMessage");
+
+          // Regular expression to check if the email contains the "@" symbol
+          const emailRegex = /\S+@\S+\.\S+/;
+
+          if (!emailRegex.test(emailInput.value)) {
+            // Display error message if "@" is missing
+            errorMessage.style.display = "block";
+            return false; // Prevent form submission
+          } else {
+            // Hide error message if "@" is present
+            errorMessage.style.display = "none";
+
+            // Hide the form
+            document.getElementById("contactForm").style.display = "none";
+
+            // Display the thank you message
+            document.getElementById("thankYouMessage").style.display = "block";
+
+            // Change the form header text
+            document.getElementById("formHeader").innerText =
+              "Thank you for getting in touch!";
+
+            return false; // Prevent form submission
+          }
+        }
+      </script>
 
       <div class="line">Support Love Children Foundation</div>
       <span id="contact">
