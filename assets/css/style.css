@@ -464,7 +464,49 @@ footer {
 .sidebar-menu li:hover {
   background-color: #ccc;
 }
+/*Style form dump in a box - displayed in "support us" page*/
+#formContainer {
+  background-color: #ffffff; /* White background for the form container */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+  max-width: 250px; /*Width to decide the width of the container*/
+  margin: 0 auto;
+  margin-top: 20px; /*Add space from the top*/
+}
 
+form {
+  display: grid; /* Use CSS Grid for layout */
+  gap: 10px;
+}
+/*Style header of the form*/
+#formHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*Style message that displays when submitting a form or error occur*/
+#thankYouMessage,
+#errorMessage {
+  display: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #ff6f3c; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+  font-size: 16px; /* Font size */
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
 /* Increase font size for screens larger than 320px */
 @media screen and (min-width: 320px) {
   /*Style all buttons on page*/
