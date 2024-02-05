@@ -48,7 +48,8 @@ Video section, had trouble with positioning of elements. Tried different methods
 
 credits:
 I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div.
-
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+This website above helped me with different types of input types, together with Learn Code Institute.
 https://www.w3schools.com/html/html_links.asp
 This website helped me understand how hyperlinks works which I applied to the logo, to link to homepage.
 
