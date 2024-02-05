@@ -141,6 +141,35 @@
           </p>
         </div>
       </div>
+      <div id="formContainer">
+        <h2 id="formHeader">Contact Us</h2>
+
+        <form id="contactForm" onsubmit="return validateForm()">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label>
+            <input type="checkbox" id="donate" name="donate" /> I want to donate
+          </label>
+          <label>
+            <input type="checkbox" id="donate" name="donate" /> I want to
+            volunteer
+          </label>
+          <label>
+            <input type="checkbox" id="donate" name="donate" /> I want to become
+            a partner
+          </label>
+          <!-- Apply the styling to the submit button -->
+          <input type="submit" value="Submit" />
+        </form>
+
+        <p id="thankYouMessage">You will hear from us soon 😊</p>
+        <p id="errorMessage">Please enter a valid email address.</p>
+      </div>
+
       <div class="line">Support Love Children Foundation</div>
       <span id="contact">
         <ul>
