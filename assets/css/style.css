@@ -45,6 +45,8 @@ header {
   font-style: normal;
   color: #212121;
   letter-spacing: 2px;
+  /*Source from https://developer.chrome.com/docs/lighthouse/performance/font-display/?utm_source=lighthouse&utm_medium=devtools*/
+  font-display: swap;
 }
 /*Remove underline from link on logo*/
 .logo a {
@@ -94,6 +96,8 @@ nav ul {
   font-style: normal;
   letter-spacing: 1px;
   font-size: 110%;
+  /*Source from https://developer.chrome.com/docs/lighthouse/performance/font-display/?utm_source=lighthouse&utm_medium=devtools*/
+  font-display: swap;
 }
 /*Submenu*/
 nav ul .submenu ul {
@@ -179,6 +183,8 @@ main {
   font-style: normal;
   margin-top: 10px; /* Add a margin-top to create space between text and button */
   margin-bottom: 20px;
+  /*Source from https://developer.chrome.com/docs/lighthouse/performance/font-display/?utm_source=lighthouse&utm_medium=devtools*/
+  font-display: swap;
 }
 /*When you hover over button, the button gets bigger*/
 a:hover,
@@ -367,6 +373,8 @@ ul {
   font-weight: normal;
   font-style: normal;
   text-transform: uppercase;
+  /*Source from https://developer.chrome.com/docs/lighthouse/performance/font-display/?utm_source=lighthouse&utm_medium=devtools*/
+  font-display: swap;
 }
 /*Style list*/
 ul {
