@@ -59,6 +59,7 @@ https://www.eksposure.com/4-3-vs-16-9-aspect-ratio/
 This link above was a good reference for what aspect ratio the image should be in.
 
 Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed
+Used display=swap to ensure the text is displayed using a fallback font until the custom font is loaded. From https://developer.chrome.com/docs/lighthouse/performance/font-display/?utm_source=lighthouse&utm_medium=devtools. Did not put this in css though, i moved it from css into html instead for better control.
 
 <!--Add a photo of how the website looks like on different screen devices-->
 
