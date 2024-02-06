@@ -255,21 +255,25 @@
         <a href="#" class="button" id="volunteer-button">Volunteer with Us </a>
         <!--Image of volunteers. Source image "https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/images2/program_content/va-whypayvolunteerabroad-photo2-1458725297.png"-->
         <picture class="volunteer">
-          <!-- If the screen width is between 601px and 800px,the image source will be used -->
+          <!-- If the screen width is between 601px and 800px, the WebP image source will be used -->
           <source
             media="(max-width: 600px)"
-            srcset="assets/images/volunteer/image-small.jpg"
+            srcset="assets/images/volunteer/image-small.webp"
+            type="image/webp"
           />
-          <!-- If the screen width is between 801px and 1200px, the image source will be used-->
+          <!-- If the screen width is between 801px and 1200px, the WebP image source will be used-->
           <source
             media="(max-width: 800px)"
-            srcset="assets/images/volunteer/image-medium.jpg"
+            srcset="assets/images/volunteer/image-medium.webp"
+            type="image/webp"
           />
-          <!--if screen width is greater than 1200px, the image source will be used-->
+          <!-- If screen width is greater than 1200px, the WebP image source will be used-->
           <source
-            media="(max-width: 1200px)"
-            srcset="assets/images/volunteer/image-large.jpg"
+            media="(min-width: 1201px)"
+            srcset="assets/images/volunteer/image-large.webp"
+            type="image/webp"
           />
+          <!-- Fallback for browsers not supporting WebP -->
           <img
             src="assets/images/volunteer/image-large.jpg"
             alt="Image of volunteers doing fun projects with kids"
