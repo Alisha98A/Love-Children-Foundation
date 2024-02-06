@@ -40,11 +40,11 @@ VIDEO BUTTON NEEDS MORE SPACE from 280px FIX THIS
 VIDEO NEEDS TO BE CENTERED FROM 480PX, when i add width. It's not centered anymore
 Too much space at the top from 630px and up in video section
 FROM 992PX AND UP, VIDEO IS NOT SHOWING FULL HEIGHT
-added flexbox to list for bigger screens, but it didn't work 
+added flexbox to list for bigger screens, but it didn't work
 Project button from 768px and above has an absolute positioning, line 661. Therefore, it moves when screen gets bigger
 
 SOLVING:
-Video section, had trouble with positioning of elements. Tried different methods but finally solved it by having 2 divs, 1 for header and text and one for video and button. Also removed my position absolute from iframe because it blocked so my button could'nt move. By removing it, I could position my button where I wanted again. I got help from tutoring team on this one.  
+Video section, had trouble with positioning of elements. Tried different methods but finally solved it by having 2 divs, 1 for header and text and one for video and button. Also removed my position absolute from iframe because it blocked so my button could'nt move. By removing it, I could position my button where I wanted again. I got help from tutoring team on this one.
 
 credits:
 I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div.
@@ -52,8 +52,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 This website above helped me with different types of input types, together with Learn Code Institute.
 https://www.w3schools.com/html/html_links.asp
 This website helped me understand how hyperlinks works which I applied to the logo, to link to homepage.
+https://developer.chrome.com/docs/lighthouse/performance/uses-webp-images/?utm_source=lighthouse&utm_medium=devtools
+This website, got here from devtools lighthouse. Helped me understand more about images and that by converting them from JPG to WebP or AVIV format, the images will load faster.
+https://tiny-img.com/blog/best-image-size-for-website/
+https://www.eksposure.com/4-3-vs-16-9-aspect-ratio/
+This link above was a good reference for what aspect ratio the image should be in.
 
- Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed
+Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed
 
 <!--Add a photo of how the website looks like on different screen devices-->
 
