@@ -519,6 +519,40 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049; /* Darker green on hover */
 }
+/*Ensure the main container fills the entire viewport height*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+/*Set main to display:flex to make the text below a flex item, center flex items horizontally & vertically*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+/*Position text in the middle*/
+.redirect-text {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px;
+}
+/*Highlight the word "Woops"*/
+.highlight-woops {
+  color: red;
+  font-weight: bold; /* Change the font weight to your desired style */
+  font-family: cursive;
+}
+/*Highlight the word "here"*/
+.highlight-here {
+  font-weight: bolder; /* Change the font weight to your desired style */
+}
+/*Remove text decoration and change color to darkblue*/
+.redirect-text a {
+  text-decoration: none;
+  color: darkblue;
+}
 /* Increase font size for screens larger than 320px */
 @media screen and (min-width: 320px) {
   /*Style all buttons on page*/
