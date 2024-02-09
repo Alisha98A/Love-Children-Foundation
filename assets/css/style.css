@@ -519,14 +519,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049; /* Darker green on hover */
 }
-/*Ensure the main container fills the entire viewport height*/
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
+
 /*Set main to display:flex to make the text below a flex item, center flex items horizontally & vertically*/
-main {
+#main {
   display: flex;
   justify-content: center;
   align-items: center;
