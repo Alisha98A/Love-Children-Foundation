@@ -414,6 +414,7 @@ footer {
   z-index: 102;
   margin-top: 80px;
   justify-content: center;
+  margin-top: 100px;
 }
 /*Make text to header centered*/
 .header {
@@ -431,6 +432,7 @@ footer {
   border-radius: 5px; /* Add border radius for rounded corners */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /*Add a box shadow for depth */
   position: relative; /* Position the arrow relative to the container */
+  margin-top: 20px;
 }
 
 .content::after {
