@@ -113,6 +113,31 @@
             help of our wonderful staff and volunteers, we offer them education,
             food and shelter.
           </p>
+          <picture class="volunteer">
+            <!-- If the screen width is between 601px and 800px, the WebP image source will be used -->
+            <source
+              media="(max-width: 600px)"
+              srcset="assets/images/content-about-us/image-small.webp"
+              type="image/webp"
+            />
+            <!-- If the screen width is between 801px and 1200px, the WebP image source will be used-->
+            <source
+              media="(max-width: 800px)"
+              srcset="assets/images/content-about-us/image-medium.webp"
+              type="image/webp"
+            />
+            <!-- If screen width is greater than 1200px, the WebP image source will be used-->
+            <source
+              media="(min-width: 1201px)"
+              srcset="assets/images/content-about-us/image-large.webp"
+              type="image/webp"
+            />
+            <!-- Fallback for browsers not supporting WebP -->
+            <img
+              src="assets/images/content-about-us/"
+              alt="Image of volunteers doing fun projects with kids"
+            />
+          </picture>
           <p class="paragraph-id">
             We have many staff and volunteers that daily comes up with new ideas
             of how we can do more for these children, and we're very proud of
@@ -120,7 +145,7 @@
           </p>
         </div>
       </div>
-       <div class="line">Support Love Children Foundation</div>
+      <div class="line">Support Love Children Foundation</div>
       <span id="contact">
         <ul>
           <!--Added icon of heart from fontawesome.com-->
