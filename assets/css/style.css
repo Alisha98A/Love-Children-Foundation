@@ -529,26 +529,26 @@ input[type="submit"]:hover {
   align-items: center;
   height: 100%;
 }
-/*Position text in the middle*/
+/*Position text in the middle in 404 page*/
 .redirect-text {
   text-align: center;
   text-transform: uppercase;
   margin: 10px;
 }
-/*Highlight the word "Woops"*/
+/*Highlight the word "Woops" in 404 page*/
 .highlight-woops {
   color: red;
   font-weight: bold;
   font-family: cursive;
 }
-/*Highlight the word "here"*/
+/*Highlight the word "here" in 404 page*/
 .highlight-here {
   font-weight: bolder;
 }
-/*Remove text decoration and change color to darkblue*/
+/*Remove text decoration and change color to darkblue in 404 page*/
 .redirect-text a {
   text-decoration: none;
-  color: darkblue;
+  color: blue;
 }
 /*Style images in content*/
 .image-wrapper {
@@ -566,12 +566,16 @@ input[type="submit"]:hover {
 }
 /*Set our story image to fill the maximum width of its container*/
 .our-story.img {
-  max-width: 100%; 
-  margin: 0 auto; 
+  max-width: 100%;
+  margin: 0 auto;
   overflow: hidden;
 }
-
-
+/*Center the image of the founder both vertically and horisontally within its container*/
+.founder-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Increase font size for screens larger than 320px */
 @media screen and (min-width: 320px) {
   /*Style all buttons on page*/
