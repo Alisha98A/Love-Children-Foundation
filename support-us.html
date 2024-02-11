@@ -78,7 +78,7 @@
           <li class="submenu">
             <a href="projects.html">Our Projects</a>
             <ul>
-       <li><a href="projects.html#project1">Photography</a></li>
+              <li><a href="projects.html#project1">Photography</a></li>
               <li><a href="projects.html#project2">Education</a></li>
               <li><a href="projects.html#project3">Sports</a></li>
             </ul>
@@ -144,7 +144,7 @@
       <div id="formContainer">
         <h2 id="formHeader">Contact Us</h2>
 
-        <form id="contactForm" onsubmit="return validateForm()">
+        <form id="contactForm" action="thank.you.html" method="post">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required />
 
@@ -152,54 +152,23 @@
           <input type="email" id="email" name="email" required />
           <!--Add checkboxes to choose between options-->
           <label>
-            <input type="checkbox" id="donate" name="donate" /> I want to donate
+            <input type="checkbox" name="interest" value="donate" /> I want to
+            donate
           </label>
           <label>
-            <input type="checkbox" id="donate" name="donate" /> I want to
-            volunteer
+            <input type="checkbox" name="interest" value="volunteer" /> I want
+            to volunteer
           </label>
           <label>
-            <input type="checkbox" id="donate" name="donate" /> I want to become
-            a partner
+            <input type="checkbox" name="interest" value="partner" /> I want to
+            become a partner
           </label>
           <!-- Apply the styling to the submit button -->
           <input type="submit" value="Submit" />
         </form>
-        <!--Text that shows up after submitting or if required field is missing-->
-        <p id="thankYouMessage">You will hear from us soon 😊</p>
+        <!--Text that shows if required field is missing-->
         <p id="errorMessage">Please enter a valid email address.</p>
       </div>
-      <!--Add Javascript to achieve better user experience-->
-      <script>
-        function validateForm() {
-          const emailInput = document.getElementById("email");
-          const errorMessage = document.getElementById("errorMessage");
-
-          // Regular expression to check if the email contains the "@" symbol
-          const emailRegex = /\S+@\S+\.\S+/;
-
-          if (!emailRegex.test(emailInput.value)) {
-            // Display error message if "@" is missing
-            errorMessage.style.display = "block";
-            return false; // Prevent form submission
-          } else {
-            // Hide error message if "@" is present
-            errorMessage.style.display = "none";
-
-            // Hide the form
-            document.getElementById("contactForm").style.display = "none";
-
-            // Display the thank you message
-            document.getElementById("thankYouMessage").style.display = "block";
-
-            // Change the form header text
-            document.getElementById("formHeader").innerText =
-              "Thank you for getting in touch!";
-
-            return false; // Prevent form submission
-          }
-        }
-      </script>
 
       <div class="line">Support Love Children Foundation</div>
       <span id="contact">
