@@ -224,6 +224,35 @@
               at & can develop in. Our goal is to help these people become
               independent, so that they can shine and grow.
             </p>
+            <!--Class to "div" wrapping the "picture" element-->
+            <div class="image-wrapper founder-image">
+              <!--Image of girls clapping and laughing. Source https://images.unsplash.com/photo-1509099863731-ef4bff19e808?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-->
+              <picture>
+                <!-- If the screen width is between 601px and 800px, the WebP image source will be used -->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="assets/images/content-about-us/image4-small.webp"
+                  type="image/webp"
+                />
+                <!-- If the screen width is between 801px and 1200px, the WebP image source will be used-->
+                <source
+                  media="(max-width: 800px)"
+                  srcset="assets/images/content-about-us/image4-medium.webp"
+                  type="image/webp"
+                />
+                <!-- If screen width is greater than 1200px, the WebP image source will be used-->
+                <source
+                  media="(min-width: 1201px)"
+                  srcset="assets/images/content-about-us/image4-large.webp"
+                  type="image/webp"
+                />
+                <!-- Fallback for browsers not supporting WebP -->
+                <img
+                  src="assets/images/content-about-us/image4-large.jpg"
+                  alt="Image of girls clapping and laughing"
+                />
+              </picture>
+            </div>
           </div>
         </div>
       </div>
