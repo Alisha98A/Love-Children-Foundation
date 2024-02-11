@@ -586,6 +586,23 @@ input[type="submit"]:hover {
   justify-content: center;
   align-items: center;
 }
+
+/* Define the scrolling behavior for the targeted section, add background color when targeted*/
+.section:target {
+  scroll-margin-top: 60px;
+  background-color: #ececec;
+}
+/* Add padding to the top of each section to adjust the fixed header */
+.section {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+/* Ensure smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Increase font size for screens larger than 320px */
 @media screen and (min-width: 320px) {
   /*Style all buttons on page*/
