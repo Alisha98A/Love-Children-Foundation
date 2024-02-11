@@ -580,6 +580,11 @@ input[type="submit"]:hover {
   margin: 0 auto;
   overflow: hidden;
 }
+/*Set the widht of the image of the founder to 50%*/
+.founder-image img {
+  max-width: 60%;
+}
+
 /*Center the image of the founder both vertically and horisontally within its container*/
 .founder-image {
   display: flex;
@@ -591,11 +596,13 @@ input[type="submit"]:hover {
 .section:target {
   scroll-margin-top: 60px;
   background-color: #ececec;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 /* Add padding to the top of each section to adjust the fixed header */
 .section {
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* Ensure smooth scrolling behavior */
