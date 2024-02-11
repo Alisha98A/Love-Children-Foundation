@@ -427,7 +427,7 @@ footer {
   margin-right: 10px;
   margin-left: 10px;
   overflow: auto; /* Make the content scrollable */
-  max-height: 300px;
+  max-height: 350px;
   border: 1px solid #ccc; /* Add a border around the content */
   border-radius: 5px; /* Add border radius for rounded corners */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /*Add a box shadow for depth */
@@ -889,21 +889,19 @@ input[type="submit"]:hover {
   /*STYLE NEW PAGE - ABOUT US SECTION*/
   /*Parent div for header, paragraph and sidemenu.*/
   .sidebar-header {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     margin-top: 30px;
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     z-index: 1;
   }
   /*Make position fixed, add z-index and choose font-size*/
   .sidebar-menu {
-    position: absolute;
-    left: 0;
-    top: 40%;
-    bottom: 0;
-    font-size: 20px;
-    width: 300px;
+    font-size: 15px;
+    width: 120px;
+    margin-left: -20px;
   }
   /*Use flexbox to make sidebar menu appear as a flex container*/
   .sidebar-menu ul {
@@ -918,8 +916,10 @@ input[type="submit"]:hover {
     width: 200px;
     border-right: 1px solid #ccc;
   }
+  /*Edit height and width of content*/
   .content {
-    max-width: 200px;
+    max-width: 560px;
+    max-height: 380px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -927,10 +927,6 @@ input[type="submit"]:hover {
   /*Use same styles to style both header and paragraph*/
   .header,
   .paragraph-id {
-    margin-left: -50px;
-    width: 550px;
-    padding-right: 50px;
-    margin-top: 40px;
     font-size: 20px;
   }
   .header {
@@ -939,7 +935,7 @@ input[type="submit"]:hover {
   }
   /*Style form dump in a box - displayed in "support us" page*/
   #formContainer {
-    max-width: 350px; /*Width to decide the width of the container*/
+    max-width: 350px;
     margin-right: 70px;
     margin-bottom: 50px;
   }
@@ -966,17 +962,10 @@ input[type="submit"]:hover {
     font-size: 33px;
     width: 700px;
   }
-  /*Use same styles to style both header and paragraph*/
-  .header,
-  .paragraph-id {
-    margin-left: -80px;
-    width: 580px;
-    font-size: 22px;
-  }
-  /*Make header in index2.html bigger*/
-  .header {
-    margin-top: 10px;
-    font-size: 2.6em;
+  /*Edit height and width of content*/
+  .content {
+    max-width: 600px;
+    height: auto;
   }
 }
 /* Large devices (laptops and desktops, 992px and up) */
@@ -1033,14 +1022,16 @@ input[type="submit"]:hover {
   /*Use same styles to style both header and paragraph*/
   .header,
   .paragraph-id {
-    margin-left: -150px;
-    width: 750px;
     font-size: 24px;
   }
   /*Make header in index2.html bigger*/
   .header {
-    margin-top: 10px;
     font-size: 2.6em;
+  }
+  /*Edit height and width of content*/
+  .content {
+    max-width: 700px;
+    height: auto;
   }
 }
 /* Larger devices (laptops and desktops, 1228px and up) */
@@ -1108,16 +1099,29 @@ input[type="submit"]:hover {
     font-size: 30px;
     max-width: 500px;
   }
+  /*Add margin at the bottom of the sidebar & content in About Us page*/
+  .sidebar-header {
+    margin-bottom: 70px;
+  }
+  /*Add space from left and right for the sidebar menu*/
+  .sidebar-menu {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 23px;
+  }
   /*Use same styles to style both header and paragraph in About Us*/
   .header,
   .paragraph-id {
-    margin-left: -290px;
-    width: 900px;
     font-size: 2.2em;
   }
   /*Make header in About Us bigger*/
   .header {
-    margin-top: 10px;
     font-size: 2.6em;
+  }
+
+  /*Edit height and width of content*/
+  .content {
+    max-width: 1000px;
+    max-height: 450px;
   }
 }
