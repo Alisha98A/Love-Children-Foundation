@@ -7,6 +7,11 @@ The reason for doing a website for Love Children Foundation is to give easy acce
 The first step was to structure everything out using Figma. Since my website is about children, I thought of having a colorful website. And since I want a very simple and basic site, I’m only using two main colors: orange and light blue. The layout is simple, with the logo (Love Children Foundation) to the top left and navigation bar menu to the right. I also added Instagram and Facebook icon to the right that links to www.instagram.com and www.facebook.com. Since I created a website with a non existing organisation, the links goes to facebook and instagram homepage. Due to the fact that I don’t have a real organisation, and therefore cannot link to real accounts.
 Directly under navigation bar menu, we have a big picture of some happy African kids. I chose this image because it represents what the whole website Is about - children, and specifically African children. On the picture, we can see kids that are smiling towards the camera. They look happy.
 
+
+Content:
+
+
+
 (Remove this after re-writing)
 Notes on what I've done until rewriting this:
 Media query applied to navbar and logo, credits to Code Institute where in Love running project, showed me how to apply media query.
@@ -45,6 +50,7 @@ Project button from 768px and above has an absolute positioning, line 661. There
 
 SOLVING:
 Video section, had trouble with positioning of elements. Tried different methods but finally solved it by having 2 divs, 1 for header and text and one for video and button. Also removed my position absolute from iframe because it blocked so my button could'nt move. By removing it, I could position my button where I wanted again. I got help from tutoring team on this one.
+Add tabindex="0" attribute to each anchor (<a>), links becomes focusable programmatically by keyboard navigation. When a user tabs through the page elements, these links will receive focus, making them accessible without relying on JavaScript event handlers like onmouseover() or onmouseout(). Lighthouse warned me of that.
 
 credits:
 I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div.
