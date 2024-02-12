@@ -32,6 +32,28 @@ Directly under navigation bar menu, we have a big picture of some happy African 
    ![Homepage Page](x)
 
 
+  - __Info about Us__
+
+
+   - Below homepage image is the first content of the page, consisting of a header, text and button. 
+   - The header is big and bold, which catches the readers attention. Below it is a text about our organisation, followed by an orange button displayed as "Learn More About Us". 
+   - Learn More About Us button, is a link to About Us page. When you click on it, it takes you to that page. 
+   - First content is well structured and responsive which makes it easy and readable. 
+
+   ![Info About Us Content](x)
+
+  - __Info about Projects__
+
+
+   - Content about our projects beginning with 3 different photos of african children. Followed by a short header and a button link that says "See More Of Our Projects".
+   - Photos are there to show pictures of children from our organisation, in different environments. Displayed in a row for smaller screens and next to each other for larger ones. 
+   - The text is kept short, to capture the subject of the section.
+   - The button link is informative, which takes you to the project page when clicking on it. 
+
+
+   ![Info About Projects](x)
+
+
 
 
 (Remove this after re-writing)
