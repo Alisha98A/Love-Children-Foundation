@@ -4,13 +4,26 @@ Love Children Foundation is a website that hopes to give people awareness about 
 
 The reason for doing a website for Love Children Foundation is to give easy accessibility for people who wants to know more about our organisation. I chose this subject because I myself been helping other orphanages with money, and I’ve also visited many orphanages around Thailand. The organisation I’ve created now, is not located in Thailand. However, it’s the same issue in Africa. Therefore, I really wanted to create a website for Love Children Organisation because I’m super passionate about helping other people, and specifically children with poor background.
 
+![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+
+## Features
+
 The first step was to structure everything out using Figma. Since my website is about children, I thought of having a colorful website. And since I want a very simple and basic site, I’m only using two main colors: orange and light blue. The layout is simple, with the logo (Love Children Foundation) to the top left and navigation bar menu to the right. I also added Instagram and Facebook icon to the right that links to www.instagram.com and www.facebook.com. Since I created a website with a non existing organisation, the links goes to facebook and instagram homepage. Due to the fact that I don’t have a real organisation, and therefore cannot link to real accounts.
 Directly under navigation bar menu, we have a big picture of some happy African kids. I chose this image because it represents what the whole website Is about - children, and specifically African children. On the picture, we can see kids that are smiling towards the camera. They look happy.
 
 
-Content:
+### Existing Features
+
+- __Navigation Bar__
 
 
+  - Featured on all 6 pages (including 404 and thank you page). The navigation bar is responsive & include links to Logo, About Us, Our Projects & Support Us page. 
+  - Navigation bar is identical on all pages for easy navigation, meaning, you can navigate from whatever page you're currently at. Without having to go through the "back" button.
+  - Navigation bar menu have submenus, for example when About Us is hovered/clicked on, submenu Our Story & Vision will be displayed. These submenus will take you directly to the content on the chosen page (by clicking of one of the submenus) 
+
+![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+
+  
 
 (Remove this after re-writing)
 Notes on what I've done until rewriting this:
