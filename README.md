@@ -4,7 +4,7 @@ Love Children Foundation is a website that hopes to give people awareness about 
 
 The reason for doing a website for Love Children Foundation is to give easy accessibility for people who wants to know more about our organisation. I chose this subject because I myself been helping other orphanages with money, and I’ve also visited many orphanages around Thailand. The organisation I’ve created now, is not located in Thailand. However, it’s the same issue in Africa. Therefore, I really wanted to create a website for Love Children Organisation because I’m super passionate about helping other people, and specifically children with poor background.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](x)
 
 ## Features
 
@@ -21,9 +21,18 @@ Directly under navigation bar menu, we have a big picture of some happy African 
   - Navigation bar is identical on all pages for easy navigation, meaning, you can navigate from whatever page you're currently at. Without having to go through the "back" button.
   - Navigation bar menu have submenus, for example when About Us is hovered/clicked on, submenu Our Story & Vision will be displayed. These submenus will take you directly to the content on the chosen page (by clicking of one of the submenus) 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](x)
 
-  
+  - __The homepage page image__
+
+
+   - The homepage consists of a big eyecatching image of happy children looking at the camera. 
+   - The image is directly related to the logo, Love Children Foundation, which makes it clear that the website is about children. 
+
+   ![Homepage Page](x)
+
+
+
 
 (Remove this after re-writing)
 Notes on what I've done until rewriting this:
