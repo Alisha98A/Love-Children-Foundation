@@ -506,12 +506,13 @@ form {
 /* Style the submit button */
 input[type="submit"] {
   background-color: #ff6f3c; /* Green background color */
-  color: #fff; /* White text color */
+  color: #000000; /* White text color */
   padding: 10px 20px; /* Padding inside the button */
   border: none; /* No border */
   border-radius: 4px; /* Rounded corners */
   cursor: pointer; /* Cursor on hover */
   font-size: 16px; /* Font size */
+  font-weight: bolder;
 }
 
 /* Style the submit button on hover */
