@@ -11,50 +11,40 @@ The reason for doing a website for Love Children Foundation is to give easy acce
 The first step was to structure everything out using Figma. Since my website is about children, I thought of having a colorful website. And since I want a very simple and basic site, I’m only using two main colors: orange and light blue. The layout is simple, with the logo (Love Children Foundation) to the top left and navigation bar menu to the right. I also added Instagram and Facebook icon to the right that links to www.instagram.com and www.facebook.com. Since I created a website with a non existing organisation, the links goes to facebook and instagram homepage. Due to the fact that I don’t have a real organisation, and therefore cannot link to real accounts.
 Directly under navigation bar menu, we have a big picture of some happy African kids. I chose this image because it represents what the whole website Is about - children, and specifically African children. On the picture, we can see kids that are smiling towards the camera. They look happy.
 
-
 ### Existing Features
 
-- __Navigation Bar__
+- **Navigation Bar**
 
-
-  - Featured on all 6 pages (including 404 and thank you page). The navigation bar is responsive & include links to Logo, About Us, Our Projects & Support Us page. 
+  - Featured on all 6 pages (including 404 and thank you page). The navigation bar is responsive & include links to Logo, About Us, Our Projects & Support Us page.
   - Navigation bar is identical on all pages for easy navigation, meaning, you can navigate from whatever page you're currently at. Without having to go through the "back" button.
-  - Navigation bar menu have submenus, for example when About Us is hovered/clicked on, submenu Our Story & Vision will be displayed. These submenus will take you directly to the content on the chosen page (by clicking of one of the submenus) 
+  - Navigation bar menu have submenus, for example when About Us is hovered/clicked on, submenu Our Story & Vision will be displayed. These submenus will take you directly to the content on the chosen page (by clicking of one of the submenus)
 
-![Nav Bar](x)
+![Nav Bar](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_nav.png?raw=true)
 
-  - __The homepage page image__
+- **The homepage page image**
 
+- The homepage consists of a big eyecatching image of happy children looking at the camera.
+- The image is directly related to the logo, Love Children Foundation, which makes it clear that the website is about children.
 
-   - The homepage consists of a big eyecatching image of happy children looking at the camera. 
-   - The image is directly related to the logo, Love Children Foundation, which makes it clear that the website is about children. 
+![Homepage Page](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_homepage.png?raw=true)
 
-   ![Homepage Page](x)
+- **Info about Us**
 
+- Below homepage image is the first content of the page, consisting of a header, text and button.
+- The header is big and bold, which catches the readers attention. Below it is a text about our organisation, followed by an orange button displayed as "Learn More About Us".
+- Learn More About Us button, is a link to About Us page. When you click on it, it takes you to that page.
+- First content is well structured and responsive which makes it easy and readable.
 
-  - __Info about Us__
+![Info About Us Content](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_info_about_us.png?raw=true)
 
+- **Info about Projects**
 
-   - Below homepage image is the first content of the page, consisting of a header, text and button. 
-   - The header is big and bold, which catches the readers attention. Below it is a text about our organisation, followed by an orange button displayed as "Learn More About Us". 
-   - Learn More About Us button, is a link to About Us page. When you click on it, it takes you to that page. 
-   - First content is well structured and responsive which makes it easy and readable. 
+- Content about our projects beginning with 3 different photos of african children. Followed by a short header and a button link that says "See More Of Our Projects".
+- Photos are there to show pictures of children from our organisation, in different environments. Displayed in a row for smaller screens and next to each other for larger ones.
+- The text is kept short, to capture the subject of the section.
+- The button link is informative, which takes you to the project page when clicking on it.
 
-   ![Info About Us Content](x)
-
-  - __Info about Projects__
-
-
-   - Content about our projects beginning with 3 different photos of african children. Followed by a short header and a button link that says "See More Of Our Projects".
-   - Photos are there to show pictures of children from our organisation, in different environments. Displayed in a row for smaller screens and next to each other for larger ones. 
-   - The text is kept short, to capture the subject of the section.
-   - The button link is informative, which takes you to the project page when clicking on it. 
-
-
-   ![Info About Projects](x)
-
-
-
+![Info About Projects](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_info_about_projects.png?raw=true)
 
 (Remove this after re-writing)
 Notes on what I've done until rewriting this:
