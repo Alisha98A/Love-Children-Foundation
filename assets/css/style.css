@@ -963,8 +963,7 @@ html {
   }
   /*Style form dump in a box - displayed in "support us" page*/
   #formContainer {
-    max-width: 350px;
-    margin-right: 70px;
+    max-width: 550px;
     margin-bottom: 50px;
   }
 }
