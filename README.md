@@ -101,6 +101,10 @@ This link above was a good reference for what aspect ratio the image should be i
 Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed
 Used display=swap to ensure the text is displayed using a fallback font until the custom font is loaded. From https://developer.chrome.com/docs/lighthouse/performance/font-display/?utm_source=lighthouse&utm_medium=devtools. Did not put this in css though, i moved it from css into html instead for better control.
 
+LIGHTHOUSE FIXES
+Currently in the header you have an input element, then a label element for the input that has a font awesome icon in it. That means a screen reader doesn't know what the checkbox input element is for as the label is empty, here you can't use an aria-label though so we need a different approach. You can fix this by putting a span element inside the label next to the icon, then inside the span you can put the text 'toggle menu' and give it a class of sr-only if you have a look at this article, it explains how to hide the text using that sr-only class, it also gives you the css code you need to hide it. Don't forget to credit it in your readme.
+https://css-tricks.com/inclusively-hidden/
+
 <!--Add a photo of how the website looks like on different screen devices-->
 
 ![Responsice Mockup](copy link from github and the image)
