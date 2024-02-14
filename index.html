@@ -123,18 +123,22 @@
           <!-- If the screen width is between 601px and 800px,the image source will be used -->
           <source
             media="(max-width: 600px)"
-            srcset="assets/images/homepage-image/image-small.jpg"
+            srcset="assets/images/homepage-image/image-small.webp"
+                 type="image/webp"
           />
           <!-- If the screen width is between 801px and 1200px, the image source will be used-->
           <source
             media="(max-width: 800px)"
-            srcset="assets/images/homepage-image/image-medium.jpg"
+            srcset="assets/images/homepage-image/image-medium.webp"
+                 type="image/webp"
           />
           <!--if screen width is greater than 1200px, the image source will be used-->
           <source
             media="(max-width: 1200px)"
-            srcset="assets/images/homepage-image/image-large.jpg"
+            srcset="assets/images/homepage-image/image-large.webp"
+                 type="image/webp"
           />
+              <!-- Fallback for browsers not supporting WebP -->
           <img
             src="assets/images/homepage-image/image-large.jpg"
             alt="Image of happy african kids"
