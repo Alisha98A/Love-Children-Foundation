@@ -21,31 +21,62 @@ Directly under navigation bar menu, we have a big picture of some happy African 
 
 ![Nav Bar](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_nav.png?raw=true)
 
-- **The homepage page image**
 
-- The homepage consists of a big eyecatching image of happy children looking at the camera.
-- The image is directly related to the logo, Love Children Foundation, which makes it clear that the website is about children.
+- **The Homepage Image**
+  - The homepage consists of a big eyecatching image of happy children looking at the camera.
+  - The  image is directly related to the logo, Love Children Foundation, which makes it clear that the website is about children.
+
 
 ![Homepage Page](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_homepage.png?raw=true)
 
-- **Info about Us**
 
-- Below homepage image is the first content of the page, consisting of a header, text and button.
-- The header is big and bold, which catches the readers attention. Below it is a text about our organisation, followed by an orange button displayed as "Learn More About Us".
-- Learn More About Us button, is a link to About Us page. When you click on it, it takes you to that page.
-- First content is well structured and responsive which makes it easy and readable.
+- **Info About Us**
+  -  Below homepage image is the first content of the page, consisting of a header, text and button.
+  -   The header is big and bold, which catches the readers attention. Below it is a text about our organisation, followed by an orange button displayed as "Learn More About Us".
+  -   Learn More About Us button, is a link to About Us page. When you click on it, it takes you to that page. 
+  -   First content is well structured and responsive which makes it easy and readable.
+
 
 ![Info About Us Content](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_info_about_us.png?raw=true)
 
-- **Info about Projects**
 
-- Content about our projects beginning with 3 different photos of african children. Followed by a short header and a button link that says "See More Of Our Projects".
-- Photos are there to show pictures of children from our organisation, in different environments. Displayed in a row for smaller screens and next to each other for larger ones.
-- The text is kept short, to capture the subject of the section.
-- The button link is informative, which takes you to the project page when clicking on it.
+- **Info About Projects**
+    -   Content about our projects beginning with 3 different photos of african children. Followed by a short header and a button link that says "See More Of Our Projects".
+    -    Photos are there to show pictures of children from our organisation, in different environments. Displayed in a row for smaller screens and next to each other for larger ones.
+    -   The text is kept short, to capture the subject of the section.
+    -   The button link is informative, which takes you to the project page when clicking on it. Button link is lightblue to visually show is's a button. When you hover over it, the pointer symbol shows up, also text inside button gets bigger so that you easily understand that it's clickable.
+        
 
 ![Info About Projects](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_info_about_projects.png?raw=true)
 
+
+- **Video Section**
+    -   Section with header, text, youtube video and button link with lightblue background to clarify that this is a new section of the page. 
+    -   On smaller screens, elements are displayed on top of each other like a column. On larger screens, header and text are displayed to the left and video and button are displayed to the right to utilize the space. 
+    -   The video is embedded from Youtube. For better user experience, you have to click on the video in order for it to play, same goes for the sound. You can either choose to watch the video on the page (there is a Fullscreen button if you want to watch fullscreen to the right of the video) or click on the Youtube button (to the left of the fullscreen Button) in the video to see it on Youtube. 
+    -   Youtube Video is responsive with 16/9 Aspect Ratio, meaning it has a width of 16 units and height of 9 units through all screen sizes. 
+    -   Button link is orange to visually show is's a button. When you hover over it, the pointer symbol shows up, also text inside button gets bigger so that you understand that it's clickable.
+ 
+      
+ ![Video Section](x)
+
+- **Volunteer Section**
+    -   Orange background to show that it's a new section.
+    -   Image of volunteers and children doing chores, informative text about our volunteers and a button link that says "Volunteer with us" and that takes you directly to that section of that page when you click on it.
+    -   For smaller screens, elements are displayed on top of each other starting with image, header and button. For larger screens, elements are inline with each other starting in the same order from right to left.
+ 
+ ![Volunteer Section](x)
+
+ - **Support Links**
+    -   "Support Love Children Foundation" is displayed on top with 2 thinner lines with a color of beige above and beyond the text to make it stand out more.
+    -   The text tells us to support Love Children Foundation, and below it is a list of options on how you can do that.
+    -   First one on the list is a heart symbol, with "Become Our Monthly Subscriber" followed by "Support our work by becoming a monthly subscriber". The heart symbolises with "giving" and is therefore suitable for the content.
+    -   Second one on the list is a bag/suitcase/portfolio symbol, with the title "Volunteer" followed by the text "Help more kids by volunteering with us". The symbol symbolises with the content since it's about some kind of job/experience.
+    -   Third one on the list is a handshake symbol, with the title "Partner with us" followed by the text "Become our company partner or donate money from your company". Handshake symbol is connected to partnership/agreement and is therefore suitable for the content.
+  
+ ![Support Links ](x)
+b
+ 
 (Remove this after re-writing)
 Notes on what I've done until rewriting this:
 Media query applied to navbar and logo, credits to Code Institute where in Love running project, showed me how to apply media query.
