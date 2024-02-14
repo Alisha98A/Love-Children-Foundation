@@ -321,8 +321,8 @@ a:hover,
 /*Image of volunteers helping and smiling at children*/
 .volunteer-section img {
   order: 1; /* Move the image to the top */
-  width: 200px; /* Set the desired width */
-  height: 113px; /* Set the desired height */
+  width: 200px;
+  height: 118px;
   margin-top: 20px;
 }
 
@@ -762,8 +762,8 @@ html {
   }
   /*Image in volunteer section*/
   .volunteer img {
-    width: 300px;
-    height: auto;
+    width: 320px;
+    height: 189px;
   }
   /*Create more space from the sides*/
   .content {
@@ -885,6 +885,11 @@ html {
   /*Make text in volunteer section bigger*/
   .volunteer-section p {
     font-size: 20px;
+  }
+  /*Image of volunteers helping and smiling at children*/
+  .volunteer-section img {
+    width: 250px;
+    height: 148px;
   }
 
   .content {
