@@ -8,7 +8,7 @@ The reason for doing a website for Love Children Foundation is to give easy acce
 
 ## Features
 
-The first step was to structure everything out using Figma. Since my website is about children, I thought of having a colorful website. And since I want a very simple and basic site, I’m only using two main colors: orange and light blue. The layout is simple, with the logo (Love Children Foundation) to the top left and navigation bar menu to the right. I also added Instagram and Facebook icon to the right that links to www.instagram.com and www.facebook.com. Since I created a website with a non existing organisation, the links goes to facebook and instagram homepage. Due to the fact that I don’t have a real organisation, and therefore cannot link to real accounts.
+The first step was to structure everything out using Figma. Since my website is about children, I thought of having a colorful website. And since I want a very simple and basic site, I’m only using two main colors: orange and light blue. The layout is simple, with the logo (Love Children Foundation) to the top left and navigation bar menu to the right.  
 Directly under navigation bar menu, we have a big picture of some happy African kids. I chose this image because it represents what the whole website Is about - children, and specifically African children. On the picture, we can see kids that are smiling towards the camera. They look happy.
 
 ### Existing Features
@@ -58,24 +58,72 @@ Directly under navigation bar menu, we have a big picture of some happy African 
     -   Button link is orange to visually show is's a button. When you hover over it, the pointer symbol shows up, also text inside button gets bigger so that you understand that it's clickable.
  
       
- ![Video Section](x)
+ ![Video Section](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_video_section.png?raw=true)
 
 - **Volunteer Section**
     -   Orange background to show that it's a new section.
     -   Image of volunteers and children doing chores, informative text about our volunteers and a button link that says "Volunteer with us" and that takes you directly to that section of that page when you click on it.
     -   For smaller screens, elements are displayed on top of each other starting with image, header and button. For larger screens, elements are inline with each other starting in the same order from right to left.
  
- ![Volunteer Section](x)
+ ![Volunteer Section](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_volunteer_section.png?raw=true)
 
  - **Support Links**
     -   "Support Love Children Foundation" is displayed on top with 2 thinner lines with a color of beige above and beyond the text to make it stand out more.
     -   The text tells us to support Love Children Foundation, and below it is a list of options on how you can do that.
     -   First one on the list is a heart symbol, with "Become Our Monthly Subscriber" followed by "Support our work by becoming a monthly subscriber". The heart symbolises with "giving" and is therefore suitable for the content.
-    -   Second one on the list is a bag/suitcase/portfolio symbol, with the title "Volunteer" followed by the text "Help more kids by volunteering with us". The symbol symbolises with the content since it's about some kind of job/experience.
+    -   Second one on the list is a bag/suitcase/portfolio symbol, with the title "Volunteer" followed by the text "Help more kids by volunteering with us". The symbol symbolises with the content since it's about some kind of job/experience. 
     -   Third one on the list is a handshake symbol, with the title "Partner with us" followed by the text "Become our company partner or donate money from your company". Handshake symbol is connected to partnership/agreement and is therefore suitable for the content.
+    -   When you hover over one of the options, pointer symbol shows up and text get bigger. When you click, you get redirected to the Support Us page, and to that specific content.
+    -   This section has a lightblue color to seperate it from the earlier section. 
   
- ![Support Links ](x)
-b
+ ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_support_links.png?raw=true)
+
+
+ - **Footer**
+    -   Footer is the last part of the page and is displayed on all 6 pages (including 404 and thank you page) for maintaining a good structure.
+    -   The footer is displayed at the bottom of the page, with an orange background containing icons with links to social media page. Before the icons, you see a text that says "Where you can find us" which makes it clear that the icon links are connected to our Facebook and Instagram page. However, since this is a project about a non existing organisation, I have linked the icons to www.facebook.com and www.instagram.com for now, which is the homepage of Facebook and Instagram.
+    -   When you hover over social media icons, icon turns red for better user experience. 
+  
+ ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_footer.png?raw=true)
+
+  - **Scrollable Content**
+    -   Scrollable content is displayed on Abous Us page, Our Projects page and Support Us page with the same layout on all pages for easy navigation. The only difference is the actual content.
+    -   For smaller screen sizes, there is a sidebar at the top to navigate between the scrollable content below.
+    -   For larger screen sizes, the sidebar is displayed to the left side of the content to fill out the empty space.
+    -   The scrollable content is there to wrap all the content in one place, making the sidebar available through the scrolling. 
+    -   The sidebar is there as an extra tool for users to easy go to the desired section of the page. By clicking on the link in the sidebar, you get redirected to that specific section.
+    -   The scrollable content contains everything the sidebar links display. 
+   
+      
+ ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_scrollable_content.png?raw=true)
+
+  - **Support Us Homepage Image**
+    -   Big image displayed as "homepage" image for Support Us page.
+    -   Since Support Us page is an important page, because it's vital for the organisation to recieve help from people in form of donations, volunteer and partnership. I have added a big image to catch the users attention.
+    -   The image captures a girl with several kids around.
+    -   The image is responsive and is uploaded in three different sizes for better user experience.
+
+ ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_volunteer_image.png?raw=true)
+ 
+  - **Formdump**
+    -   A form to get in contact with Love Children Foundation.
+    -   The form is well structured with the title "Contact Us" to tell the user that it's a contact form.
+    -   In the contact formular, there is room for filling in your name and e-mail adress which is displayed.
+    -   There is also a function for example when @ is missing, you can't submit the form. Instead a varning text shows up, telling you to fill in the required fields.
+    -   Below name and e-mail, you can choose if you want to donate, volunteer or become a partner. 
+    -   When you hover over submit button, the button turns green for better experience. 
+    -   When you click on submit, you get redirected to a Thank You page.
+
+![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_formdump.png?raw=true)
+
+
+ 
+
+    
+
+
+
+   
  
 (Remove this after re-writing)
 Notes on what I've done until rewriting this:
