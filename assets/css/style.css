@@ -133,6 +133,10 @@ nav ul .submenu ul li:hover > a {
   text-decoration: underline;
 }
 
+container {
+  width: 100%;
+  max-width: 100%;
+}
 /*Photo of happy african kids*/
 .homepage-image img {
   position: relative;
