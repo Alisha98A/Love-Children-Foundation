@@ -705,7 +705,6 @@ html {
   }
   /*Change size and add space for paragraph in first section*/
   .info-about-us p {
-    font-size: 25;
     margin-bottom: 35px;
   }
   /*Change margin for learn more button*/
