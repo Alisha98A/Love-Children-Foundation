@@ -21,119 +21,109 @@ Directly under navigation bar menu, we have a big picture of some happy African 
 
 ![Nav Bar](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_nav.png?raw=true)
 
-
 - **The Homepage Image**
   - The homepage consists of a big eyecatching image of happy children looking at the camera.
-  - The  image is directly related to the logo, Love Children Foundation, which makes it clear that the website is about children.
-
+  - The image is directly related to the logo, Love Children Foundation, which makes it clear that the website is about children.
 
 ![Homepage Page](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_homepage.png?raw=true)
 
-
 - **Info About Us**
-  -  Below homepage image is the first content of the page, consisting of a header, text and button.
-  -   The header is big and bold, which catches the readers attention. Below it is a text about our organisation, followed by an orange button displayed as "Learn More About Us".
-  -   Learn More About Us button, is a link to About Us page. When you click on it, it takes you to that page. 
-  -   First content is well structured and responsive which makes it easy and readable.
-
+  - Below homepage image is the first content of the page, consisting of a header, text and button.
+  - The header is big and bold, which catches the readers attention. Below it is a text about our organisation, followed by an orange button displayed as "Learn More About Us".
+  - Learn More About Us button, is a link to About Us page. When you click on it, it takes you to that page.
+  - First content is well structured and responsive which makes it easy and readable.
 
 ![Info About Us Content](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_info_about_us.png?raw=true)
 
-
 - **Info About Projects**
-    -   Content about our projects beginning with 3 different photos of african children. Followed by a short header and a button link that says "See More Of Our Projects".
-    -    Photos are there to show pictures of children from our organisation, in different environments. Displayed in a row for smaller screens and next to each other for larger ones.
-    -   The text is kept short, to capture the subject of the section.
-    -   The button link is informative, which takes you to the project page when clicking on it. Button link is lightblue to visually show is's a button. When you hover over it, the pointer symbol shows up, also text inside button gets bigger so that you easily understand that it's clickable.
-        
+  - Content about our projects beginning with 3 different photos of african children. Followed by a short header and a button link that says "See More Of Our Projects".
+  - Photos are there to show pictures of children from our organisation, in different environments. Displayed in a row for smaller screens and next to each other for larger ones.
+  - The text is kept short, to capture the subject of the section.
+  - The button link is informative, which takes you to the project page when clicking on it. Button link is lightblue to visually show is's a button. When you hover over it, the pointer symbol shows up, also text inside button gets bigger so that you easily understand that it's clickable.
 
 ![Info About Projects](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_info_about_projects.png?raw=true)
 
-
 - **Video Section**
-    -   Section with header, text, youtube video and button link with lightblue background to clarify that this is a new section of the page. 
-    -   On smaller screens, elements are displayed on top of each other like a column. On larger screens, header and text are displayed to the left and video and button are displayed to the right to utilize the space. 
-    -   The video is embedded from Youtube. For better user experience, you have to click on the video in order for it to play, same goes for the sound. You can either choose to watch the video on the page (there is a Fullscreen button if you want to watch fullscreen to the right of the video) or click on the Youtube button (to the left of the fullscreen Button) in the video to see it on Youtube. 
-    -   Youtube Video is responsive with 16/9 Aspect Ratio, meaning it has a width of 16 units and height of 9 units through all screen sizes. 
-    -   Button link is orange to visually show is's a button. When you hover over it, the pointer symbol shows up, also text inside button gets bigger so that you understand that it's clickable.
- 
-      
- ![Video Section](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_video_section.png?raw=true)
+  - Section with header, text, youtube video and button link with lightblue background to clarify that this is a new section of the page.
+  - On smaller screens, elements are displayed on top of each other like a column. On larger screens, header and text are displayed to the left and video and button are displayed to the right to utilize the space.
+  - The video is embedded from Youtube. For better user experience, you have to click on the video in order for it to play, same goes for the sound. You can either choose to watch the video on the page (there is a Fullscreen button if you want to watch fullscreen to the right of the video) or click on the Youtube button (to the left of the fullscreen Button) in the video to see it on Youtube.
+  - Youtube Video is responsive with 16/9 Aspect Ratio, meaning it has a width of 16 units and height of 9 units through all screen sizes.
+  - Button link is orange to visually show is's a button. When you hover over it, the pointer symbol shows up, also text inside button gets bigger so that you understand that it's clickable.
+
+![Video Section](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_video_section.png?raw=true)
 
 - **Volunteer Section**
-    -   Orange background to show that it's a new section.
-    -   Image of volunteers and children doing chores, informative text about our volunteers and a button link that says "Volunteer with us" and that takes you directly to that section of that page when you click on it.
-    -   For smaller screens, elements are displayed on top of each other starting with image, header and button. For larger screens, elements are inline with each other starting in the same order from right to left.
- 
- ![Volunteer Section](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_volunteer_section.png?raw=true)
+  - Orange background to show that it's a new section.
+  - Image of volunteers and children doing chores, informative text about our volunteers and a button link that says "Volunteer with us" and that takes you directly to that section of that page when you click on it.
+  - For smaller screens, elements are displayed on top of each other starting with image, header and button. For larger screens, elements are inline with each other starting in the same order from right to left.
 
- - **Support Links**
-    -   "Support Love Children Foundation" is displayed on top with 2 thinner lines with a color of beige above and beyond the text to make it stand out more.
-    -   The text tells us to support Love Children Foundation, and below it is a list of options on how you can do that.
-    -   First one on the list is a heart symbol, with "Become Our Monthly Subscriber" followed by "Support our work by becoming a monthly subscriber". The heart symbolises with "giving" and is therefore suitable for the content.
-    -   Second one on the list is a bag/suitcase/portfolio symbol, with the title "Volunteer" followed by the text "Help more kids by volunteering with us". The symbol symbolises with the content since it's about some kind of job/experience. 
-    -   Third one on the list is a handshake symbol, with the title "Partner with us" followed by the text "Become our company partner or donate money from your company". Handshake symbol is connected to partnership/agreement and is therefore suitable for the content.
-    -   When you hover over one of the options, pointer symbol shows up and text get bigger. When you click, you get redirected to the Support Us page, and to that specific content.
-    -   This section has a lightblue color to seperate it from the earlier section. 
-  
- ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_support_links.png?raw=true)
+![Volunteer Section](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_volunteer_section.png?raw=true)
 
+- **Support Links**
+  - "Support Love Children Foundation" is displayed on top with 2 thinner lines with a color of beige above and beyond the text to make it stand out more.
+  - The text tells us to support Love Children Foundation, and below it is a list of options on how you can do that.
+  - First one on the list is a heart symbol, with "Become Our Monthly Subscriber" followed by "Support our work by becoming a monthly subscriber". The heart symbolises with "giving" and is therefore suitable for the content.
+  - Second one on the list is a bag/suitcase/portfolio symbol, with the title "Volunteer" followed by the text "Help more kids by volunteering with us". The symbol symbolises with the content since it's about some kind of job/experience.
+  - Third one on the list is a handshake symbol, with the title "Partner with us" followed by the text "Become our company partner or donate money from your company". Handshake symbol is connected to partnership/agreement and is therefore suitable for the content.
+  - When you hover over one of the options, pointer symbol shows up and text get bigger. When you click, you get redirected to the Support Us page, and to that specific content.
+  - This section has a lightblue color to seperate it from the earlier section.
 
- - **Footer**
-    -   Footer is the last part of the page and is displayed on all 6 pages (including 404 and thank you page) for maintaining a good structure.
-    -   The footer is displayed at the bottom of the page, with an orange background containing icons with links to social media page. Before the icons, you see a text that says "Where you can find us" which makes it clear that the icon links are connected to our Facebook and Instagram page. However, since this is a project about a non existing organisation, I have linked the icons to www.facebook.com and www.instagram.com for now, which is the homepage of Facebook and Instagram.
-    -   When you hover over social media icons, icon turns red for better user experience. 
-  
- ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_footer.png?raw=true)
+![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_support_links.png?raw=true)
 
-  - **Scrollable Content**
-    -   Scrollable content is displayed on Abous Us page, Our Projects page and Support Us page with the same layout on all pages for easy navigation. The only difference is the actual content.
-    -   For smaller screen sizes, there is a sidebar at the top to navigate between the scrollable content below.
-    -   For larger screen sizes, the sidebar is displayed to the left side of the content to fill out the empty space.
-    -   The scrollable content is there to wrap all the content in one place, making the sidebar available through the scrolling. 
-    -   The sidebar is there as an extra tool for users to easy go to the desired section of the page. By clicking on the link in the sidebar, you get redirected to that specific section.
-    -   The scrollable content contains everything the sidebar links display. 
-   
-      
- ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_scrollable_content.png?raw=true)
+- **Footer**
+  - Footer is the last part of the page and is displayed on all 6 pages (including 404 and thank you page) for maintaining a good structure.
+  - The footer is displayed at the bottom of the page, with an orange background containing icons with links to social media page. Before the icons, you see a text that says "Where you can find us" which makes it clear that the icon links are connected to our Facebook and Instagram page. However, since this is a project about a non existing organisation, I have linked the icons to www.facebook.com and www.instagram.com for now, which is the homepage of Facebook and Instagram.
+  - When you hover over social media icons, icon turns red for better user experience.
 
-  - **Support Us Homepage Image**
-    -   Big image displayed as "homepage" image for Support Us page.
-    -   Since Support Us page is an important page, because it's vital for the organisation to recieve help from people in form of donations, volunteer and partnership. I have added a big image to catch the users attention.
-    -   The image captures a girl with several kids around.
-    -   The image is responsive and is uploaded in three different sizes for better user experience.
+![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_footer.png?raw=true)
 
- ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_volunteer_image.png?raw=true)
- 
-  - **Formdump**
-    -   A form to get in contact with Love Children Foundation.
-    -   The form is well structured with the title "Contact Us" to tell the user that it's a contact form.
-    -   In the contact formular, there is room for filling in your name and e-mail adress which is displayed.
-    -   There is also a function for example when @ is missing, you can't submit the form. Instead a varning text shows up, telling you to fill in the required fields.
-    -   Below name and e-mail, you can choose if you want to donate, volunteer or become a partner. 
-    -   When you hover over submit button, the button turns green for better experience. 
-    -   When you click on submit, you get redirected to a Thank You page.
+- **Scrollable Content**
+  - Scrollable content is displayed on Abous Us page, Our Projects page and Support Us page with the same layout on all pages for easy navigation. The only difference is the actual content.
+  - For smaller screen sizes, there is a sidebar at the top to navigate between the scrollable content below.
+  - For larger screen sizes, the sidebar is displayed to the left side of the content to fill out the empty space.
+  - The scrollable content is there to wrap all the content in one place, making the sidebar available through the scrolling.
+  - The sidebar is there as an extra tool for users to easy go to the desired section of the page. By clicking on the link in the sidebar, you get redirected to that specific section.
+  - The scrollable content contains everything the sidebar links display.
+
+![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_scrollable_content.png?raw=true)
+
+- **Support Us Homepage Image**
+  - Big image displayed as "homepage" image for Support Us page.
+  - Since Support Us page is an important page, because it's vital for the organisation to recieve help from people in form of donations, volunteer and partnership. I have added a big image to catch the users attention.
+  - The image captures a girl with several kids around.
+  - The image is responsive and is uploaded in three different sizes for better user experience.
+
+![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_volunteer_image.png?raw=true)
+
+- **Formdump**
+  - A form to get in contact with Love Children Foundation.
+  - The form is well structured with the title "Contact Us" to tell the user that it's a contact form.
+  - In the contact formular, there is room for filling in your name and e-mail adress which is displayed.
+  - There is also a function for example when @ is missing, you can't submit the form. Instead a varning text shows up, telling you to fill in the required fields.
+  - Below name and e-mail, you can choose if you want to donate, volunteer or become a partner.
+  - When you hover over submit button, the button turns green for better experience.
+  - When you click on submit, you get redirected to a Thank You page.
 
 ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_formdump.png?raw=true)
 
-  - **Thank You Page**
-    -   Thank You page with a thank you note for the user after submitting form
-    -   Navigation bar at the top and link to homepage for easy navigatin back to the real website
+- **Thank You Page**
+  - Thank You page with a thank you note for the user after submitting form
+  - Navigation bar at the top and link to homepage for easy navigatin back to the real website
 
-  ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_thank_you.png?raw=true)
+![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_thank_you.png?raw=true)
 
-  - **404 page**
-    -   404 page in case the user gets lost
-    -   Navigation bar at the top and a text in the middle that tells the user to go back to the real website
+- **404 page**
+  - 404 page in case the user gets lost
+  - Navigation bar at the top and a text in the middle that tells the user to go back to the real website
 
-  ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_404.ong.png?raw=true)
+![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_404.ong.png?raw=true)
 
 ### Features Left to Implement
 
     -  What I wanted to add since beginning was a map in the footer to show the location to the (made up) orphanage. But since it would require JavaScript, which I will not be graded on. I decided to let that idea go for now.
-    -  If I had time, I would like to display the scrollable content better. I don't know exactly how, but I would have displayed the text and images so it had better variety of positions, using something called Flexbox to move elements around in different ways. Right now, my scrollable content is in the same order on all three pages (with different text and images of course). There is nothing wrong with the displaying right now, I would just have made it look more organised and fun if I had more time. 
-    
-## Testing 
+    -  If I had time, I would like to display the scrollable content better. I don't know exactly how, but I would have displayed the text and images so it had better variety of positions, using something called Flexbox to move elements around in different ways. Right now, my scrollable content is in the same order on all three pages (with different text and images of course). There is nothing wrong with the displaying right now, I would just have made it look more organised and fun if I had more time.
+
+## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -143,33 +133,35 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-### Validator Testing 
+### Validator Testing
+
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](x)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falisha98a.github.io%2FLove-Children-Foundation%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 ### Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
-## Credits 
+## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-### Content 
+### Content
 
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
@@ -179,12 +171,11 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
-- 
-(Remove this after re-writing)
-Notes on what I've done until rewriting this:
-Media query applied to navbar and logo, credits to Code Institute where in Love running project, showed me how to apply media query.
-Added title with favicon footsteps to represent kids. Link -> https://favicon.io/emoji-favicons/footprints
-Added metatags with keywords related to homepage
+- (Remove this after re-writing)
+  Notes on what I've done until rewriting this:
+  Media query applied to navbar and logo, credits to Code Institute where in Love running project, showed me how to apply media query.
+  Added title with favicon footsteps to represent kids. Link -> https://favicon.io/emoji-favicons/footprints
+  Added metatags with keywords related to homepage
 
 Changed font-family style with Google Fonts. Link -->
 https://fonts.google.com/specimen/Manrope?preview.text=Love%20Children%20Foundation
