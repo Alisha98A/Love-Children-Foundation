@@ -380,7 +380,6 @@ a:hover,
 .line,
 ul {
   font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
   text-transform: uppercase;
