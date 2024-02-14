@@ -132,8 +132,8 @@ nav ul .submenu ul li:hover > a {
   background-color: transparent;
   text-decoration: underline;
 }
-
-container {
+/*Set explicit width and height of homepage image*/
+.homepage-image {
   width: 100%;
   max-width: 100%;
 }
