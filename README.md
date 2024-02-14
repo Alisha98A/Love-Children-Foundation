@@ -116,8 +116,18 @@ Directly under navigation bar menu, we have a big picture of some happy African 
 
 ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_formdump.png?raw=true)
 
+  - **Thank You Page**
+    -   Thank You page with a thank you note for the user after submitting form
+    -   Navigation bar at the top and link to homepage for easy navigatin back to the real website
 
- 
+  ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_thank_you.png?raw=true)
+
+  - **404 page**
+    -   404 page in case the user gets lost
+    -   Navigation bar at the top and a text in the middle that tells the user to go back to the real website
+
+  ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_404.ong.png?raw=true)
+
 
     
 
