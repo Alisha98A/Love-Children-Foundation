@@ -13,65 +13,84 @@ For this project, I've used Manual testing, Lighthouse, W3C Validator and Jigsaw
 ### During Development Testing:
 During the development process, I was manually testing in following ways;
 - Using developer tools in Chrome to check appearance and responsiveness. 
-- Deploy to Github regurarly and check elements so I don't get any bad surprises at the end. 
+- Deploy to Github regurarly and check elements so I don't get any surprises at the end. 
 - Manually testing each element through an extension from VS Code, where I could see a live preview. 
 - Published the page via Github paged and shared my project with friends and family to test and recieved feedback.
 
 ### Manual testing:
-- During testing, I used following browsers to ensure cross-compatibility:
+- During testing, I used following browsers to ensure cross-compatibility and for checking elements work correctly, such as text, buttons, images and other visual elements:
+  
   1. Chrome
   2. Opera 
   3. Firefox
-  4. Edge
+  4. Edge                  OBS!!!   (KOLLA UPP DETTA MER)
 
-- **UI Rendering**
-  - Ensured that HTML elements render correctly across different browsers (Chrome, Firefox, Safari, Edge). Meaning, checking that everything (such as text, buttons, images and other visual elements) works as it should. 
-  - Checked for consistent rendering for different screen sizes and devices (desktop, mobile and tablet).
-- **Responsiveness**
-- Ensured that the website looks good in different screen sizes, by using Developers Tool on Google Chrome to resize the browser window.
+- I used Developer Tools to ensure that the website looks good from different screen sizes, from 280px up to 1228px in width, which is normally desktop, mobile and tablet device. 
 - Checked that there is no overlapping between or breaking elements through different screen devices in Developers Tool.
-- **Layout and Design:**
-- Colors, spacing and overall look, are suitable on all pages with only 2 main colors, lightblue and orange to maintain consistency and recognition of the website. 
+- Ensured that the overall look of the page looks good with layout, spacing and color. Used to 2 main colors, lightblue and orange to maintain consistency and easy recognition of the website. 
 
+
+| Feature | Expectation | Testing | Result |
+| ------- |:-----------:|:-------:| ------:|
+|  Homepage | Logo, homepage image and menu is displayed correctly| Run page | All showing correctly |
+|  Logo | Click on logo to go to homepage | Click on logo | Redirected to homepage | 
+|  Menubar for larger screens | Menu bar is displayed correctly, with side menu showing up when you hover | Run page, hover over menu | Menu bar displaying correctly, sidemenu shows up when hovering over menu |
+|  Menubar for smaller screen | Icon menu is displayed, menu shows up when clicking on icon | Click on icon | Icon showing correctly and menu shows after clicking on icon |
+|  Links in menubar| Redirected to right page after clicking on menu links | Test all menu options to see if directed to the right page| All links is working in menubar |
+|  Learn More About Us button | Click on button to go to About Us page | Test button by clicking on it | Button link goes to About Us page |
+|  See More Of Our Projects button| Click on button to go to Our Projects page | Test button by clicking on it | Button link goes to Our Projects page |
+|  1a. Youtube Video Responsiveness| Responsive in different screen sizes| Use DevTool to check if the video is responsive by viewing from different screen sizes | Video is responsive|
+| 1b. Youtube video function | Plays only when clicking on video, muted automatically | Reload page, see if video is paused, click on video to check if it's muted automatically| Video does not start on it's on, muted when clicking on video |
+|  Our Vision button | Click on button to go to Our Vision section in About Us page | Test button by clicking on it | Button link goes to About Us page, and more specific directly to Our Vision section |
+| Game input steps nothing | Hitting enter without any input will prompt the user to try again | Hit enter on each step of the game through to the end | Input line correctly repeats itself until correct input is given |
+| Volunter with Us button | Click on button to go the Volunteer section in Support Us page | Test by clicking on the button | Button link goes to Support Us page, and more specific directly to the Volunteer section in the page |
+| Support Us links| The links will take you to the right section in Support Us page when clicking on it | Test each link and see if it goes to the right section| All link works
+|  1a. Sidebar in About Us, Our Projects and Support Us page | Sidebar is displayed correctly | Run pages | All showing correctly |
+|  1b. Sidebar functionality | Sidebar menu takes you to the right section when clicking on an alternative | Test all sidebar options on all pages by clicking on them| All sidebar menus work and are linked to the right section of the page|
+|  1c. Sidebar responsiveness| Sidebar displayed on top of the content on smaller screens and on the left side of the content on larger screens| Use DevTools to see if it's displayed correctly | Sidebar is displayed correctly both for smaller and larger screen devices |
+|  Scrollable content | The main content in About us, Our Projects and Support Us page is displayed in a box with scrollable content | Run page the pages to see if the content is scrollable| All showing correctly |
+|  1.a Contact Us form| Contact form in Support us page is showed correctly with a form to fill in Name and e-mail| Test by typing in the form | Contact form displayed correctly |
+|  1b. Concact Us function| If name, email, @ or .com is missing in the field, warning text comes up and the submit button wont work | Test function by not filling in those requierements | Warning sign shows up telling me I have to fill in correctly| 
+|  1c. Submit button | When hover over Submit button, button turns green| Hover over button | Button turns green|
+|  1d. Submit button function | When clicking on Submit button, you get redirected to a Thank You page| Click on button| Redirected to Thank You page |
+|  Thank You page | Thank You page with a note and a link to go back to homepage| Run page, test link to homepage | All showing correctly, link works|
+|  404 page| Logo, 404 note and footer is displayed correctly | Run page | All showing correctly |
+
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
     
 ### Running automatic tests:
   - Lighthouse is a Chrome's extension and to run it, you have do download Google Chrome for Desktop.
-In Google Chrome, go to the URL you want to audit. You can audit any URL on the web.
-Open Chrome DevTools.
-Click the Lighthouse tab. To the left is the viewport of the page that will be audited.
-Click Analyze page load. 
-Click Run audit.
+
+  1. Go to the adress (URL) you want to test. 
+  2. Open Chrome Devtools by rightclicking and click on "Inspect"
+  3. Click on the Lighthouse tab by clicking on More Tabs to the right at the top.
+  4. Click Analyze page load
+  5. Click Run audit
+
 
   - [W3C validator](https://validator.w3.org/) and [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
-Just type (or Cut&Paste) the URL for the page you want to validate into the text field on the form and press the "Validate this page" button. If you have a local file you want to validate, choose the "File Upload" link from the navigation menu.
 
+Type in the adress bar (URL) of the page you want to validate into the text field on the form and press the "Validate this page" button. 
+You can also validate with a local file by choosing "File Upload".
 
 ### Feature Testing:
 
-- **Lighthouse**
+#### Lighthouse
+
 - The tool gives you recommendations on how to improve page performance (Performance Optimization), accessibility issues, best practice recommendations, improving your site's performance, and fast page loads. 
 - Lighthouse has helped me address problems early on, which I've tried to solve. I had to work a lot on my images, to get them resized in different dimensions, and also think of responsiveness, high resolution and fast loads. I started with one image, but thanks to Lighthouse and my mentor, I got to understand how I should upload files and what works best for better user experience. This resulted in uploading 4 different sizes of images, of the same image. To use them in different media queries. I converted 3 of the images to WebP, and saved one in JPG for a fallback image, in case some browser don't support WebP. The images containing a lot of data for example 1916x849 pixel, will be displayed on screens that are larger than 1200px. While the same image but with 618x274px instead, will be used for smaller screen devices. This improves both better resolution of image displayed (higher quality) and faster loads, which is a win win for the user experience. 
 - Another problem I encountered was my list structure for the "Support Us" section at the bottom, I did not have any problem with it before. But after putting an anchor tag 
 link outside my list and inside my ul (containing the list), my structure got broken. I got help from tutor team with this, helping me put my a href tag right and changing span to div because it would be displayed better then. I got help to wrap anchor tag inside li element correctly.
 
-- **W3C Validator**
+#### W3C Validator
 - The most errors I got from here was that I had to remove trailing slashes on void elements. After removing them on all pages, the issue was solved.
-- 
-
-- **Jigsaw validator**
+  
+#### Jigsaw validator
 - I got one error of my paragraph id for media query of 768px and up, where I missed to set a value to font-size, after setting a value to px. The issue was solved.
 
-- **Manual testing**
-
-Manual testing is good to see with your own eyes, that everything works as it should. By checking that every link goes
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ### Validator Testing
 
