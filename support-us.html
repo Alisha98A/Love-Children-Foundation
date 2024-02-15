@@ -103,18 +103,23 @@
           <!-- If the screen width is between 601px and 800px,the image source will be used -->
           <source
             media="(max-width: 600px)"
-            srcset="assets/images/support-us/image-small.jpg"
+            srcset="assets/images/support-us/image-small.webp"
+            type="image/webp"
           >
+         
           <!-- If the screen width is between 801px and 1200px, the image source will be used-->
           <source
             media="(max-width: 800px)"
-            srcset="assets/images/support-us/image-medium.jpg"
+            srcset="assets/images/support-us/image-medium.webp"
+            type="image/webp"
           >
           <!--if screen width is greater than 1200px, the image source will be used-->
           <source
             media="(max-width: 1200px)"
-            srcset="assets/images/support-us/image-large.jpg"
+            srcset="assets/images/support-us/image-large.webp"
+            type="image/webp"
           >
+                <!-- Fallback for browsers not supporting WebP -->
           <img
             src="assets/images/support-us/image-large.jpg"
             alt="Image of of kids smiling at camera"
