@@ -29,6 +29,7 @@ During the development process, I was manually testing in following ways;
 - Checked that there is no overlapping between or breaking elements through different screen devices in Developers Tool.
 - Ensured that the overall look of the page looks good with layout, spacing and color. Used to 2 main colors, lightblue and orange to maintain consistency and easy recognition of the website. 
 
+#### Overview over Project Features:
 
 | Feature | Expectation | Testing | Result |
 | ------- |:-----------:|:-------:| ------:|
@@ -56,10 +57,9 @@ During the development process, I was manually testing in following ways;
 |  Thank You page | Thank You page with a note and a link to go back to homepage| Run page, test link to homepage | All showing correctly, link works|
 |  404 page| Logo, 404 note and footer is displayed correctly | Run page | All showing correctly |
 
+#### Bugs and fixes
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+SKRIV NED ALLA BUGGAR
     
 ### Running automatic tests:
   - Lighthouse is a Chrome's extension and to run it, you have do download Google Chrome for Desktop.
