@@ -132,7 +132,10 @@ Directly under navigation bar menu, we have a big picture of some happy African 
 ### Features Left to Implement
 
     -  What I wanted to add since beginning was a map in the footer to show the location to the (made up) orphanage. But since it would require JavaScript, which I will not be graded on. I decided to let that idea go for now.
-    -  If I had time, I would like to display the scrollable content better. I don't know exactly how, but I would have displayed the text and images so it had better variety of positions, using something called Flexbox to move elements around in different ways. Right now, my scrollable content is in the same order on all three pages (with different text and images of course). There is nothing wrong with the displaying right now, I would just have made it look more organised and fun if I had more time. Overall, testing is good to ensure reliability and functionality of my project.
+    -  If I had time, I would like to display the scrollable content better. I don't know exactly how, but I would have displayed the text and images so it had better variety of positions, using something called Flexbox to move elements around in different ways. Right now, my scrollable content is in the same order on all three pages (with different text and images of course). There is nothing wrong with the displaying right now, I would just have made it look more fun if I really put my focus to it. Overall, testing is good to ensure reliability and functionality of my project.
+    - I would also make the Support Us contact form fully functional by recieving and collecting data from the users who submit. 
+    - More information on the landing page (first page) for better content, by adding quotes and other types of text.
+ 
 
 ## Testing
 
@@ -163,88 +166,94 @@ After creating your repository, you can push the project to Github. If you're us
 You can find the live site via the following link  - [Love Children Foundation](https://alisha98a.github.io/Love-Children-Foundation/)
 
 
- 
-
-
 
 ## Credits
-[Matt Bodden](https://github.com/MattBCoding)
-Code Institute Slack Community
 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+### General reference
+- This project was influenced by Love Running, a code-along project from Code Institute. By trying to understand the underlying principles I have tried to adapt them to my own project. However, this might involve using similar container elements, semantic tags etc.
+- I relied very much upon Code Institute's learning material, together with MDN and W3Schools.
+- Code Institute Slack Community has also been a big support.
+- A specific THANKS to [Matt Bodden](https://github.com/MattBCoding) who helped me through this journey. I would not be here without him!
+- Tutoring team on Code Institute has also been there for me with providing me materials and articles for understanding the project.
+- I've used [OpenAI](https://chat.openai.com/) for explanation over things I needed more clarification in.
 
 ### Content
+  - All fonts imported from - Google Fonts
+  - Media query applied to navbar and logo, credits to Code Institute where in Love running project, showed me how to apply media query.
+  - Video section, had trouble with positioning of elements. Tried different methods but finally solved it by having 2 divs, 1 for header and text and one for video and button. Also removed my position absolute from iframe because it blocked so my button could'nt move. By removing it, I could position my button where I wanted again. I got help from tutoring team on this one.
+  - I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div.
+  - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) helped me with different types of input types, together with Learn Code Institute.
+  - [W3Schools](https://www.w3schools.com/html/html_links.asp) helped me understand how hyperlinks works which I applied to the logo, to link to homepage.
+  - [Developer Chrome](https://developer.chrome.com/docs/lighthouse/performance/uses-webp-images/?utm_source=lighthouse&utm_medium=devtools) website helped me understand more about images and that by converting them from JPG to WebP or AVIV format, the images will load faster.
+https://tiny-img.com/blog/best-image-size-for-website/
+  - [Eksposure](https://www.eksposure.com/4-3-vs-16-9-aspect-ratio/) website was a good reference for what aspect ratio the image should be in.
+  - Responsive youtube code adapted from [Avexdesigns](avexdesigns.com/blog/responsive-youtube-embed).
+  - Used display=swap to ensure the text is displayed using a fallback font until the custom font is loaded. From [Developer Chrome Article](https://developer.chrome.com/docs/lighthouse/performance/font-display/?utm_source=lighthouse&utm_medium=devtools). Did not put this in css though, i moved it from css into html instead for better control.
+  - Hide text using the sr-only class from [CSS Tricks](https://css-tricks.com/inclusively-hidden/) and with help from [Matt Bodden](https://github.com/MattBCoding)
+  - [Aria label] (https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label source for putting aria label to my social media icons)
+  - [Facebook](https://www.facebook.com/ ) and[Instagram](https://www.instagram.com/) for linking in my footer.
+    
 
-- The text for the Home page was taken from Wikipedia Article A
+
+
+  
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
+  -  [Homepage image](https://unsplash.com/s/photos/africa-kids)
+  -  [Photo of boy in school](https://unsplash.com/photos/boy-writing-on-printer-paper-near-girl-O5EMzfdxedg)
+  -   [Kids in classroom](https://unsplash.com/photos/a-group-of-young-children-standing-in-a-window-7MD4DR9jbP0)
+  -    [Happy girls](https://unsplash.com/photos/toddlers-standing-inside-building-KBpIcWV6o2c)
+  -    [Image of volunteers](https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/images2/program_content/va-whypayvolunteerabroad-photo2-1458725297.png)
+  -    [Image of boy showing hand with rubber](https://images.unsplash.com/photo-1500823050524-096fd13fa287?q=80&w=2449&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  -  [Image of boys holding camera](https://images.unsplash.com/photo-1506370612293-360919ece3d9?q=80&w=2916&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  -   [Image of boy holding basketball](https://images.unsplash.com/photo-1527091330993-c33b51a8ccfa?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  -   [Image of girls doing a dance pose](https://images.unsplash.com/photo-1528808302-cddd825c94fd?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  -   [Homepage of support us volunteer image](https://www.volunteerhq.org/images/hero/volunteering-in-africa-with-ivhq.jpg)
+  -   [Image of boy smiling and surrounded by children](https://images.unsplash.com/photo-1543689604-6fe8dbcd1f59?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  -   [Image of person showing hands with coins](https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  -   [Homepage image](https://unsplash.com/s/photos/africa-kids)
+  -   Added title with favicon footsteps to represent kids.[Favicon](https://favicon.io/emoji-favicons/footprints)
+  -   Changed font-family style with [Google Fonts](https://fonts.google.com/specimen/Manrope?preview.text=Love%20Children%20Foundation)
+  -   Change video size from 768px and up, got help from Tutoring Team on Code Institute.
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-- (Remove this after re-writing)
-  Notes on what I've done until rewriting this:
-  Media query applied to navbar and logo, credits to Code Institute where in Love running project, showed me how to apply media query.
-  Added title with favicon footsteps to represent kids. Link -> https://favicon.io/emoji-favicons/footprints
-  Added metatags with keywords related to homepage
 
-Changed font-family style with Google Fonts. Link -->
-https://fonts.google.com/specimen/Manrope?preview.text=Love%20Children%20Foundation
 
-Copied screen size max width responsive from Love Running project. Is it okay or should I remove?
 
-challenges: to make section 2 look good at different screen sizes.
 
+
+ 
+
+UNFIXED BUGS 
 didn't manage to make images in project section display better when bigger screen size than 992px (wanted bigger and more space between)
 didn't get "change the world with us" text at the homepage image fit when smaller screen size.
-
-change video size from 768px and up, didn't manage to make the change. It must be larger - solved this 24/1 by removing max-width on line 255. Got help from Tutoring session.
-text-video next to video is a link? - solved this 24/1 by closing a tag, now it's no link anymore
 make video section look better at bigger screen sizes
 change button link so its the same size for every button at every media query
 failed with making list in volunteer section centered from 768px and up.
 cannot add margin top to media query of 768px and higher when i want to target learn-more-buttom
 volunteer button, cannot move more right in media query of 768px and up
-
 VIDEO BUTTON from 630px and higher doesn't move. Something is blocking. I want it inline with video.
 PROJECT BUTTON on 1228px and higher needs to be positioned more up, right now its outisde of section. FIX THIS
 SAME BUTTON needs to be centered on 280px and up
 VIDEO SECTION needs to be fixed from 630px and up. FIX THIS
+Project button from 768px and above has an absolute positioning, line 661. Therefore, it moves when screen gets bigger
 
 VIDEO BUTTON NEEDS MORE SPACE from 280px FIX THIS
 VIDEO NEEDS TO BE CENTERED FROM 480PX, when i add width. It's not centered anymore
 Too much space at the top from 630px and up in video section
 FROM 992PX AND UP, VIDEO IS NOT SHOWING FULL HEIGHT
 added flexbox to list for bigger screens, but it didn't work
-Project button from 768px and above has an absolute positioning, line 661. Therefore, it moves when screen gets bigger
 
-SOLVING:
-Video section, had trouble with positioning of elements. Tried different methods but finally solved it by having 2 divs, 1 for header and text and one for video and button. Also removed my position absolute from iframe because it blocked so my button could'nt move. By removing it, I could position my button where I wanted again. I got help from tutoring team on this one.
+FIXED BUGS
+change video size from 768px and up, didn't manage to make the change. It must be larger - solved this 24/1 by removing max-width on line 255. Got help from Tutoring session.
+text-video next to video is a link? - solved this 24/1 by closing a tag, now it's no link anymore
 Add tabindex="0" attribute to each anchor (<a>), links becomes focusable programmatically by keyboard navigation. When a user tabs through the page elements, these links will receive focus, making them accessible without relying on JavaScript event handlers like onmouseover() or onmouseout(). Lighthouse warned me of that.
-
-credits:
-I was stuck on video section. Elements didn't move. With help from John on tutoring team, I got help to move iframe inside of video container div. So that I could target all three elements (video, text and button) into position:flex;. Before, iframe container was outside of video container div.
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
-This website above helped me with different types of input types, together with Learn Code Institute.
-https://www.w3schools.com/html/html_links.asp
-This website helped me understand how hyperlinks works which I applied to the logo, to link to homepage.
-https://developer.chrome.com/docs/lighthouse/performance/uses-webp-images/?utm_source=lighthouse&utm_medium=devtools
-This website, got here from devtools lighthouse. Helped me understand more about images and that by converting them from JPG to WebP or AVIV format, the images will load faster.
-https://tiny-img.com/blog/best-image-size-for-website/
-https://www.eksposure.com/4-3-vs-16-9-aspect-ratio/
-This link above was a good reference for what aspect ratio the image should be in.
-
-Responsive youtube code adapted from avexdesigns.com/blog/responsive-youtube-embed
-Used display=swap to ensure the text is displayed using a fallback font until the custom font is loaded. From https://developer.chrome.com/docs/lighthouse/performance/font-display/?utm_source=lighthouse&utm_medium=devtools. Did not put this in css though, i moved it from css into html instead for better control.
-
-LIGHTHOUSE FIXES
-Currently in the header you have an input element, then a label element for the input that has a font awesome icon in it. That means a screen reader doesn't know what the checkbox input element is for as the label is empty, here you can't use an aria-label though so we need a different approach. You can fix this by putting a span element inside the label next to the icon, then inside the span you can put the text 'toggle menu' and give it a class of sr-only if you have a look at this article, it explains how to hide the text using that sr-only class, it also gives you the css code you need to hide it. Don't forget to credit it in your readme.
+ Currently in the header you have an input element, then a label element for the input that has a font awesome icon in it. That means a screen reader doesn't know what the checkbox input element is for as the label is empty, here you can't use an aria-label though so we need a different approach. You can fix this by putting a span element inside the label next to the icon, then inside the span you can put the text 'toggle menu' and give it a class of sr-only if you have a look at this article, it explains how to hide the text using that sr-only class, it also gives you the css code you need to hide it. Don't forget to credit it in your readme.
 https://css-tricks.com/inclusively-hidden/
 
-<!--Add a photo of how the website looks like on different screen devices-->
 
-![Responsice Mockup](copy link from github and the image)
+
+
+
+
