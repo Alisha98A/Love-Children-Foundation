@@ -143,8 +143,24 @@ Details about testing is referred to a seperate document called TESTING.md file
 ![Testing ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/TESTING.md)
 
 ### Unfixed Bugs
+- Didn't get "change the world with us" text at the homepage image to fit when smaller screen size. It didn't look good, so I removed it completely. This because, this element did not affect the rest of the content. 
+make video section look better at bigger screen sizes
+change button link so its the same size for every button at every media query
+failed with making list in volunteer section centered from 768px and up.
+cannot add margin top to media query of 768px and higher when i want to target learn-more-buttom
+volunteer button, cannot move more right in media query of 768px and up
+VIDEO BUTTON from 630px and higher doesn't move. Something is blocking. I want it inline with video.
+PROJECT BUTTON on 1228px and higher needs to be positioned more up, right now its outisde of section. FIX THIS
+SAME BUTTON needs to be centered on 280px and up
+VIDEO SECTION needs to be fixed from 630px and up. FIX THIS
+Project button from 768px and above has an absolute positioning, line 661. Therefore, it moves when screen gets bigger
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+VIDEO BUTTON NEEDS MORE SPACE from 280px FIX THIS
+VIDEO NEEDS TO BE CENTERED FROM 480PX, when i add width. It's not centered anymore
+Too much space at the top from 630px and up in video section
+FROM 992PX AND UP, VIDEO IS NOT SHOWING FULL HEIGHT
+added flexbox to list for bigger screens, but it didn't work
+
 
 ## Deployment
 
@@ -225,25 +241,6 @@ https://tiny-img.com/blog/best-image-size-for-website/
 
  
 
-UNFIXED BUGS 
-didn't manage to make images in project section display better when bigger screen size than 992px (wanted bigger and more space between)
-didn't get "change the world with us" text at the homepage image fit when smaller screen size.
-make video section look better at bigger screen sizes
-change button link so its the same size for every button at every media query
-failed with making list in volunteer section centered from 768px and up.
-cannot add margin top to media query of 768px and higher when i want to target learn-more-buttom
-volunteer button, cannot move more right in media query of 768px and up
-VIDEO BUTTON from 630px and higher doesn't move. Something is blocking. I want it inline with video.
-PROJECT BUTTON on 1228px and higher needs to be positioned more up, right now its outisde of section. FIX THIS
-SAME BUTTON needs to be centered on 280px and up
-VIDEO SECTION needs to be fixed from 630px and up. FIX THIS
-Project button from 768px and above has an absolute positioning, line 661. Therefore, it moves when screen gets bigger
-
-VIDEO BUTTON NEEDS MORE SPACE from 280px FIX THIS
-VIDEO NEEDS TO BE CENTERED FROM 480PX, when i add width. It's not centered anymore
-Too much space at the top from 630px and up in video section
-FROM 992PX AND UP, VIDEO IS NOT SHOWING FULL HEIGHT
-added flexbox to list for bigger screens, but it didn't work
 
 FIXED BUGS
 change video size from 768px and up, didn't manage to make the change. It must be larger - solved this 24/1 by removing max-width on line 255. Got help from Tutoring session.
