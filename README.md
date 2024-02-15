@@ -1,4 +1,4 @@
-#Welcome to ![Love Children Foundation](https://alisha98a.github.io/Love-Children-Foundation/)
+# Welcome to [Love Children Foundation](https://alisha98a.github.io/Love-Children-Foundation/)
 
 Love Children Foundation is a website that hopes to give people awareness about the poor/homeless children in Africa. With a proper website, we hope to give the audience all the information they need about our organisation and what we do for these children. The site will be targeted toward all kinds of people, that wants to help us with donation, funding or by volunteering at our orphanage in Africa. Our website will be useful for companies and people of all ages to easy navigate through our site, to quickly learn who we are and what we do, and also get information about what they themselves can do.
 
@@ -38,13 +38,14 @@ Directly under navigation bar menu, we have a big picture of some happy African 
 - **Info About Projects**
   - Content about our projects beginning with 3 different photos of african children. Followed by a short header and a button link that says "See More Of Our Projects".
   - Photos are there to show pictures of children from our organisation, in different environments. Displayed in a row for smaller screens and next to each other for larger ones.
-  - The text is kept short, to capture the subject of the section.
+  - The text is kept short, to capture the subject of the section. Which is information about our projects.
   - The button link is informative, which takes you to the project page when clicking on it. Button link is lightblue to visually show is's a button. When you hover over it, the pointer symbol shows up, also text inside button gets bigger so that you easily understand that it's clickable.
 
 ![Info About Projects](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_info_about_projects.png?raw=true)
 
 - **Video Section**
   - Section with header, text, youtube video and button link with lightblue background to clarify that this is a new section of the page.
+  - The header gives a little tease about the video, displayed as "Our Little Kofi" to tell the user that the section is about someone who's name is Kofi. Below is a text with direction to watch the video to learn more about Kofi. The video is about Kofi, an struggling little baby in Africa to show how she was found and how she now is taken care of. The goal with showing this video, is for the user to understand a little more about the homeless children in Africa and what we are doing to help. 
   - On smaller screens, elements are displayed on top of each other like a column. On larger screens, header and text are displayed to the left and video and button are displayed to the right to utilize the space.
   - The video is embedded from Youtube. For better user experience, you have to click on the video in order for it to play, same goes for the sound. You can either choose to watch the video on the page (there is a Fullscreen button if you want to watch fullscreen to the right of the video) or click on the Youtube button (to the left of the fullscreen Button) in the video to see it on Youtube.
   - Youtube Video is responsive with 16/9 Aspect Ratio, meaning it has a width of 16 units and height of 9 units through all screen sizes.
@@ -73,7 +74,7 @@ Directly under navigation bar menu, we have a big picture of some happy African 
 - **Footer**
   - Footer is the last part of the page and is displayed on all 6 pages (including 404 and thank you page) for maintaining a good structure.
   - The footer is displayed at the bottom of the page, with an orange background containing icons with links to social media page. Before the icons, you see a text that says "Where you can find us" which makes it clear that the icon links are connected to our Facebook and Instagram page. However, since this is a project about a non existing organisation, I have linked the icons to www.facebook.com and www.instagram.com for now, which is the homepage of Facebook and Instagram.
-  - When you hover over social media icons, icon turns red for better user experience.
+  - When you hover over social media icons, icon changes color. This for the user to know that it's a link. Which is good for user experience. 
 
 ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_footer.png?raw=true)
 
@@ -118,6 +119,16 @@ Directly under navigation bar menu, we have a big picture of some happy African 
 
 ![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_404.ong.png?raw=true)
 
+- **Typography**
+  - There are three fonts used throughout the page:
+ 1. "Roboto" sans-serif (for the logo and menubar and all buttons)
+ 2. Inika Serif (for the main body)
+ 3. "Roboto Condensed", sans-serif (for the Support Us list)
+
+- **Anchor tags**
+  - My anchor tags on all page content has no underline for a cleaner structure, instead they have a styling so that when you hover over, the link gets bigger. Only exception is on menubar. When you hover over menu, I added underline to point out. I also added a smooth transitioning for better user experience.
+  - Cursor is set to pointer when hovering over
+  
 ### Features Left to Implement
 
     -  What I wanted to add since beginning was a map in the footer to show the location to the (made up) orphanage. But since it would require JavaScript, which I will not be graded on. I decided to let that idea go for now.
@@ -125,23 +136,41 @@ Directly under navigation bar menu, we have a big picture of some happy African 
 
 ## Testing
 
-Click here to see testing
+Details about testing is referred to a seperate document called TESTING.md file
+![Testing ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/TESTING.md)
+
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+Before deploying your project to GitHub pages, ensure that your project has the necessary configuration files like index.html file and README.md file, which was a requirement for the project. 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+Steps to set up a GitHub repository:
+1. Go to GitHub's website (https://github.com/)
+2. Log in to your account (or create a new one), press "New" button to create a new repository.
+3. Follow the steps to set up your repository
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+After creating your repository, you can push the project to Github. If you're using Git locally, go to your project directory in the terminal and add the Github repository, commit your changes and after that you can push it to GitHub.
+
+  - When pushed to GitHub, in the GitHub repository, navigate to the Settings tab
+  - In the settings menu on the left-hand side, scroll down until you find the "Pages" tab.
+  - Under the Source section, select the Main branch from the drop-down menu and click Save.
+  - A message will be displayed to confirm a successful deployment to GitHub pages and the live link will show up.
+  - Finally, you can click on the provided link to visit your deployed site, and check that everything works well!
+
+You can find the live site via the following link  - [Love Children Foundation](https://alisha98a.github.io/Love-Children-Foundation/)
+
+
+ 
+
+
 
 ## Credits
+[Matt Bodden](https://github.com/MattBCoding)
+Code Institute Slack Community
+
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
