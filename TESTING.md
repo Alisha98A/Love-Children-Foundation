@@ -1,5 +1,5 @@
 
-# TESTING PAGE
+# TESTING
 
 
 ### Overview:
@@ -105,3 +105,11 @@ link outside my list and inside my ul (containing the list), my structure got br
   - No errors were returned when passing through the official [W3C validator](http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Falisha98a.github.io%2FLove-Children-Foundation%2F&usermedium=all&vextwarning=&warning=1)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falisha98a.github.io%2FLove-Children-Foundation%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+
+ ![Lighthouse score for mobile device](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_mobile_lighthouse.png?raw=true)
+Lighthouse Score for mobile device
+
+
+ ![Lighthouse score for desktop device](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_desktop_lighthouse.png?raw=true)
+Lighthouse Score for desktop device
+
