@@ -229,8 +229,8 @@ https://tiny-img.com/blog/best-image-size-for-website/
   -   Changed font-family style with [Google Fonts](https://fonts.google.com/specimen/Manrope?preview.text=Love%20Children%20Foundation)
   -   Change video size from 768px and up, got help from Tutoring Team on Code Institute.
   -   [Matt Bodden](https://github.com/MattBCoding) explained how to use different dimensions on images on different screen sizes, for better user experience and faster loads.
-  -   [Handshake image](https://www.simpleimageresizer.com/_uploads/photos/730f0c06/cytonn-photography-n95VMLxqM2I-unsplash_1200x801.jpg) in Support Us page. 
-
+  -   [Handshake image](https://www.simpleimageresizer.com/_uploads/photos/730f0c06/cytonn-photography-n95VMLxqM2I-unsplash_1200x801.jpg) in Support Us page.
+  -   Article of [Compressing images](https://wpengine.com/resources/optimize-images-for-web/) 
 
 
 
