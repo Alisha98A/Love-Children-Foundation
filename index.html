@@ -117,14 +117,18 @@
             srcset="assets/images/homepage-image/image-small.webp"
             type="image/webp"
           >
-          <!-- If the screen width is greater than 800px, the image source will be used-->
+          <!-- If the screen width is between 800px and 1200px, the image source will be used-->
           <source
             media="(min-width: 800px)"
-            srcset="assets/images/homepage-image/image-large.webp"
+            srcset="assets/images/homepage-image/image-medium.webp"
             type="image/webp"
           >
-        
-       
+         <!--if screen width is greater than 1201px, the image source will be used-->
+         <source
+         media="(min-width: 1201px)"
+         srcset="assets/images/homepage-image/image-large.webp"
+         type="image/webp"
+       >
           <!-- Fallback for browsers not supporting WebP -->
           <img
             src="assets/images/homepage-image/image-large.jpg"

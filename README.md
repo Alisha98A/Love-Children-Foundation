@@ -209,6 +209,7 @@ https://tiny-img.com/blog/best-image-size-for-website/
   - [Aria label] (https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label source for putting aria label to my social media icons)
   - [Facebook](https://www.facebook.com/ ) and[Instagram](https://www.instagram.com/) for linking in my footer.
   - Add tabindex="0" attribute to each anchor (<a>). https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
+  - Compressed homepage image to save data, with the help from Holly at Tutoring team. 
     
 
 
