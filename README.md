@@ -153,10 +153,9 @@ Details about testing is referred to a seperate document called TESTING.md file
 ![Testing ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/TESTING.md)
 
 ### Unfixed Bugs
-- Didn't get "change the world with us" text at the homepage image to fit when smaller screen size. It didn't look good, so I removed it completely because it was not important to have it. 
-  
-
-
+- Didn't get "change the world with us" text at the homepage image to fit when smaller screen size. It didn't look good, so I removed it completely because it was not important to have it.
+- Tried to fix video element with lazy loading to get rid of complaints in Lighthouse, however. I did not manage to get rid of the isse. Since it's not a bigger problem for the website. I decided to let that go for now.
+- I've tried a lot with fixing the explicit width and height on images but since I want my images to be responsive, I could not set a value in for example px. Instead I set a value in %, which Lighthouse didn't approve. The issue with setting an explicit width and height is therefore still remaining, but it did not affect the overall performance of the page. Got help from both my Mentor Matt and tutoring team on this one, but we did not come up with a good solution. So I decided to let it go. 
 
 
 ## Deployment
