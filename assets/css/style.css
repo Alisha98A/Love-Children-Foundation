@@ -156,7 +156,7 @@ main {
 /*Information about us, displayed below homepage image*/
 .info-about-us {
   margin-top: 4px;
-  margin-bottom: 110px; /*Create more space between this section and the next*/
+  margin-bottom: 120px; /*Create more space between this section and the next*/
   position: relative;
   top: 5rem;
   text-align: center;
@@ -252,6 +252,7 @@ a:hover,
 /*Button displayed in project section*/
 #project-button {
   background: #d5eeff;
+  margin-bottom:30px;
 }
 /* Video Section */
 /*Parent container*/
@@ -345,7 +346,7 @@ a:hover,
 #volunteer-button {
   background: #d5eeff;
   margin-top: 20px; /* Add a margin-top to create space between text and button */
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 /*This container wraps around the content that is centered*/
 .contact {
