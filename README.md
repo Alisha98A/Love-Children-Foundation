@@ -143,7 +143,9 @@ Details about testing is referred to a seperate document called TESTING.md file
 ![Testing ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/TESTING.md)
 
 ### Unfixed Bugs
-- Didn't get "change the world with us" text at the homepage image to fit when smaller screen size. It didn't look good, so I removed it completely. This because, this element did not affect the rest of the content. 
+- Didn't get "change the world with us" text at the homepage image to fit when smaller screen size. It didn't look good, so I removed it completely because it was not important to have it. 
+- 
+
 make video section look better at bigger screen sizes
 change button link so its the same size for every button at every media query
 failed with making list in volunteer section centered from 768px and up.
