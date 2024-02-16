@@ -1177,5 +1177,67 @@ body, #main-header {
   max-width: 2000px;
   margin: 0 auto; /* Center the container horizontally */
 }
+/*Change size of images*/
 
+.volunteer-section p {
+  font-size: 40px;
+  max-width: 900px;
+}
+
+ /*Make buttons bigger and increase padding*/
+ .button {
+  font-size: 35px;
+  padding: 18px 23px;
+}
+/*When you hover over project button*/
+a:hover,
+.button:hover {
+  font-size: 38px;
+}
+ /*Make more space at the bottom of the first section*/
+ .info-about-us h1 {
+  font-size: 50px;
+ }
+ .info-about-us p {
+ font-size: 45px;
+ max-width: 1500px;
+}
+nav ul li:hover > a,
+  nav ul .submenu ul li:hover > a,
+  .logo {
+    font-size: 30px;
+  }
+
+  /*Navbar styles with dropdown toggle*/
+  /*When you hover over submenu*/
+  nav,
+  nav ul .submenu:hover ul {
+    font-size: 30px;
+  }
+
+   /*Change size of images*/
+   .project-images img {
+    margin-right: 8rem;
+    width: 500px;
+    height: auto;
+  }
+
+  /*Text about our projects*/
+  #project-text {
+    font-size: 50px;
+    width: 1000px;
+    margin:50px;
+  }
+  /*Set bigger font size for header in video section*/
+  .text-container h1 {
+    font-size: 4em;
+  }
+  /*Set bigger font size for text in video section*/
+  #text-video {
+    width:22em;
+    font-size: 3em;
+  }
+  .line {
+    font-size: 70px;
+  }
 }
