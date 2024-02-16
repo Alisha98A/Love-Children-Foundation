@@ -1173,7 +1173,7 @@ html {
 }
 /*Div around whole content including header, text and footer to display better when viewed from 2000px device and up*/
 @media screen and (min-width: 2000px) {
-.main-body {
+body, #main-header {
   max-width: 2000px;
   margin: 0 auto; /* Center the container horizontally */
 }
