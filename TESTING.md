@@ -61,10 +61,9 @@ During the development process, I was manually testing in following ways;
 
 - Problem was to change video size from 768px and up, solved this 24/1-24 by removing max-width on line 255. Got help from Tutoring Team on Code Institute.
 - Problem with text-video next to video which in the beginning was a link. Solved this 24/1 by closing a tag, now it's no link anymore. Credits to Tutoring Team on Code Institute.
-- Add tabindex="0" attribute to each anchor (<a>), links becomes focusable programmatically by keyboard navigation. When a user tabs through the page elements, these links will receive focus, making them accessible without relying on JavaScript event handlers like onmouseover() or onmouseout(). Lighthouse warned me of that. Fixed bug with help from this article https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
+- Add tabindex="0" attribute to each anchor (<a>), links becomes focusable programmatically by keyboard navigation. When a user tabs through the page elements, these links will receive focus, making them accessible without relying on JavaScript event handlers like onmouseover() or onmouseout(). Lighthouse warned me of that. Fixed bug with help from [Developer Mozilla ](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) article. 
+- Fix Lighthouse results by adding an sr-only class for the checkbox element in the header.[CSS Tricks ](https://css-tricks.com/inclusively-hidden/) website helped me solve this. 
 
- Currently in the header you have an input element, then a label element for the input that has a font awesome icon in it. That means a screen reader doesn't know what the checkbox input element is for as the label is empty, here you can't use an aria-label though so we need a different approach. You can fix this by putting a span element inside the label next to the icon, then inside the span you can put the text 'toggle menu' and give it a class of sr-only if you have a look at this article, it explains how to hide the text using that sr-only class, it also gives you the css code you need to hide it. Don't forget to credit it in your readme.
-https://css-tricks.com/inclusively-hidden/
 
     
 ### Running automatic tests:

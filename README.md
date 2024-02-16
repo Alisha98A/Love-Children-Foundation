@@ -129,6 +129,10 @@ Directly under navigation bar menu, we have a big picture of some happy African 
   - My anchor tags on all page content has no underline for a cleaner structure, instead they have a styling so that when you hover over, the link gets bigger. Only exception is on menubar. When you hover over menu, I added underline to point out. I also added a smooth transitioning for better user experience.
   - Cursor is set to pointer when hovering over
   
+  - **Anchor tags**
+  Hero image is compressed to save data
+
+  
 ### Features Left to Implement
 
     -  What I wanted to add since beginning was a map in the footer to show the location to the (made up) orphanage. But since it would require JavaScript, which I will not be graded on. I decided to let that idea go for now.
