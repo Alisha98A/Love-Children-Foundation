@@ -106,10 +106,34 @@ link outside my list and inside my ul (containing the list), my structure got br
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falisha98a.github.io%2FLove-Children-Foundation%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
- ![Lighthouse score for mobile device](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_mobile_lighthouse.png?raw=true)
-Lighthouse Score for mobile device
 
 
- ![Lighthouse score for desktop device](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_desktop_lighthouse.png?raw=true)
-Lighthouse Score for desktop device
+#### Lighthouse Score
+
+ ![Homepage desktop](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/homepage-desktop.png?raw=true)
+ Homepage Desktop device
+ 
+  ![Homepage mobile](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/homepage-mobile.png?raw=true)
+  Homepage Mobile Device
+
+
+ ![About Us desktop](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/about-us-desktop.png?raw=true)
+About Us Desktop
+
+
+ ![About Us mobile](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/about-us-mobile.png?raw=true)
+About Us Mobile Device
+
+ ![Projekt Desktop](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/projects-desktop.png?raw=true)
+Project Desktop Device
+
+ ![Projekt Mobile](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/projects-mobile.png?raw=true)
+Project Mobile Device
+
+ ![Support Us Desktop](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/support-desktop.png?raw=true)
+Support Us Desktop
+
+ ![Support Us Mobile](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/support-mobile.png?raw=true)
+Support Us Mobile
+
 
