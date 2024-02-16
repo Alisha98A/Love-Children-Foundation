@@ -1052,11 +1052,7 @@ html {
   #project-button {
     margin-bottom: 50px;
   }
-  /*When you hover over project button*/
-  a:hover,
-  #project-button:hover {
-    font-size: 23px;
-  }
+
   .iframe-container {
     margin-right: 15%;
   }
