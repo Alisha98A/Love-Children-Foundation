@@ -132,7 +132,7 @@ Directly under navigation bar menu, we have a big picture of some happy African 
   - **Anchor tags**
   Hero image is compressed to save data
 
-  
+
 ### Features Left to Implement
 
     -  What I wanted to add since beginning was a map in the footer to show the location to the (made up) orphanage. But since it would require JavaScript, which I will not be graded on. I decided to let that idea go for now.
@@ -216,6 +216,10 @@ https://tiny-img.com/blog/best-image-size-for-website/
   - [Facebook](https://www.facebook.com/ ) and[Instagram](https://www.instagram.com/) for linking in my footer.
   - Add tabindex="0" attribute to each anchor (<a>). https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
   - Compressed homepage image to save data, with the help from Holly at Tutoring team. 
+  - Joanne from tutoring helped me with the anchor tag to Support Us list.
+  - [Geeksforgeeks](https://www.geeksforgeeks.org/html-iframe-frameborder-attribute/) article helped me with understanding obsolote frameborder attribute.
+  
+
     
 
 
@@ -241,6 +245,7 @@ https://tiny-img.com/blog/best-image-size-for-website/
   -   Added title with favicon footsteps to represent kids.[Favicon](https://favicon.io/emoji-favicons/footprints)
   -   Changed font-family style with [Google Fonts](https://fonts.google.com/specimen/Manrope?preview.text=Love%20Children%20Foundation)
   -   Change video size from 768px and up, got help from Tutoring Team on Code Institute.
+ Handshake bild i support us https://www.simpleimageresizer.com/_uploads/photos/730f0c06/cytonn-photography-n95VMLxqM2I-unsplash_1200x801.jpg
 
 
 

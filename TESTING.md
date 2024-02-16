@@ -63,6 +63,7 @@ During the development process, I was manually testing in following ways;
 - Problem with text-video next to video which in the beginning was a link. Solved this 24/1 by closing a tag, now it's no link anymore. Credits to Tutoring Team on Code Institute.
 - Add tabindex="0" attribute to each anchor (<a>), links becomes focusable programmatically by keyboard navigation. When a user tabs through the page elements, these links will receive focus, making them accessible without relying on JavaScript event handlers like onmouseover() or onmouseout(). Lighthouse warned me of that. Fixed bug with help from [Developer Mozilla ](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) article. 
 - Fix Lighthouse results by adding an sr-only class for the checkbox element in the header.[CSS Tricks ](https://css-tricks.com/inclusively-hidden/) website helped me solve this. 
+- Joanne from tutoring helped me with the ul li list. Before, anchor tag was outside of li which created problem with structure. Element ul not allowed as child of element span in this context. Joanne from tutoring helped me changing span to div, and anchor tag to be wrapped by li instead of ul wrapped by anchor tag.
 
 
     
