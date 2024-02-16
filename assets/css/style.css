@@ -1240,4 +1240,27 @@ nav ul li:hover > a,
   .line {
     font-size: 70px;
   }
+  ul {
+   font-size: 100px;
+  }
+  /*Make the first text in ul list bigger and add space at the bottom*/
+ ul li a {
+    font-size: 50px !important; 
+
+  }
+  ul li i {
+    font-size: 50px !important; 
+    margin:20px;
+  }
+
+  /*Style the second text in the list to be smaller than the first one*/
+  .smaller-text {
+    font-size: 40px !important; 
+
+  }
+/*Style social media content in footer*/
+  .social-media-icons {
+    font-size:30px;
+
+  }
 }
