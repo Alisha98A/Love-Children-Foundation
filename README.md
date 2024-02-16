@@ -6,12 +6,14 @@ The reason for doing a website for Love Children Foundation is to give easy acce
 
 ![Responsice Mockup](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_responsive_mockup.png?raw=true)
 
-## Features
+## Planning
 
 The first step was to structure everything out using Figma. Since my website is about children, I thought of having a colorful website. And since I want a very simple and basic site, I’m only using two main colors: orange and light blue. The layout is simple, with the logo (Love Children Foundation) to the top left and navigation bar menu to the right.  
-Directly under navigation bar menu, we have a big picture of some happy African kids. I chose this image because it represents what the whole website Is about - children, and specifically African children. On the picture, we can see kids that are smiling towards the camera. They look happy.
+Directly under navigation bar menu, we have a big picture of some happy African kids. I chose this image because it represents what the whole website Is about - children, and specifically African children. On the picture, we can see kids that are smiling towards the camera. They look happy. The images and layout from Figma is not exactly how it turned out in the end, but it was a good starting point referring to.
 
+![Figma strucute](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_figma.png?raw=true)
 
+## Features
 
 ### Existing Features
 
@@ -131,8 +133,10 @@ Directly under navigation bar menu, we have a big picture of some happy African 
   - My anchor tags on all page content has no underline for a cleaner structure, instead they have a styling so that when you hover over, the link gets bigger. Only exception is on menubar. When you hover over menu, I added underline to point out. I also added a smooth transitioning for better user experience.
   - Cursor is set to pointer when hovering over
   
-  - **Anchor tags**
-  Hero image is compressed to save data
+  - **Images**
+  -  Hero image is compressed to save data.
+  - The rest of the images are all resized to different dimensions that are used in different screen sizes for faster loading on page.
+  - All images are converted to WebP, but I have also uploaded a fallback image consisting a JPG format (in case some browsers doesn't support WebP format. 
 
 
 ### Features Left to Implement
@@ -150,24 +154,9 @@ Details about testing is referred to a seperate document called TESTING.md file
 
 ### Unfixed Bugs
 - Didn't get "change the world with us" text at the homepage image to fit when smaller screen size. It didn't look good, so I removed it completely because it was not important to have it. 
-- 
+  
 
-make video section look better at bigger screen sizes
-change button link so its the same size for every button at every media query
-failed with making list in volunteer section centered from 768px and up.
-cannot add margin top to media query of 768px and higher when i want to target learn-more-buttom
-volunteer button, cannot move more right in media query of 768px and up
-VIDEO BUTTON from 630px and higher doesn't move. Something is blocking. I want it inline with video.
-PROJECT BUTTON on 1228px and higher needs to be positioned more up, right now its outisde of section. FIX THIS
-SAME BUTTON needs to be centered on 280px and up
-VIDEO SECTION needs to be fixed from 630px and up. FIX THIS
-Project button from 768px and above has an absolute positioning, line 661. Therefore, it moves when screen gets bigger
 
-VIDEO BUTTON NEEDS MORE SPACE from 280px FIX THIS
-VIDEO NEEDS TO BE CENTERED FROM 480PX, when i add width. It's not centered anymore
-Too much space at the top from 630px and up in video section
-FROM 992PX AND UP, VIDEO IS NOT SHOWING FULL HEIGHT
-added flexbox to list for bigger screens, but it didn't work
 
 
 ## Deployment
@@ -188,7 +177,6 @@ After creating your repository, you can push the project to Github. If you're us
   - Finally, you can click on the provided link to visit your deployed site, and check that everything works well!
 
 You can find the live site via the following link  - [Love Children Foundation](https://alisha98a.github.io/Love-Children-Foundation/)
-
 
 
 ## Credits
@@ -220,15 +208,8 @@ https://tiny-img.com/blog/best-image-size-for-website/
   - Compressed homepage image to save data, with the help from Holly at Tutoring team. 
   - Joanne from tutoring helped me with the anchor tag to Support Us list.
   - [Geeksforgeeks](https://www.geeksforgeeks.org/html-iframe-frameborder-attribute/) article helped me with understanding obsolote frameborder attribute.
-  - Tutoring team helped me with filepath from my Support Us form. 
-  
-
-    
-
-
-
-  
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+  - Tutoring team helped me with filepath from my Support Us form.
+  - [W3Schools](https://www.w3schools.com/tags/att_form_method.asp ) and [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data) helped me with my Support Us form validation. 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
@@ -248,7 +229,9 @@ https://tiny-img.com/blog/best-image-size-for-website/
   -   Added title with favicon footsteps to represent kids.[Favicon](https://favicon.io/emoji-favicons/footprints)
   -   Changed font-family style with [Google Fonts](https://fonts.google.com/specimen/Manrope?preview.text=Love%20Children%20Foundation)
   -   Change video size from 768px and up, got help from Tutoring Team on Code Institute.
- Handshake bild i support us https://www.simpleimageresizer.com/_uploads/photos/730f0c06/cytonn-photography-n95VMLxqM2I-unsplash_1200x801.jpg
+  -   [Matt Bodden](https://github.com/MattBCoding) explained how to use different dimensions on images on different screen sizes, for better user experience and faster loads.
+  -   [Handshake image](https://www.simpleimageresizer.com/_uploads/photos/730f0c06/cytonn-photography-n95VMLxqM2I-unsplash_1200x801.jpg) in Support Us page. 
+
 
 
 
