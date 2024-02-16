@@ -4,11 +4,11 @@
 
 ### Overview:
 
-I've learned it's important to test my projects often and especially before submitting, to ensure its quality is good enough. Validation is a confirmation that the project meets the requirements. It's also important to test to see if I have any bugs in my code, in that case, I need to solve them before releasing it. Another thing is that my website is going to be seen from different devices and screens. Testing is therefore good to see if my project performs well under various conditions and loads.
+I've learned it's important to test my projects often, especially before submitting, to ensure their quality is good enough. Validation is a confirmation that the project meets the requirements. It's also important to test to see if I have any bugs in my code, in that case, I need to solve them before releasing it. Another thing is that my website is going to be seen from different devices and screens. Testing is therefore good to see if my project performs well under various conditions and loads.
 
 ### Testing Methodology: 
 
-For this project, I've used Manual testing, Lighthouse, W3C Validator and Jigsaw validator to see if I need to do any improvements in my HTML and CSS code. 
+For this project, I've used manual testing, Lighthouse, W3C Validator and Jigsaw validator to see if I need to do any improvements to my HTML and CSS code. 
 
 ### During Development Testing:
 During the development process, I was manually testing in following ways;
@@ -23,7 +23,7 @@ During the development process, I was manually testing in following ways;
   1. Chrome
   2. Opera 
   3. Firefox
-  4. Edge                  OBS!!!   (KOLLA UPP DETTA MER)
+  4. Edge               
 
 - I used Developer Tools to ensure that the website looks good from different screen sizes, from 280px up to 1228px in width, which is normally desktop, mobile and tablet device. 
 - Checked that there is no overlapping between or breaking elements through different screen devices in Developers Tool.
