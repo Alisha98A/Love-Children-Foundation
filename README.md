@@ -11,6 +11,8 @@ The reason for doing a website for Love Children Foundation is to give easy acce
 The first step was to structure everything out using Figma. Since my website is about children, I thought of having a colorful website. And since I want a very simple and basic site, I’m only using two main colors: orange and light blue. The layout is simple, with the logo (Love Children Foundation) to the top left and navigation bar menu to the right.  
 Directly under navigation bar menu, we have a big picture of some happy African kids. I chose this image because it represents what the whole website Is about - children, and specifically African children. On the picture, we can see kids that are smiling towards the camera. They look happy.
 
+
+
 ### Existing Features
 
 - **Navigation Bar**
@@ -218,6 +220,7 @@ https://tiny-img.com/blog/best-image-size-for-website/
   - Compressed homepage image to save data, with the help from Holly at Tutoring team. 
   - Joanne from tutoring helped me with the anchor tag to Support Us list.
   - [Geeksforgeeks](https://www.geeksforgeeks.org/html-iframe-frameborder-attribute/) article helped me with understanding obsolote frameborder attribute.
+  - Tutoring team helped me with filepath from my Support Us form. 
   
 
     
